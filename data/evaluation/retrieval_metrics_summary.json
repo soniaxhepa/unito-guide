@@ -1,0 +1,7 @@
+{
+  "query_count": 10,
+  "recall_at_1": 0.8,
+  "recall_at_3": 0.9,
+  "recall_at_5": 1.0,
+  "mrr": 0.8699999999999999
+}

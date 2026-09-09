@@ -1,0 +1,11 @@
+query_id,question,expected_source_ids,category
+Q001,Quale TOLC devo sostenere per iscrivermi a Informatica?,S003|S002,ammissione
+Q002,Qual è il punteggio minimo del TOLC-S per evitare gli OFA?,S003,ammissione
+Q003,Entro quando devo effettuare la preiscrizione?,S002,iscrizione
+Q004,Qual è la scadenza per completare l'iscrizione?,S002,iscrizione
+Q005,Quali insegnamenti sono previsti al primo anno?,S001|S004,insegnamenti
+Q006,Quanti crediti vale Programmazione I?,S001,insegnamenti
+Q007,Quando inizia il primo periodo didattico?,S005,calendario
+Q008,Quando termina il secondo periodo didattico?,S005,calendario
+Q009,Serve avere già competenze informatiche per iscriversi?,S003,ammissione
+Q010,Come vengono suddivisi i canali e i turni di laboratorio?,S004,insegnamenti
