@@ -1,11 +1,11 @@
-query_id,question,expected_source_ids,category
-Q001,Quale TOLC devo sostenere per iscrivermi a Informatica?,S003|S002,ammissione
-Q002,Qual è il punteggio minimo del TOLC-S per evitare gli OFA?,S003,ammissione
-Q003,Entro quando devo effettuare la preiscrizione?,S002,iscrizione
-Q004,Qual è la scadenza per completare l'iscrizione?,S002,iscrizione
-Q005,Quali insegnamenti sono previsti al primo anno?,S006,insegnamenti
-Q006,Quanti crediti vale Programmazione I?,S001,insegnamenti
-Q007,Quando inizia il primo periodo didattico?,S005,calendario
-Q008,Quando termina il secondo periodo didattico?,S005,calendario
-Q009,Serve avere già competenze informatiche per iscriversi?,S003,ammissione
-Q010,Come vengono suddivisi i canali e i turni di laboratorio?,S004,insegnamenti
+query_id,question,expected_source_ids,category,split,question_type,expected_behavior,expected_answer,supporting_chunk_ids
+Q001,Quale TOLC devo sostenere per iscrivermi a Informatica?,S003|S002,ammissione,development,direct,answer,TOLC-S,
+Q002,Qual è il punteggio minimo del TOLC-S per evitare gli OFA?,S003,ammissione,development,direct,answer,5 punti su 20 nella sezione Matematica di base,
+Q003,Entro quando devo effettuare la preiscrizione?,S002,iscrizione,development,direct,answer,"19 ottobre 2026, ore 15",
+Q004,Qual è la scadenza per completare l'iscrizione?,S002,iscrizione,development,direct,answer,"21 ottobre 2026, ore 15",
+Q005,Quali insegnamenti sono previsti al primo anno?,S006,insegnamenti,development,direct,answer,"Analisi Matematica; Architettura degli Elaboratori; Fondamenti dell'Informatica; Lingua Inglese I; Matematica Discreta, Algebra e Geometria; Programmazione I; Programmazione II; Ricerca Operativa",S006-C001
+Q006,Quanti crediti vale Programmazione I?,S001,insegnamenti,development,direct,answer,,
+Q007,Quando inizia il primo periodo didattico?,S005,calendario,development,direct,answer,28 settembre 2026,
+Q008,Quando termina il secondo periodo didattico?,S005,calendario,development,direct,answer,4 giugno 2027,
+Q009,Serve avere già competenze informatiche per iscriversi?,S003,ammissione,development,direct,answer,"No, non occorrono competenze informatiche precedenti",
+Q010,Come vengono suddivisi i canali e i turni di laboratorio?,S004,insegnamenti,development,direct,answer,,
