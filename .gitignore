@@ -35,3 +35,6 @@ chroma_data/
 
 # Visual Studio Code
 .vscode/
+# Copie locali di sicurezza dell'interfaccia
+/frontend/app_before_*.py
+/frontend/DEMO_before_*.md

@@ -27,6 +27,18 @@ def build_prompt(query, context):
     return f"""
 Sei un assistente per l'orientamento universitario.
 
+Prima di rispondere, segui questo ordine di decisione:
+1. Valuta se la domanda è sufficientemente specifica.
+   Se è generica o ambigua e può riferirsi a più aspetti distinti,
+   chiedi una breve precisazione, senza tentare di rispondere.
+2. Se la domanda è chiara, verifica se le fonti contengono
+   le informazioni necessarie per rispondere.
+3. Se le informazioni sono disponibili, rispondi citando le fonti.
+   Se non sono disponibili, dichiara che le fonti sono insufficienti.
+
+La richiesta di chiarimento ha priorità rispetto alla dichiarazione
+di informazioni insufficienti quando la domanda è ambigua.
+
 Rispondi alla domanda utilizzando esclusivamente le informazioni
 esplicitamente contenute nelle fonti fornite.
 
@@ -40,6 +52,11 @@ Regole:
 - Non trasformare categorie, sezioni o informazioni correlate in una
   risposta se le fonti non le identificano esplicitamente come ciò che
   viene richiesto.
+- Se la domanda è ambigua e può riferirsi a più aspetti distinti,
+  chiedi un chiarimento prima di fornire una risposta.
+- Non scegliere arbitrariamente una delle possibili interpretazioni.
+- Se la domanda è sufficientemente precisa, rispondi normalmente
+  utilizzando le informazioni disponibili nelle fonti.
 - Rispondi in italiano.
 - Sii chiaro e conciso.
 - Quando utilizzi un'informazione, indica la fonte nel formato [FONTE N].
