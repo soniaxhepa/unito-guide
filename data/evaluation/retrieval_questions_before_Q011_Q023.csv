@@ -1,0 +1,11 @@
+query_id,question,expected_source_ids,category,split,question_type,expected_behavior,expected_answer,supporting_chunk_ids
+Q001,Quale TOLC devo sostenere per iscrivermi a Informatica?,S003|S002,ammissione,development,direct,answer,TOLC-S,S003-C001|S002-C002
+Q002,Qual è il punteggio minimo del TOLC-S per evitare gli OFA?,S003,ammissione,development,direct,answer,5 punti su 20 nella sezione Matematica di base,S003-C002
+Q003,Entro quando devo effettuare la preiscrizione?,S002,iscrizione,development,direct,answer,"19 ottobre 2026, ore 15",S002-C001
+Q004,Qual è la scadenza per completare l'iscrizione?,S002,iscrizione,development,direct,answer,"21 ottobre 2026, ore 15",S002-C001
+Q005,Quali insegnamenti sono previsti al primo anno?,S006,insegnamenti,development,direct,answer,"Analisi Matematica; Architettura degli Elaboratori; Fondamenti dell'Informatica; Lingua Inglese I; Matematica Discreta, Algebra e Geometria; Programmazione I; Programmazione II; Ricerca Operativa",S006-C001
+Q006,Quanti crediti vale Programmazione I?,S001,insegnamenti,development,direct,answer,9 CFU,S001-C001
+Q007,Quando inizia il primo periodo didattico?,S005,calendario,development,direct,answer,28 settembre 2026,S005-C001
+Q008,Quando termina il secondo periodo didattico?,S005,calendario,development,direct,answer,4 giugno 2027,S005-C001
+Q009,Serve avere già competenze informatiche per iscriversi?,S003,ammissione,development,direct,answer,"No, non occorrono competenze informatiche precedenti",S003-C001
+Q010,Come vengono suddivisi i canali e i turni di laboratorio?,S004,insegnamenti,development,direct,answer,"Primo anno: canale A cognomi A-D, B E-O, C P-Z; turni 1 per matricole dispari e 2 per matricole pari. Secondo/terzo anno: canale A cognomi A-K, B L-Z; turni A1/A2 e B3/B4 secondo la parità della matricola.",S004-C001

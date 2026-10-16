@@ -1,0 +1,307 @@
+{
+  "total_questions": 40,
+  "answerable_questions": 36,
+  "unanswerable_questions": 4,
+  "hit_at_1": 0.5556,
+  "hit_at_3": 0.6944,
+  "hit_at_5": 0.8611,
+  "mrr": 0.6486,
+  "multi_hop_questions": 6,
+  "multi_hop_all_evidence_at_5": 0.6667,
+  "unanswerable_ids": [
+    "Q060",
+    "Q061",
+    "Q062",
+    "Q063"
+  ],
+  "per_question": [
+    {
+      "query_id": "Q024",
+      "hit_at_1": 0,
+      "hit_at_3": 0,
+      "hit_at_5": 1,
+      "reciprocal_rank": 0.2,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q025",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q026",
+      "hit_at_1": 0,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 0.5,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q027",
+      "hit_at_1": 0,
+      "hit_at_3": 0,
+      "hit_at_5": 0,
+      "reciprocal_rank": 0,
+      "all_evidence_at_5": 0
+    },
+    {
+      "query_id": "Q028",
+      "hit_at_1": 0,
+      "hit_at_3": 0,
+      "hit_at_5": 1,
+      "reciprocal_rank": 0.25,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q029",
+      "hit_at_1": 0,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 0.3333333333333333,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q030",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q031",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q032",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q033",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q034",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q035",
+      "hit_at_1": 0,
+      "hit_at_3": 0,
+      "hit_at_5": 1,
+      "reciprocal_rank": 0.2,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q036",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q037",
+      "hit_at_1": 0,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 0.3333333333333333,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q038",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q039",
+      "hit_at_1": 0,
+      "hit_at_3": 0,
+      "hit_at_5": 0,
+      "reciprocal_rank": 0,
+      "all_evidence_at_5": 0
+    },
+    {
+      "query_id": "Q040",
+      "hit_at_1": 0,
+      "hit_at_3": 0,
+      "hit_at_5": 1,
+      "reciprocal_rank": 0.25,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q041",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q042",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q043",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q044",
+      "hit_at_1": 0,
+      "hit_at_3": 0,
+      "hit_at_5": 1,
+      "reciprocal_rank": 0.25,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q045",
+      "hit_at_1": 0,
+      "hit_at_3": 0,
+      "hit_at_5": 0,
+      "reciprocal_rank": 0,
+      "all_evidence_at_5": 0
+    },
+    {
+      "query_id": "Q046",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q047",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q048",
+      "hit_at_1": 0,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 0.5,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q049",
+      "hit_at_1": 0,
+      "hit_at_3": 0,
+      "hit_at_5": 0,
+      "reciprocal_rank": 0,
+      "all_evidence_at_5": 0
+    },
+    {
+      "query_id": "Q050",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 0
+    },
+    {
+      "query_id": "Q051",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q052",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q053",
+      "hit_at_1": 0,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 0.3333333333333333,
+      "all_evidence_at_5": 0
+    },
+    {
+      "query_id": "Q054",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q055",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q056",
+      "hit_at_1": 0,
+      "hit_at_3": 0,
+      "hit_at_5": 0,
+      "reciprocal_rank": 0,
+      "all_evidence_at_5": 0
+    },
+    {
+      "query_id": "Q057",
+      "hit_at_1": 0,
+      "hit_at_3": 0,
+      "hit_at_5": 1,
+      "reciprocal_rank": 0.2,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q058",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    },
+    {
+      "query_id": "Q059",
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_5": 1,
+      "reciprocal_rank": 1.0,
+      "all_evidence_at_5": 1
+    }
+  ]
+}

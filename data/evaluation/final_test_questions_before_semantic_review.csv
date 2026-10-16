@@ -1,0 +1,41 @@
+query_id,question,expected_source_ids,category,split,question_type,expected_behavior,expected_answer,supporting_chunk_ids
+Q024,Quanti CFU vale Architettura degli Elaboratori al primo anno?,S001,direct,final_test,direct,answer,6 CFU.,S001-C001
+Q025,"Quanti crediti ha Matematica Discreta, Algebra e Geometria?",S001,direct,final_test,direct,answer,12 CFU.,S001-C001
+Q026,In quale anno è previsto Basi di Dati?,S001,direct,final_test,direct,answer,Al secondo anno.,S001-C001
+Q027,Quanti CFU vale lo stage nel piano di studi?,S001,direct,final_test,direct,answer,"9 CFU, al terzo anno.",S001-C002
+Q028,Quanti crediti vale la prova finale?,S001,direct,final_test,direct,answer,3 CFU.,S001-C002
+Q029,Qual è la data ultima per sostenere un TOLC valido per le iscrizioni 2026/27?,S002,direct,final_test,direct,answer,8 ottobre 2026; sono validi i TOLC sostenuti dal 2 gennaio 2025.,S002-C002
+Q030,Quale raggruppamento devo scegliere con un TOLC-S?,S002,direct,final_test,direct,answer,Raggruppamento 2 - TOLC-S.,S002-C006
+Q031,Dove si trova l’avviso per pagare la prima rata?,S002,direct,final_test,direct,answer,"Nella MyUniTo, percorso Iscrizioni / Iscrizione / Visualizza pagamenti.",S002-C009
+Q032,Quanti appelli d’esame sono garantiti annualmente per ogni unità didattica?,S005,direct,final_test,direct,answer,Almeno 5 appelli all’anno.,S005-C001
+Q033,Quando è prevista l’interruzione natalizia delle attività didattiche?,S005,direct,final_test,direct,answer,"Dal 23 dicembre 2026 al 6 gennaio 2027, inclusi.",S005-C001
+Q034,"Bro, per iscrivermi devo avere lo SPID o basta una mail?",S002,informal,final_test,informal,answer,Per registrarsi al portale UniTo è necessario disporre di credenziali SPID.,S002-C006
+Q035,Ma posso fare il test in un’università diversa da Torino?,S002,informal,final_test,informal,answer,"Sì, sono accettati TOLC sostenuti in date organizzate da altri atenei.",S002-C002
+Q036,Ho fatto il TOLC ma non mi sono ancora preiscritto: posso iscrivermi subito?,S002,informal,final_test,informal,answer,No: occorre effettuare la preiscrizione al raggruppamento corretto e attendere almeno 48 ore prima dell’iscrizione.,S002-C008;S002-C006
+Q037,"Se sono già laureato, mi tocca rifare il TOLC per Informatica?",S002,informal,final_test,informal,answer,"No, chi ha già un diploma di laurea italiano e si iscrive con abbreviazione di carriera è esonerato dal TOLC.",S002-C004
+Q038,"Se vado male in fisica al TOLC, mi danno per forza gli OFA?",S003,informal,final_test,informal,answer,Non è prevista una soglia OFA aggiuntiva in Fisica; sotto 2/10 sono consigliati corsi di riallineamento.,S003-C002
+Q039,Per gli esami devo prenotarmi online oppure posso presentarmi e basta?,S005,informal,final_test,informal,answer,Il calendario didattico indica che è prevista l’iscrizione online agli esami.,S005-C001
+Q040,Sono al terzo anno: Reti e sicurezza delle reti quanti crediti dà?,S001,informal,final_test,informal,answer,9 CFU.,S001-C002
+Q041,C’è una pausa per Pasqua nel 2027?,S005,informal,final_test,informal,answer,"Sì, dal 25 al 30 marzo 2027 inclusi.",S005-C001
+Q042,Qual è il carico in crediti di Fondamenti dell’Informatica?,S001,paraphrase,final_test,paraphrase,answer,9 CFU.,S001-C001
+Q043,L’esame di Sistemi Operativi compare nel percorso del secondo anno?,S001,paraphrase,final_test,paraphrase,answer,"Sì, Sistemi Operativi è previsto al secondo anno e vale 9 CFU.",S001-C001
+Q044,È possibile ripetere il medesimo tipo di test CISIA due volte nello stesso mese?,S002,paraphrase,final_test,paraphrase,answer,"No, la stessa tipologia di TOLC non può essere sostenuta più di una volta al mese.",S002-C003
+Q045,L’iscrizione è possibile anche se tutti i posti disponibili sono stati occupati?,S002,paraphrase,final_test,paraphrase,answer,"No, l’iscrizione è possibile fino a esaurimento dei posti disponibili.",S002-C004
+Q046,Quali allegati identificativi sono richiesti nella domanda di immatricolazione?,S002,paraphrase,final_test,paraphrase,answer,"Una foto, copia di un documento d’identità valido e copia del codice fiscale.",S002-C008
+Q047,Qual è la modalità prevista per recuperare il debito formativo in matematica?,S003,paraphrase,final_test,paraphrase,answer,Frequentare il corso di riallineamento OFA Matematica sulla piattaforma UniTo e superare il relativo esame in presenza.,S003-C002
+Q048,La partecipazione alle lezioni con laboratorio è obbligatoria secondo il calendario?,S005,paraphrase,final_test,paraphrase,answer,"La frequenza è fortemente raccomandata, soprattutto per gli insegnamenti con laboratorio; la fonte non la dichiara obbligatoria.",S005-C001
+Q049,In quali giorni si svolgono le iniziative Porte aperte per le future matricole nel 2027?,S001,paraphrase,final_test,paraphrase,answer,Dal 15 al 18 febbraio 2027 e il 12 e 16 marzo 2027.,S001-C007
+Q050,Quali sono i CFU complessivi di Analisi Matematica e Ricerca Operativa?,S001,multi_hop,final_test,multi_hop,answer,15 CFU: 9 per Analisi Matematica e 6 per Ricerca Operativa.,S001-C001
+Q051,"Se voglio iscrivermi a Informatica e ho sostenuto il TOLC-S, quale raggruppamento seleziono e dove?",S002,multi_hop,final_test,multi_hop,answer,"Raggruppamento 2 - TOLC-S, accedendo a MyUniTo nel percorso Iscrizioni / Pre-iscrizione ai corsi ad accesso libero.",S002-C006;S002-C007
+Q052,Sono esonerato dal TOLC perché trasferito da un altro ateneo: avrò necessariamente OFA al primo anno?,S002,multi_hop,final_test,multi_hop,answer,"Il trasferimento in ingresso esonera dal TOLC; se ammesso al primo anno possono essere attribuiti gli OFA previsti, salvo condizioni di esenzione specifiche.",S002-C004;S002-C005
+Q053,Posso sostenere il TOLC prima del diploma e devo poi aspettare il diploma per accedere al corso?,S002|S003,multi_hop,final_test,multi_hop,answer,Il TOLC può essere sostenuto prima del diploma; per accedere alla laurea serve un diploma quinquennale o titolo equivalente riconosciuto.,S002-C003;S003-C001
+Q054,Quali sono i CFU totali di Stage e Prova finale al terzo anno?,S001,multi_hop,final_test,multi_hop,answer,12 CFU: Stage 9 CFU e Prova finale 3 CFU.,S001-C002
+Q055,Uno studente del secondo anno con cognome Z e matricola dispari quale canale e laboratorio segue?,S004,multi_hop,final_test,multi_hop,answer,"Canale B, laboratorio 3.",S004-C001
+Q056,Quanto dura il corso?,S001,ambiguous,final_test,ambiguous,clarify,La domanda è ambigua: può riferirsi alla durata del percorso di laurea o a un singolo insegnamento; chiedere quale durata interessa.,S001-C001
+Q057,Quando scade la domanda?,S002,ambiguous,final_test,ambiguous,clarify,"Chiedere se si intende la preiscrizione, l’iscrizione o un’altra domanda; le scadenze sono diverse.",S002-C001
+Q058,Qual è il mio laboratorio se il cognome inizia per M?,S004,ambiguous,final_test,ambiguous,clarify,Serve sapere se si tratta del primo anno o del secondo/terzo e la parità della matricola.,S004-C001
+Q059,Quando sono gli esami?,S005,ambiguous,final_test,ambiguous,clarify,Chiedere a quale insegnamento o sessione si riferisce; il corpus non fornisce un calendario puntuale degli appelli.,S005-C001
+Q060,Chi è il docente titolare di Programmazione I nel 2026/27?,,unanswerable,final_test,unanswerable,abstain,Il corpus non indica il docente titolare di Programmazione I nel 2026/27.,
+Q061,Qual è l’importo esatto della prima rata universitaria per Informatica?,,unanswerable,final_test,unanswerable,abstain,L’importo esatto della prima rata non è indicato nel corpus.,
+Q062,Quali sono le aziende convenzionate per lo stage di Informatica?,,unanswerable,final_test,unanswerable,abstain,Il corpus non elenca aziende convenzionate per lo stage.,
+Q063,Qual è l’aula della lezione di Algoritmi del 12 ottobre 2026?,,unanswerable,final_test,unanswerable,abstain,Il corpus non contiene l’aula di quella lezione.,

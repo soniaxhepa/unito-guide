@@ -1,96 +1,79 @@
-# UniTO Guide
+# UniTo Guide
 
-Bachelor’s thesis project on the design and evaluation of a retrieval-augmented generation (RAG) assistant for prospective Computer Science students at the University of Turin.
+Prototipo di tesi per l'orientamento a Informatica, Università di Torino.
+Progetto di ricerca indipendente, non un servizio ufficiale UniTo.
 
-The intended assistant will help students find and understand official information, provide verifiable source citations, and acknowledge when the available evidence is insufficient.
+## Sistema attuale
+Interfaccia Streamlit con domanda, risposta, fonti e stato di Ollama.
+Generatore: src/rag/generate.py con llama3.2:3b e temperatura 0,2.
+Ricerca semantica originale, cinque passaggi fissi per domanda.
+Embedding: intfloat/multilingual-e5-small su CPU.
+Ogni domanda è indipendente: non c'è memoria conversazionale.
+Il corpus locale verificato comprende sei pagine e 22 passaggi.
 
-## Current status
+## Avvio
+Dalla cartella del progetto, nell'ambiente Python:
+    python3 -m pip install -r frontend/requirements.txt
+    ollama pull llama3.2:3b
 
-The document ingestion and semantic retrieval baseline is implemented and has undergone an initial manually annotated evaluation.
+Aprire Ollama. Con l'indice locale già presente:
+    python3 -m streamlit run frontend/app.py --server.address 127.0.0.1 --server.fileWatcherType none
 
-LLM-based answer generation is not yet integrated.
+Aprire l'indirizzo mostrato e lasciare il terminale attivo.
+Le modifiche al codice richiedono il riavvio.
+Ulteriori istruzioni: frontend/DEMO.md.
 
-## Current corpus
+## Dati e riproducibilità
+Documenti acquisiti e indice in data/processed sono esclusi da Git.
+Una nuova copia del repository non è subito pronta per l'app.
+La preparazione dei dati usa i moduli in src/ingestion e
+src/retrieval/build_index.py. Questi possono sovrascrivere dati:
+usarli in una copia separata dopo averne controllato il codice.
+Scaricare le pagine attuali non riproduce necessariamente il corpus storico.
+Le dipendenze non sono interamente congelate.
 
-The source registry contains five official university pages covering:
+## Valutazione finale salvata
+40 domande, 80 risposte: 40 RAG e 40 senza RAG.
+Verificata la corrispondenza tra domande, risposte e valutazioni.
 
-- Course overview
-- Enrolment procedures
-- Admission requirements
-- Teaching information
-- Academic calendar
+| Correttezza | RAG | Senza RAG |
+|---|---:|---:|
+| Completa | 45% | 10% |
+| Parziale | 17,5% | 15% |
+| Nulla | 37,5% | 75% |
 
-The sources are registered for the 2026/27 academic year, with a recorded review date of 20 August 2026.
+Correttezza media su 2: RAG 1,075; senza RAG 0,350.
+Tempo medio registrato: RAG 26,894 s; senza RAG 6,952 s.
+Deviazione standard campionaria dei tempi: 4,492 s e 4,476 s.
+La variabilità è tra domande, non tra ripetizioni della stessa domanda.
 
-## Implemented pipeline
+File principali in data/evaluation:
+- final_test_questions_FROZEN.csv
+- final_test_generation_comparison.csv
+- final_test_manual_evaluation.csv
+- final_test_retrieval_candidates.csv
+- final_test_retrieval_metrics.json
 
-1. Download active sources from the source registry.
-2. Perform basic HTML validity checks.
-3. Extract and clean textual content.
-4. Split documents into chunks of approximately 1,600 characters.
-5. Preserve source metadata and apply manual chunk exclusions.
-6. Build normalized embeddings using `intfloat/multilingual-e5-small`.
-7. Retrieve passages through vector similarity.
-8. Annotate retrieved candidates and calculate evaluation metrics.
+Il file final_test_sha256.txt conserva l'hash storico del dataset.
+.gitattributes impedisce conversioni dei fine riga nei dati di valutazione.
+Le copie e revisioni storiche sono conservate separatamente.
 
-Embeddings run on CPU with `passage: ` and `query: ` prefixes. The index consists of NumPy arrays and JSONL metadata.
+## Esperimenti esplorativi
+generate_v1.py conserva una copia del generatore originale.
+generate_v2.py modifica il prompt.
+search_hybrid.py combina ricerca semantica e BM25.
+Gli output successivi sono in data/evaluation/experimental/.
+Su 32 domande, almeno un riferimento atteso nei primi cinque:
+originale 28/32; ibrida 31/32. Tutti i riferimenti: 26/32 e 29/32.
+Sono risultati sul recupero, non percentuali di risposte corrette.
+Le prove di generazione e con Qwen non dimostrano miglioramenti affidabili.
+Queste varianti non sono usate nell'app e non sono test indipendenti.
 
-Command-line search displays retrieved passages and their source URLs. It returns three results by default; evaluation uses five.
-
-## Preliminary retrieval results
-
-The evaluation includes 10 questions and 50 manually annotated candidate passages.
-
-| Metric | Result |
-| --- | ---: |
-| Hit Rate@1 | 0.80 |
-| Hit Rate@3 | 0.90 |
-| Hit Rate@5 | 1.00 |
-| MRR@5 | 0.87 |
-
-Hit Rate@k measures the proportion of questions with at least one relevant passage among the first k results.
-
-The current evaluation scripts and saved files label this measure `recall_at_k`; the implemented calculation is Hit Rate rather than corpus-level Recall.
-
-These results describe retrieval performance on a small preliminary dataset, not the quality of generated answers. The question about first-year courses retrieves its first relevant passage at rank five, identifying a concrete area for improvement.
-
-## Repository structure
-
-- `data/sources/`: source registry and metadata
-- `data/evaluation/`: questions, annotated candidates, exclusions, and metrics
-- `src/ingestion/`: downloading, validation, extraction, and chunking
-- `src/retrieval/`: index construction and command-line search
-- `src/evaluation/`: candidate generation, annotation, and metrics
-- `tests/`: HTML extraction tests
-
-## Dependencies and reproducibility
-
-Dependencies are listed in `requirements.txt`. Python 3.10 or later is required by the current code.
-
-Downloaded documents, processed text, chunks, and the embedding index are excluded from version control. A fresh checkout therefore does not include a ready-to-use index or the original corpus snapshot.
-
-The five extraction tests require local copies of `S002.html` and `S003.html` in `data/raw/html/`.
-
-Dependency versions are not yet pinned. Downloading the live sources again may produce different content and retrieval results.
-
-## Known limitations
-
-- Academic-year filtering is fixed to 2026–2027 and does not remove all historical content.
-- Chunking can separate related table content or combine multiple topics.
-- PDF downloading is supported, but PDF text extraction is not implemented.
-- Evaluation is limited to 10 questions, without a separate held-out set or unanswerable questions.
-- Regenerating retrieval candidates overwrites existing annotations.
-- Answer generation, citation handling, and insufficient-evidence responses are not yet implemented.
-- No user-facing interface is currently included.
-
-## Next steps
-
-- Preserve a reproducible corpus and retrieval baseline.
-- Improve chunk structure and investigate retrieval errors.
-- Integrate LLM-based answer generation with source citations.
-- Evaluate answer correctness, grounding, and handling of insufficient evidence.
-- Define the user interface and user evaluation protocol with the thesis supervisor.
-
-## Disclaimer
-
-UniTO Guide is an independent research prototype and is not an official University of Turin service.
+## Limiti
+Il modello può interpretare male fonti corrette o citarle erroneamente.
+Non è stato svolto uno studio di usabilità con studenti.
+L'app usa il generatore originale conservato e i parametri del CSV finale.
+I prompt storici non sono salvati: l'identità esatta della configurazione
+dell'esperimento finale non è stata certificata.
+compare_generation.py riguarda lo sviluppo, non rigenera il test finale.
+I risultati descrivono le risposte conservate e valutate.

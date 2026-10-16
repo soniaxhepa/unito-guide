@@ -1,11 +1,25 @@
 query_id,question,expected_source_ids,category,split,question_type,expected_behavior,expected_answer,supporting_chunk_ids
-Q001,Quale TOLC devo sostenere per iscrivermi a Informatica?,S003|S002,ammissione,development,direct,answer,TOLC-S,
-Q002,Qual è il punteggio minimo del TOLC-S per evitare gli OFA?,S003,ammissione,development,direct,answer,5 punti su 20 nella sezione Matematica di base,
-Q003,Entro quando devo effettuare la preiscrizione?,S002,iscrizione,development,direct,answer,"19 ottobre 2026, ore 15",
-Q004,Qual è la scadenza per completare l'iscrizione?,S002,iscrizione,development,direct,answer,"21 ottobre 2026, ore 15",
+Q001,Quale TOLC devo sostenere per iscrivermi a Informatica?,S003|S002,ammissione,development,direct,answer,TOLC-S,S003-C001|S002-C002
+Q002,Qual è il punteggio minimo del TOLC-S per evitare gli OFA?,S003,ammissione,development,direct,answer,5 punti su 20 nella sezione Matematica di base,S003-C002
+Q003,Entro quando devo effettuare la preiscrizione?,S002,iscrizione,development,direct,answer,"19 ottobre 2026, ore 15",S002-C001
+Q004,Qual è la scadenza per completare l'iscrizione?,S002,iscrizione,development,direct,answer,"21 ottobre 2026, ore 15",S002-C001
 Q005,Quali insegnamenti sono previsti al primo anno?,S006,insegnamenti,development,direct,answer,"Analisi Matematica; Architettura degli Elaboratori; Fondamenti dell'Informatica; Lingua Inglese I; Matematica Discreta, Algebra e Geometria; Programmazione I; Programmazione II; Ricerca Operativa",S006-C001
-Q006,Quanti crediti vale Programmazione I?,S001,insegnamenti,development,direct,answer,,
-Q007,Quando inizia il primo periodo didattico?,S005,calendario,development,direct,answer,28 settembre 2026,
-Q008,Quando termina il secondo periodo didattico?,S005,calendario,development,direct,answer,4 giugno 2027,
-Q009,Serve avere già competenze informatiche per iscriversi?,S003,ammissione,development,direct,answer,"No, non occorrono competenze informatiche precedenti",
-Q010,Come vengono suddivisi i canali e i turni di laboratorio?,S004,insegnamenti,development,direct,answer,,
+Q006,Quanti crediti vale Programmazione I?,S001,insegnamenti,development,direct,answer,9 CFU,S001-C001
+Q007,Quando inizia il primo periodo didattico?,S005,calendario,development,direct,answer,28 settembre 2026,S005-C001
+Q008,Quando termina il secondo periodo didattico?,S005,calendario,development,direct,answer,4 giugno 2027,S005-C001
+Q009,Serve avere già competenze informatiche per iscriversi?,S003,ammissione,development,direct,answer,"No, non occorrono competenze informatiche precedenti",S003-C001
+Q010,Come vengono suddivisi i canali e i turni di laboratorio?,S004,insegnamenti,development,direct,answer,"Primo anno: canale A cognomi A-D, laboratori A1 per matricole dispari e A2 per pari; canale B cognomi E-O, laboratori B1 dispari e B2 pari; canale C cognomi P-Z, laboratori C1 dispari e C2 pari. Secondo e terzo anno: canale A cognomi A-K, laboratorio 1 per matricole dispari e 2 per pari; canale B cognomi L-Z, laboratorio 3 per matricole dispari e 4 per pari.",S004-C001
+Q011,"Se non raggiungo 5 punti in matematica al TOLC-S, posso comunque iscrivermi?",S003,ammissione,development,informal,answer,"Sì, ma vengono assegnati OFA in Matematica da assolvere entro il primo anno.",S003-C002
+Q012,Posso sostenere il TOLC-S da casa?,S002,ammissione,development,paraphrase,answer,"Sì, è prevista la modalità TOLC@CASA.",S002-C002
+Q013,"Se sostengo più volte il TOLC-S, quale punteggio viene considerato?",S002,ammissione,development,direct,answer,"Viene considerato il punteggio dell'ultimo TOLC sostenuto, non quello migliore.",S002-C003
+Q014,Quanto costa sostenere il TOLC e quando devo preiscrivermi?,S002,iscrizione,development,multi_hop,answer,Il TOLC costa 35 euro. La preiscrizione è aperta dal 1 luglio 2026 alle 9:30 al 19 ottobre 2026 alle 15:00.,S002-C001
+Q015,Ho appena finito le superiori e non so programmare: posso iscrivermi a Informatica?,S003,ammissione,development,informal,answer,Non sono richieste competenze informatiche precedenti. Occorre rispettare i requisiti e la procedura di ammissione.,S003-C001
+Q016,"Se il mio cognome inizia per R e ho una matricola pari, in quale canale e turno di laboratorio sarò al primo anno?",S004,insegnamenti,development,application,answer,"Canale C, turno C2.",S004-C001
+Q017,Quando iniziano le lezioni?,S005,calendario,development,informal,answer,Il primo periodo didattico inizia il 28 settembre 2026.,S005-C001
+Q018,Quanto guadagna mediamente un laureato in Informatica a UniTo?,,sbocchi_lavorativi,development,unanswerable,abstain,Informazione non disponibile nelle fonti del corpus.,
+Q019,"Se non pago la prima rata entro la scadenza, posso comunque completare l'iscrizione?",S002,iscrizione,development,multi_hop,answer,No. Il pagamento tardivo della prima rata impedisce l'iscrizione per l'anno accademico corrente.,S002-C009
+Q020,Quanti CFU valgono complessivamente Programmazione I e Programmazione II?,S001,insegnamenti,development,multi_hop,answer,15 CFU complessivi: 9 CFU per Programmazione I e 6 CFU per Programmazione II.,S001-C001
+Q021,Come si calcola il voto finale di laurea in Informatica all'Università di Torino?,,laurea,development,unanswerable,abstain,Le fonti disponibili non specificano le regole di calcolo del voto finale.,
+Q022,Come funziona il tirocinio per gli studenti di Informatica? È obbligatorio?,S001,tirocinio,development,partial_answerable,answer,Lo stage è obbligatorio al terzo anno e vale 9 CFU. Le fonti disponibili non specificano le procedure per attivarlo o svolgerlo.,S001-C002
+Q023,Quali sono le principali differenze tra studiare Informatica a UniTo e Ingegneria Informatica al PoliTo?,,confronto_atenei,development,unanswerable,abstain,Il corpus non contiene informazioni sufficienti per un confronto documentato tra i due corsi.,
+Q024,Come funziona il primo anno di Informatica?,,orientamento,development,ambiguous,clarify,"Vuoi sapere quali insegnamenti sono previsti, quando iniziano le lezioni oppure come sono organizzati i canali e i laboratori?",

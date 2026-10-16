@@ -1,0 +1,211 @@
+query_id,mode,question,answer,retrieved_chunks,latency_seconds,model,temperature,top_k
+Q024,rag,Quanti CFU vale Architettura degli Elaboratori al primo anno?,"Secondo la sezione ""Insegnamenti"" del sito web della laurea in Informatica dell'Università degli Studi di Milano, Architettura degli Elaboratori è un corso di studio che vale 6 CFU al primo anno.","[""S004-C001"", ""S006-C001"", ""S001-C004"", ""S001-C002"", ""S001-C001""]",29.93,llama3.2:3b,0.2,5
+Q024,no_rag,Quanti CFU vale Architettura degli Elaboratori al primo anno?,Non ho informazioni sufficienti per fornire una risposta precisa.,[],1.306,llama3.2:3b,0.2,0
+Q025,rag,"Quanti crediti ha Matematica Discreta, Algebra e Geometria?","Secondo le informazioni disponibili nelle fonti fornite, Matematica Discreta, Algebra e Geometria ha 12 crediti.","[""S001-C001"", ""S006-C001"", ""S001-C002"", ""S001-C004"", ""S004-C001""]",26.523,llama3.2:3b,0.2,5
+Q025,no_rag,"Quanti crediti ha Matematica Discreta, Algebra e Geometria?","Non ho informazioni sufficienti per fornire una risposta precisa su quanti crediti abbia Matematica Discreta, Algebra e Geometria. I crediti possono variare a seconda dell'istituzione universitaria e del corso di studio. Se puoi fornire ulteriori dettagli o chiarire a quale istituzione universitaria ti riferisci, sarò felice di cercare ulteriori informazioni per te.",[],5.024,llama3.2:3b,0.2,0
+Q026,rag,In quale anno è previsto Basi di Dati?,"Non sono state trovate informazioni specifiche sulle date di inizio o di fine del corso ""Basi di Dati"" per l'anno 2026/2027.","[""S005-C002"", ""S001-C001"", ""S003-C002"", ""S002-C002"", ""S006-C001""]",27.818,llama3.2:3b,0.2,5
+Q026,no_rag,In quale anno è previsto Basi di Dati?,Non ho informazioni sufficienti per fornire una risposta precisa sull'anno previsto per la Basi di Dati.,[],1.831,llama3.2:3b,0.2,0
+Q027,rag,Quanti CFU vale lo stage nel piano di studi?,"Non sono riuscito a trovare informazioni specifiche sul numero di CFU che vale lo stage nel piano di studi. Le fonti fornite contengono informazioni sulle diverse opzioni di corso di laurea, sui raggruppamenti e sugli insegnamenti, ma non forniscono informazioni specifiche sul numero di CFU che vale lo stage.","[""S002-C009"", ""S002-C007"", ""S001-C004"", ""S004-C001"", ""S006-C001""]",28.016,llama3.2:3b,0.2,5
+Q027,no_rag,Quanti CFU vale lo stage nel piano di studi?,"Non ho informazioni sufficienti per fornire una risposta precisa al numero di CFU (Crediti Formativi Universitari) che vale lo stage nel piano di studi. La valutazione dei CFU può variare a seconda dell'università e del corso di studio, quindi è importante verificare le informazioni specifiche con l'ufficio studenti o il dipartimento dell'università di riferimento.",[],3.997,llama3.2:3b,0.2,0
+Q028,rag,Quanti crediti vale la prova finale?,"Secondo la fonte [FONTE 4], la prova finale vale 3 crediti.","[""S001-C001"", ""S002-C007"", ""S001-C005"", ""S001-C002"", ""S001-C006""]",24.224,llama3.2:3b,0.2,5
+Q028,no_rag,Quanti crediti vale la prova finale?,"Non ho informazioni sufficienti per fornire una risposta precisa. La quantità di crediti che vale la prova finale può variare a seconda dell'istituzione universitaria e del corso di studio. Se desideri sapere la risposta, ti consiglio di consultare il sito web dell'università o di contattare direttamente il dipartimento di riferimento.",[],3.944,llama3.2:3b,0.2,0
+Q029,rag,Qual è la data ultima per sostenere un TOLC valido per le iscrizioni 2026/27?,La data ultima per sostenere un TOLC valido per le iscrizioni 2026/27 è il 8 ottobre 2026.,"[""S002-C004"", ""S002-C001"", ""S002-C002"", ""S002-C006"", ""S002-C003""]",27.169,llama3.2:3b,0.2,5
+Q029,no_rag,Qual è la data ultima per sostenere un TOLC valido per le iscrizioni 2026/27?,"Mi dispiace, non ho informazioni sufficienti per fornire una risposta precisa alla tua domanda. I dati e le date relative ai TOLC (Testi di Orientamento Linguistico Complessi) possono variare da anno in anno e dipendere dalle politiche universitarie. Per avere informazioni aggiornate e precise, ti consiglio di contattare direttamente l'ufficio orientamento o la sezione di iscrizioni dell'università che hai in mente.",[],5.226,llama3.2:3b,0.2,0
+Q030,rag,Quale raggruppamento devo scegliere con un TOLC-S?,"Non sono riuscito a trovare informazioni specifiche su quali raggruppamenti sono disponibili con un TOLC-S. Le fonti fornite contengono le informazioni relative ai corsi di laurea triennali ad accesso libero e alle tipologie di TOLC richieste per ciascun corso, ma non forniscono una lista dettagliata dei raggruppamenti disponibili per ogni TOLC-S.","[""S002-C006"", ""S002-C007"", ""S002-C003"", ""S002-C001"", ""S002-C002""]",31.619,llama3.2:3b,0.2,5
+Q030,no_rag,Quale raggruppamento devo scegliere con un TOLC-S?,"Non ho informazioni sufficienti per fornire una risposta precisa al tuo quesito. Il TOLC-S (Trovato di Orientamento Linguistico e Culturale) è un test utilizzato per aiutare gli studenti a scegliere la propria carriera e il proprio percorso di studi, ma non ho informazioni specifiche sui raggruppamenti disponibili con questo test. Se puoi fornirmi ulteriori informazioni o contesto, sarò felice di cercare di aiutarti ulteriormente.",[],7.479,llama3.2:3b,0.2,0
+Q031,rag,Dove si trova l’avviso per pagare la prima rata?,"L'avviso per pagare la prima rata si trova nella tua MyUniTo, seguendo il percorso ""Iscrizioni / Iscrizione / Visualizza pagamenti"".","[""S002-C009"", ""S002-C005"", ""S002-C006"", ""S003-C002"", ""S002-C007""]",21.855,llama3.2:3b,0.2,5
+Q031,no_rag,Dove si trova l’avviso per pagare la prima rata?,"Non ho informazioni sufficienti per fornire una risposta precisa. L'avviso per pagare la prima rata può essere trovato nel contratto di affitto o nel comunicato dell'immobile, ma non posso fornire una risposta specifica senza conoscere ulteriori dettagli.",[],2.907,llama3.2:3b,0.2,0
+Q032,rag,Quanti appelli d’esame sono garantiti annualmente per ogni unità didattica?,"Secondo la fonte [FONTE 1], per ogni unità didattica, si garantiscono almeno 5 appelli d'esame all'anno.","[""S005-C001"", ""S004-C001"", ""S005-C002"", ""S006-C001"", ""S002-C009""]",22.532,llama3.2:3b,0.2,5
+Q032,no_rag,Quanti appelli d’esame sono garantiti annualmente per ogni unità didattica?,"Non ho informazioni sufficienti per fornire una risposta precisa. L'numero di appelli d'esame garantiti annualmente per ogni unità didattica può variare a seconda dell'istituzione universitaria e del regolamento specifico. Se desideri sapere la risposta, ti consiglio di consultare il sito web dell'università o di contattare direttamente l'ufficio studenti o la sezione didattica.",[],4.628,llama3.2:3b,0.2,0
+Q033,rag,Quando è prevista l’interruzione natalizia delle attività didattiche?,"Secondo il Calendario didattico [FONTE 1], l'interruzione natalizia delle attività didattiche è prevista per tutti i giorni dal mercoledì 23 dicembre 2026 al mercoledì 6 gennaio 2027, inclusi.","[""S005-C001"", ""S005-C002"", ""S004-C001"", ""S003-C002"", ""S002-C002""]",21.119,llama3.2:3b,0.2,5
+Q033,no_rag,Quando è prevista l’interruzione natalizia delle attività didattiche?,"Non ho informazioni sufficienti per fornire una risposta precisa su quando è prevista l'interruzione natalizia delle attività didattiche, poiché le date possono variare a seconda dell'istituzione educativa e del paese. Tuttavia, in generale, molte università e istituti educativi prevedono una pausa natalizia che può variare da 2 a 4 settimane, a seconda delle esigenze e delle tradizioni locali.",[],5.193,llama3.2:3b,0.2,0
+Q034,rag,"Bro, per iscrivermi devo avere lo SPID o basta una mail?","Per iscriverti al corso di laurea triennale in Informatica, è necessario avere lo SPID. Puoi ottenere lo SPID seguendo le indicazioni riportate sul sito SPID [FONTE 1].","[""S002-C006"", ""S002-C008"", ""S002-C005"", ""S002-C009"", ""S003-C001""]",22.368,llama3.2:3b,0.2,5
+Q034,no_rag,"Bro, per iscrivermi devo avere lo SPID o basta una mail?","Ciao!
+
+Per iscriverti all'università, è necessario avere lo SPID (Servizio Pubblico di Identificazione Digitale) se stai richiedendo una borsa di studio o un finanziamento. Tuttavia, se stai richiedendo solo l'iscrizione all'università come studente libero, potresti essere in grado di farlo senza lo SPID.
+
+Tuttavia, è sempre meglio controllare con l'ufficio studenti o il dipartimento di riferimento dell'università per confermare le esigenze specifiche.
+
+In generale, è consigliabile avere lo SPID per una maggior parte delle procedure amministrative universitarie.",[],6.939,llama3.2:3b,0.2,0
+Q035,rag,Ma posso fare il test in un’università diversa da Torino?,"Non sono presenti informazioni che confermino che è possibile sostenere il TOLC in un'università diversa da Torino. Le informazioni disponibili indicano che l'Ateneo di Torino eroga esclusivamente TOLC@CASA (a distanza) e che il TOLC può essere sostenuto anche in date organizzate da altri Atenei, ma non è specificato se questo includa università diverse da Torino.","[""S002-C004"", ""S002-C005"", ""S003-C001"", ""S002-C009"", ""S002-C002""]",25.061,llama3.2:3b,0.2,5
+Q035,no_rag,Ma posso fare il test in un’università diversa da Torino?,"Certo, è possibile fare il test in un'università diversa da Torino, ma è importante verificare le condizioni specifiche per ogni test e università.
+
+In generale, i test di ammissione universitaria, come l'ESSE3, possono essere svolgiuti in qualsiasi università che sia riconosciuta come istituzione di istruzione superiore e che abbia un accordo con la università di Torino per l'organizzazione del test.
+
+Tuttavia, è fondamentale verificare con l'ufficio di ammissioni dell'università di Torino e con l'istituzione che vuoi frequentare per sapere se ci sono specifiche condizioni o requisiti che devono essere soddisfatti per poter svolgere il test in un'altra università.
+
+Inoltre, è importante notare che alcuni test possono richiedere la presenza fisica in un luogo specifico, quindi è possibile che non sia possibile svolgere il test in un'altra università se non è stato previsto in anticipo.
+
+È sempre meglio controllare con l'ufficio di ammissioni dell'università di Torino e dell'università che vuoi frequentare per avere informazioni più precise e aggiornate.",[],16.129,llama3.2:3b,0.2,0
+Q036,rag,Ho fatto il TOLC ma non mi sono ancora preiscritto: posso iscrivermi subito?,"Secondo le informazioni fornite dalle fonti, per iscriverti al corso di laurea triennale ad accesso libero, devi sostenere il TOLC (Test Online CISIA) e effettuare la pre-iscrizione al raggruppamento corrispondente al TOLC sostenuto.
+
+La pre-iscrizione al raggruppamento deve corrispondere necessariamente al TOLC sostenuto. Non è possibile l'iscrizione ad un corso per il quale non sia stato sostenuto il TOLC indicato e non si sia effettuata la corretta pre-iscrizione al raggruppamento.
+
+Inoltre, devi registrarti al portale UniTo e effettuare l'iscrizione al corso entro le ore 15 del 21 ottobre 2026.
+
+Quindi, per rispondere alla tua domanda, la risposta è che non puoi iscriverti subito dopo aver fatto il TOLC, ma devi effettuare la pre-iscrizione al raggruppamento corrispondente al TOLC sostenuto e poi registrarti al portale UniTo e iscriverti al corso entro le ore 15 del 21 ottobre 2026.","[""S002-C006"", ""S002-C004"", ""S002-C001"", ""S002-C005"", ""S002-C008""]",36.817,llama3.2:3b,0.2,5
+Q036,no_rag,Ho fatto il TOLC ma non mi sono ancora preiscritto: posso iscrivermi subito?,"Non ho informazioni sufficienti per rispondere alla tua domanda. Il TOLC (Testo di Orientamento Linguistico e Culturale) è un esame universitario che serve a valutare le competenze linguistiche e culturali degli studenti, ma le regole per l'iscrizione alle università variano a seconda del paese e dell'istituzione universitaria.
+
+Tuttavia, posso suggerirti di contattare direttamente l'ufficio amministrazione dell'università che hai scelto di frequentare o il servizio di orientamento universitario per chiedere informazioni più dettagliate sulle procedure per l'iscrizione e sulle condizioni per la preiscrizione. Saranno in grado di fornirti le informazioni più aggiornate e precise.",[],9.193,llama3.2:3b,0.2,0
+Q037,rag,"Se sono già laureato, mi tocca rifare il TOLC per Informatica?","No, se sei già laureato, non devi rifare il TOLC per Informatica.","[""S002-C002"", ""S003-C001"", ""S002-C004"", ""S002-C006"", ""S002-C007""]",23.43,llama3.2:3b,0.2,5
+Q037,no_rag,"Se sono già laureato, mi tocca rifare il TOLC per Informatica?","Non ho informazioni sufficienti per fornire una risposta precisa alla tua domanda. Il TOLC (Testo di Orientamento Linguistico e Culturale) è un esame obbligatorio per gli studenti stranieri che vogliono frequentare un corso di laurea in Italia, ma non so se sia richiesto anche per gli studenti già laureati che vogliono frequentare un corso di laurea in Informatica. Per avere una risposta più precisa, ti consiglio di contattare direttamente l'Università che hai in mente o di consultare il sito web ufficiale per avere informazioni aggiornate.",[],6.881,llama3.2:3b,0.2,0
+Q038,rag,"Se vado male in fisica al TOLC, mi danno per forza gli OFA?","Non sono presenti informazioni esplicitamente contenute nelle fonti fornite che confermino che se vanno male in fisica al TOLC, vengano comunque attribuiti gli OFA.
+
+Tuttavia, si può dedurre che se non si raggiunge un punteggio di almeno 2/10 nella sezione ""Fisica"" del TOLC, è consigliabile seguire i corsi di riallineamento messi a disposizione su piattaforma dedicata (www.ofa.unito.it) per poter recuperare gli OFA.","[""S003-C002"", ""S002-C005"", ""S002-C007"", ""S002-C002"", ""S002-C003""]",31.636,llama3.2:3b,0.2,5
+Q038,no_rag,"Se vado male in fisica al TOLC, mi danno per forza gli OFA?","Non ho informazioni sufficienti per fornire una risposta precisa alla tua domanda. L'accesso ai corsi di laurea (OFA) dipende da diversi fattori, come il punteggio al TOLC, le esigenze della facoltà e le disponibilità di posti. Non posso fornire una risposta definitiva senza conoscere le specifiche regole e procedure della tua università.",[],4.53,llama3.2:3b,0.2,0
+Q039,rag,Per gli esami devo prenotarmi online oppure posso presentarmi e basta?,"Non sono presenti informazioni specifiche su come prenotare gli esami online o se è possibile presentarsi senza prenotazione. Tuttavia, si può controllare la pagina ""Insegnamenti del primo anno"" per avere informazioni aggiornate sulle procedure di iscrizione e prenotazione degli esami.","[""S002-C009"", ""S002-C005"", ""S002-C008"", ""S003-C002"", ""S006-C001""]",20.81,llama3.2:3b,0.2,5
+Q039,no_rag,Per gli esami devo prenotarmi online oppure posso presentarmi e basta?,"Per gli esami, è consigliabile prenotarsi online, se possibile. Questo è perché molti atenei e università richiedono la prenotazione online per garantire la gestione efficiente degli esami e prevenire la lunghezza delle file.
+
+Tuttavia, è importante verificare con l'ufficio studenti o il sito web dell'università per sapere se è necessario prenotarsi online o se è possibile presentarsi direttamente all'esame. Alcuni esami potrebbero richiedere la prenotazione online, mentre altri potrebbero essere disponibili solo per presentarsi.
+
+In ogni caso, è sempre una buona idea verificare le informazioni ufficiali dell'università per evitare eventuali problemi o imprevisti.",[],7.569,llama3.2:3b,0.2,0
+Q040,rag,Sono al terzo anno: Reti e sicurezza delle reti quanti crediti dà?,"Secondo le informazioni disponibili nelle fonti, il corso di laurea in Informatica offre un corso di ""RETI E SICUREZZA DELLE RETI"" con 9 crediti.
+
+In particolare, secondo la Fonte 4, il corso ""RETI E SICUREZZA DELLE RETI"" è un corso obbligatorio con 9 crediti e viene offerto nel corso di laurea triennale ad accesso libero.
+
+Inoltre, secondo la Fonte 5, il corso ""RETI E SICUREZZA DELLE RETI"" è un corso obbligatorio con 9 crediti e viene offerto nel corso di laurea triennale ad accesso libero.
+
+Quindi, il corso ""RETI E SICUREZZA DELLE RETI"" offre 9 crediti.","[""S001-C004"", ""S001-C003"", ""S002-C009"", ""S001-C002"", ""S001-C001""]",40.892,llama3.2:3b,0.2,5
+Q040,no_rag,Sono al terzo anno: Reti e sicurezza delle reti quanti crediti dà?,Non ho informazioni sufficienti per fornire una risposta precisa su quanti crediti il corso di Reti e sicurezza delle reti assegna al terzo anno. La struttura dei crediti può variare a seconda dell'istituto di istruzione e del corso specifico. Ti consiglio di contattare direttamente l'istituto di istruzione o il professore del corso per ottenere informazioni più precise e aggiornate.,[],5.447,llama3.2:3b,0.2,0
+Q041,rag,C’è una pausa per Pasqua nel 2027?,"Sì, c'è una pausa per Pasqua nel 2027. Secondo il calendario didattico, la seconda pausa per Pasqua è prevista per tutti i giorni dal 25 marzo 2027 al 30 marzo 2027, inclusi.","[""S005-C001"", ""S003-C002"", ""S002-C002"", ""S002-C003"", ""S005-C002""]",27.234,llama3.2:3b,0.2,5
+Q041,no_rag,C’è una pausa per Pasqua nel 2027?,Non ho informazioni sufficienti per confermare se ci sarà una pausa per Pasqua nel 2027. La data esatta delle pause per Pasqua varia ogni anno e dipende dal calendario scolastico o universitario specifico.,[],5.04,llama3.2:3b,0.2,0
+Q042,rag,Qual è il carico in crediti di Fondamenti dell’Informatica?,"Secondo la Fonte 1, il corso di laurea in Informatica prevede un carico di 9 crediti per il corso ""FONDAMENTI DELL'INFORMATICA"" nel primo anno di studio.","[""S001-C001"", ""S006-C001"", ""S001-C005"", ""S001-C003"", ""S001-C006""]",32.044,llama3.2:3b,0.2,5
+Q042,no_rag,Qual è il carico in crediti di Fondamenti dell’Informatica?,Non ho informazioni sufficienti per fornire la risposta esatta al carico in crediti di Fondamenti dell'Informatica. Potresti fornirmi ulteriori dettagli o chiarire a quale università o istituzione ti riferisci? In questo modo posso cercare di fornirti una risposta più precisa.,[],3.714,llama3.2:3b,0.2,0
+Q043,rag,L’esame di Sistemi Operativi compare nel percorso del secondo anno?,"Sì, l'esame di Sistemi Operativi compare nel percorso del secondo anno.","[""S001-C001"", ""S003-C001"", ""S004-C001"", ""S006-C001"", ""S001-C003""]",19.568,llama3.2:3b,0.2,5
+Q043,no_rag,L’esame di Sistemi Operativi compare nel percorso del secondo anno?,"Sì, l'esame di Sistemi Operativi è parte del percorso di studio del secondo anno universitario in molti corsi di laurea in Informatica, Ingegneria Informatica e Scienze dell'Informazione. Tuttavia, la presenza dell'esame può variare a seconda dell'università e del corso di studio specifico.",[],4.027,llama3.2:3b,0.2,0
+Q044,rag,È possibile ripetere il medesimo tipo di test CISIA due volte nello stesso mese?,"Sì, è possibile ripetere il medesimo tipo di test CISIA due volte nello stesso mese, come specificato nel punto 5 della fonte 4: ""Puoi sostenere più volte la stessa tipologia di TOLC ma non più di una volta al mese. Se ripeti più volte il TOLC sarà preso in considerazione, ai fini dell’iscrizione, il punteggio dell'ultimo TOLC sostenuto (e non quello con il miglior risultato ottenuto). Puoi sostenere TOLC di tipologia diversa, anche all’interno dello stesso mese.""","[""S002-C001"", ""S003-C002"", ""S005-C001"", ""S002-C003"", ""S003-C001""]",31.334,llama3.2:3b,0.2,5
+Q044,no_rag,È possibile ripetere il medesimo tipo di test CISIA due volte nello stesso mese?,"Non ho informazioni sufficienti per rispondere alla tua domanda. La CISIA (Cattedra Interuniversitaria per l'Insegnamento dell'Italiano come Lingua Straniera) è un'istituzione che offre corsi di formazione per insegnanti di italiano come lingua straniera, ma non ho informazioni specifiche sulla politica di ripetizione dei test CISIA. Se hai altre domande o vuoi ulteriori informazioni, sarò felice di aiutarti.",[],5.058,llama3.2:3b,0.2,0
+Q045,rag,L’iscrizione è possibile anche se tutti i posti disponibili sono stati occupati?,Non sono presenti informazioni esplicitamente contenute nelle fonti fornite che confermino se l'iscrizione è possibile anche se tutti i posti disponibili sono stati occupati.,"[""S002-C005"", ""S002-C009"", ""S002-C006"", ""S002-C008"", ""S002-C001""]",23.34,llama3.2:3b,0.2,5
+Q045,no_rag,L’iscrizione è possibile anche se tutti i posti disponibili sono stati occupati?,"Ciao! Sono felice di aiutarti.
+
+L'iscrizione alle università è un processo competitivo e, spesso, tutti i posti disponibili vengono occupati rapidamente. Tuttavia, ci sono alcune possibilità di iscrizione anche se tutti i posti disponibili sono stati occupati:
+
+1. **Assegnazione di posti rimanenti**: se ci sono posti disponibili dopo la chiusura del primo turno di iscrizione, potrebbero essere assegnati agli studenti che non hanno trovato un posto nel primo turno.
+2. **Assegnazione di posti di scambio**: alcune università offrono posti di scambio con altre istituzioni, che possono essere assegnati agli studenti che non hanno trovato un posto nel primo turno.
+3. **Assegnazione di posti per studenti con esigenze speciali**: alcune università offrono posti per studenti con esigenze speciali, come studenti con disabilità o studenti provenienti da regioni diverse.
+
+Tuttavia, è importante notare che le possibilità di iscrizione dipendono dalla università e dal corso di studio scelto. È sempre meglio contattare direttamente l'università per avere informazioni più precise e aggiornate.
+
+Spero che ciò ti sia stato utile! Se hai altre domande, non esitare a chiedere.",[],18.552,llama3.2:3b,0.2,0
+Q046,rag,Quali allegati identificativi sono richiesti nella domanda di immatricolazione?,"Secondo la fonte [FONTE 1], nella domanda di immatricolazione sono richiesti i seguenti allegati identificativi:
+
+* una foto, che verrà visualizzata sulla tua smart card virtuale, scaricando l'app MyUniTo+;
+* una copia di un documento d'identità valido;
+* una copia del codice fiscale.
+
+Questi allegati sono richiesti per la compilazione della domanda di immatricolazione.","[""S002-C008"", ""S004-C001"", ""S002-C007"", ""S002-C006"", ""S002-C005""]",29.115,llama3.2:3b,0.2,5
+Q046,no_rag,Quali allegati identificativi sono richiesti nella domanda di immatricolazione?,Non ho informazioni sufficienti per fornire una risposta precisa su quali allegati identificativi sono richiesti nella domanda di immatricolazione. La richiesta di documenti può variare a seconda dell'istituzione universitaria e del paese in cui si trova. Ti consiglio di contattare direttamente l'istituzione universitaria per avere informazioni più precise e aggiornate.,[],4.714,llama3.2:3b,0.2,0
+Q047,rag,Qual è la modalità prevista per recuperare il debito formativo in matematica?,"La modalità prevista per recuperare il debito formativo in matematica è quella di frequentare il corso di riallineamento di matematica messo a disposizione da UNITO su apposita piattaforma www.ofa.unito.it (selezionare ""OFA Matematica"") e superare il relativo esame, in presenza (calendario appelli e istruzioni che sarà pubblicato qui).","[""S003-C002"", ""S006-C001"", ""S001-C001"", ""S002-C007"", ""S003-C001""]",26.317,llama3.2:3b,0.2,5
+Q047,no_rag,Qual è la modalità prevista per recuperare il debito formativo in matematica?,"Non ho informazioni sufficienti per fornire una risposta precisa sulla modalità prevista per recuperare il debito formativo in matematica. La politica di recupero dei debiti formativi può variare a seconda dell'istituzione scolastica o dell'ente che gestisce il sistema educativo.
+
+Tuttavia, posso suggerire di contattare direttamente l'istituzione scolastica o l'ente che gestisce il sistema educativo per chiedere informazioni sulla politica di recupero dei debiti formativi in matematica. Saranno in grado di fornire una risposta più precisa e aggiornata.",[],7.103,llama3.2:3b,0.2,0
+Q048,rag,La partecipazione alle lezioni con laboratorio è obbligatoria secondo il calendario?,"Secondo il calendario didattico, la frequenza è fortemente raccomandata soprattutto per gli insegnamenti con laboratorio. Tuttavia, non sono presenti informazioni specifiche sulla partecipazione alle lezioni con laboratorio come obbligatoria.
+
+Le fonti fornite non contengono informazioni sulla partecipazione alle lezioni con laboratorio come obbligatoria.","[""S005-C002"", ""S005-C001"", ""S004-C001"", ""S002-C004"", ""S002-C005""]",28.757,llama3.2:3b,0.2,5
+Q048,no_rag,La partecipazione alle lezioni con laboratorio è obbligatoria secondo il calendario?,"Non ho informazioni sufficienti per fornire una risposta precisa al tuo quesito. Il calendario delle lezioni e delle attività di laboratorio può variare notevolmente da un ateneo all'altro e anche all'interno di un'università. Per avere una risposta precisa, ti consiglio di consultare il calendario ufficiale dell'università o di contattare direttamente il dipartimento o la facoltà che offre il corso di studio che stai seguendo.",[],5.891,llama3.2:3b,0.2,0
+Q049,rag,In quali giorni si svolgono le iniziative Porte aperte per le future matricole nel 2027?,"Mi dispiace, ma non sono riuscito a trovare informazioni sulla data e sulle ore delle iniziative Porte aperte per le future matricole nel 2027.","[""S005-C001"", ""S004-C001"", ""S006-C001"", ""S002-C002"", ""S003-C002""]",33.223,llama3.2:3b,0.2,5
+Q049,no_rag,In quali giorni si svolgono le iniziative Porte aperte per le future matricole nel 2027?,"Mi dispiace, non ho informazioni sufficienti per fornire una risposta precisa alle tue domande.",[],1.612,llama3.2:3b,0.2,0
+Q050,rag,"Per iscrivermi a Informatica, quanto costa sostenere il TOLC e quale punteggio devo ottenere in Matematica di base per evitare gli OFA?","Secondo la fonte [FONTE 3], per iscriverti al corso di laurea triennale in Informatica è obbligatorio sostenere il TARM, erogato attraverso il TOLC-S (Test Online del Consorzio CISIA). Non sono specificate le spese per sostenere il TOLC.
+
+Inoltre, secondo la fonte [FONTE 3], per frequentare il corso con successo non occorrono competenze informatiche precedenti, ma è indispensabile avere propensione al ragionamento logico e una buona preparazione nelle materie di base della scuola media superiore (in primo luogo matematica). 
+
+Per evitare gli OFA, è necessario ottenere un punteggio non inferiore a 5 punti su 20 nella sezione Matematica di base.","[""S003-C002"", ""S002-C002"", ""S003-C001"", ""S002-C005"", ""S002-C007""]",29.892,llama3.2:3b,0.2,5
+Q050,no_rag,"Per iscrivermi a Informatica, quanto costa sostenere il TOLC e quale punteggio devo ottenere in Matematica di base per evitare gli OFA?","Ciao! Sono felice di aiutarti con le tue domande sull'orientamento universitario.
+
+Per quanto riguarda il costo del TOLC (Testo di Orientamento Linguistico e Culturale) per l'iscrizione all'Informatica, non ho informazioni precise su questo specifico. Tuttavia, posso dirti che il costo del TOLC può variare a seconda dell'università e del corso di studio.
+
+Per quanto riguarda il punteggio di Matematica di base necessario per evitare gli OFA (Ordini di Fine degli Anni), non ho informazioni precise su questo specifico. Tuttavia, posso dirti che gli OFA sono ordini che richiedono un punteggio minimo in una serie di materie, compresa la Matematica di base. Se vuoi evitare gli OFA, ti consiglio di controllare con l'ufficio studenti o con il tuo tutor universitario per sapere quali sono i requisiti specifici per il tuo corso di studio.
+
+Se hai altre domande o vuoi discutere ulteriormente, sono qui per aiutarti!",[],12.794,llama3.2:3b,0.2,0
+Q051,rag,"Se voglio iscrivermi a Informatica e ho sostenuto il TOLC-S, quale raggruppamento seleziono e dove?","Per iscriverti al corso di Informatica, devi selezionare il raggruppamento ""Raggruppamento 1 - TOLC-E"" e sostenere il TOLC-E.","[""S002-C007"", ""S002-C006"", ""S002-C002"", ""S002-C001"", ""S002-C003""]",25.604,llama3.2:3b,0.2,5
+Q051,no_rag,"Se voglio iscrivermi a Informatica e ho sostenuto il TOLC-S, quale raggruppamento seleziono e dove?","Ciao! Sono felice di aiutarti con la tua domanda.
+
+Per iscriverti all'Informatica, dovresti selezionare il raggruppamento ""Informatica"" all'interno del corso di laurea che ti interessa.
+
+Tuttavia, non ho informazioni specifiche sul corso di laurea che hai scelto o sulle opzioni disponibili. Potresti dirmi il nome del corso di laurea che hai scelto o la università che hai scelto di frequentare? In questo modo posso fornirti una risposta più precisa.
+
+In generale, il TOLC-S (Testo di Orientamento Linguistico e Culturale per gli Studenti stranieri) è un esame che si svolge per gli studenti stranieri che desiderano iscriversi a un corso di laurea in Italia. Il TOLC-S è un esame di valutazione linguistica e culturale che verifica le competenze linguistiche e culturali degli studenti.
+
+Se hai superato il TOLC-S, potresti essere ammesso a iscriverti a un corso di laurea in Informatica, ma dovresti controllare le condizioni specifiche del corso di laurea che hai scelto e della università che hai scelto di frequentare.",[],14.523,llama3.2:3b,0.2,0
+Q052,rag,Sono esonerato dal TOLC perché trasferito da un altro ateneo: avrò necessariamente OFA al primo anno?,Non sono riuscito a trovare informazioni specifiche sulla situazione di un studente trasferito da un altro ateneo e che è esonerato dal TOLC. Le fonti fornite non contengono informazioni su questo argomento.,"[""S002-C005"", ""S002-C004"", ""S003-C002"", ""S002-C002"", ""S002-C007""]",28.135,llama3.2:3b,0.2,5
+Q052,no_rag,Sono esonerato dal TOLC perché trasferito da un altro ateneo: avrò necessariamente OFA al primo anno?,"Non ho informazioni sufficienti per fornire una risposta precisa alla tua domanda. La regola del trasferimento (TOLC) e le esenzioni dal pagamento del contributo universitario per gli studenti stranieri (OFA) possono variare a seconda del paese e dell'istituzione universitaria. Per avere una risposta precisa, ti consiglio di contattare direttamente l'ateneo che hai scelto di frequentare o il suo ufficio studenti.",[],5.54,llama3.2:3b,0.2,0
+Q053,rag,Posso sostenere il TOLC prima del diploma e devo poi aspettare il diploma per accedere al corso?,Non sono riuscito a trovare informazioni che confermino che è possibile sostenere il TOLC prima del diploma.,"[""S002-C004"", ""S002-C006"", ""S002-C003"", ""S002-C002"", ""S002-C001""]",27.246,llama3.2:3b,0.2,5
+Q053,no_rag,Posso sostenere il TOLC prima del diploma e devo poi aspettare il diploma per accedere al corso?,"Ciao! Sono felice di aiutarti.
+
+Il TOLC (Testo di Orientamento Linguistico e Culturale) è un esame che serve a valutare le competenze linguistiche e culturali di un studente che intende studiare all'estero. Per sostenere il TOLC, non è necessario avere un diploma già in hand.
+
+Puoi sostenere il TOLC prima del diploma, ma è consigliabile che il diploma sia già in hand per alcuni motivi:
+
+1. **Riconoscimento**: Alcuni paesi richiedono che il diploma sia già in hand per riconoscere i risultati del TOLC.
+2. **Accesso a programmi di studio**: Alcuni programmi di studio all'estero richiedono che il diploma sia già in hand per poter essere ammessi.
+3. **Preparazione**: Studiare il TOLC prima del diploma può aiutarti a prepararti per il corso di studio all'estero, ma potrebbe anche essere un po' stressante.
+
+Tuttavia, se non hai ancora ottenuto il diploma, puoi comunque sostenere il TOLC e, se lo passi, potrai accedere al corso di studio all'estero.
+
+In sintesi, puoi sostenere il TOLC prima del diploma, ma è consigliabile che il diploma sia già in hand per alcuni motivi. Se non hai informazioni sufficienti, ti consiglio di contattare l'ambasciata o l'istituto di istruzione del paese che desideri frequentare per avere informazioni più precise.",[],17.068,llama3.2:3b,0.2,0
+Q054,rag,Quali sono i CFU di Fondamenti dell'Informatica e qual è il suo codice insegnamento?,Non sono riuscito a trovare informazioni sul CFU di Fondamenti dell'Informatica e sul suo codice insegnamento. Le fonti fornite non contengono le informazioni richieste.,"[""S006-C001"", ""S001-C005"", ""S001-C003"", ""S001-C001"", ""S004-C001""]",27.466,llama3.2:3b,0.2,5
+Q054,no_rag,Quali sono i CFU di Fondamenti dell'Informatica e qual è il suo codice insegnamento?,"Non ho informazioni sufficienti per fornire una risposta precisa ai CFU di Fondamenti dell'Informatica e al suo codice insegnamento. I CFU (Crediti Formativi Universitari) possono variare a seconda dell'università e del corso di studio, quindi non posso fornire una risposta univoca. Se puoi fornire maggiori dettagli sull'università e sul corso di studio, sarò felice di cercare di aiutarti ulteriormente.",[],6.052,llama3.2:3b,0.2,0
+Q055,rag,"Se voglio iscrivermi a Informatica, quale TOLC devo sostenere e quale punteggio in Matematica di base mi permette di evitare gli OFA?",Non sono riuscito a trovare informazioni sul TOLC richiesto per l'iscrizione all'Informatica.,"[""S003-C002"", ""S002-C005"", ""S002-C002"", ""S002-C007"", ""S002-C004""]",25.98,llama3.2:3b,0.2,5
+Q055,no_rag,"Se voglio iscrivermi a Informatica, quale TOLC devo sostenere e quale punteggio in Matematica di base mi permette di evitare gli OFA?","Non ho informazioni sufficienti per fornire una risposta precisa alla tua domanda. I requisiti per l'iscrizione a un corso di Informatica e i punteggi richiesti in Matematica di base per evitare gli Obblighi di Formazione Accessibile (OFA) possono variare a seconda dell'università e del corso specifico.
+
+Tuttavia, posso suggerirti di contattare direttamente l'ufficio orientamento dell'università che hai scelto di frequentare o il dipartimento di Informatica per chiedere informazioni più dettagliate sui requisiti di ammissione e sui punteggi richiesti.
+
+In generale, per iscriversi a un corso di Informatica, è spesso richiesto di avere una buona conoscenza di Matematica di base, come algebra, geometria e analisi. Tuttavia, non esistono punteggi specifici che garantiscono l'accesso al corso senza OFA.
+
+È importante notare che l'accesso a un corso di Informatica può essere influenzato da altri fattori, come la qualità della preparazione scolastica, le competenze linguistiche e le esperienze di studio.",[],14.116,llama3.2:3b,0.2,0
+Q056,rag,Quanto dura il corso?,Non sono riuscito a trovare informazioni sulla durata del corso di laurea triennale ad accesso libero presso l'Università di Torino. Le fonti fornite non contengono informazioni sulla durata del corso.,"[""S002-C009"", ""S002-C007"", ""S005-C001"", ""S002-C005"", ""S002-C001""]",20.531,llama3.2:3b,0.2,5
+Q056,no_rag,Quanto dura il corso?,"Non ho informazioni sufficienti per fornire una risposta precisa. Per favore, fornisci più dettagli sul corso che stai chiedendo, come nome, tipo e livello di studio. Sarò felice di cercare di aiutarti ulteriormente.",[],3.047,llama3.2:3b,0.2,0
+Q057,rag,Quando scade la domanda?,Non sono riuscito a trovare informazioni sulla data di scadenza della domanda per l'iscrizione ai corsi di laurea triennali ad accesso libero presso l'Università degli Studi di Torino.,"[""S002-C009"", ""S002-C003"", ""S005-C001"", ""S004-C001"", ""S002-C001""]",24.081,llama3.2:3b,0.2,5
+Q057,no_rag,Quando scade la domanda?,"Non ho informazioni sufficienti per rispondere alla domanda ""Quando scade la domanda?"" in relazione alla domanda specifica che non ho capito.",[],4.105,llama3.2:3b,0.2,0
+Q058,rag,Qual è il mio laboratorio se il cognome inizia per M?,"Per determinare il tuo laboratorio, è necessario sapere quale anno sei iscritto. Se non sei stato specificato quale anno, non posso fornirti una risposta precisa.","[""S004-C001"", ""S006-C001"", ""S002-C005"", ""S002-C007"", ""S002-C009""]",23.826,llama3.2:3b,0.2,5
+Q058,no_rag,Qual è il mio laboratorio se il cognome inizia per M?,"Non ho informazioni sufficienti per fornire una risposta precisa al tuo quesito. Se vuoi sapere il tuo laboratorio, ti consiglio di contattare il tuo professore o il dipartimento universitario per chiedere informazioni più dettagliate.",[],2.724,llama3.2:3b,0.2,0
+Q059,rag,Quando sono gli esami?,"Gli esami si tengono durante le due settimane di sospensione previste per permettere agli studenti di sostenere gli esami, e sono previsti almeno 2 sessioni d'esame per ciascuno degli insegnamenti la cui durata si è esaurita nel periodo didattico.
+
+Inoltre, per verificare in quale periodo è possibile sostenere gli appelli consulta la pagina Appelli d'esame.
+
+Le date degli esami sono le seguenti:
+
+* Primo periodo didattico: da lunedì 28 settembre 2026 a venerdì 15 gennaio 2027
+* Interruzione natalizia per tutti: da mercoledì 23 dicembre 2026 a mercoledì 6 gennaio 2027
+* Secondo periodo didattico: da lunedì 22 febbraio 2027 a venerdì 4 giugno 2027
+* Interruzione pasquale per tutti: da giovedì 25 marzo 2027 a martedì 30 marzo 2027","[""S005-C001"", ""S005-C002"", ""S002-C005"", ""S004-C001"", ""S001-C006""]",30.131,llama3.2:3b,0.2,5
+Q059,no_rag,Quando sono gli esami?,"Ciao! Sono felice di aiutarti.
+
+Gli esami possono variare a seconda del corso e dell'università, ma in generale, si tengono in diverse fasi dell'anno accademico.
+
+In Italia, gli esami più comuni sono:
+
+* Esami di fine semestre: si tengono alla fine di ogni semestre (gennaio-febbraio e giugno-luglio).
+* Esami di fine anno: si tengono alla fine dell'anno accademico (novembre-dicembre).
+
+Tuttavia, è importante verificare con il tuo professore o il tuo dipartimento per sapere esattamente quando si tengono gli esami per il tuo corso specifico.
+
+Se hai dubbi o non sei sicuro di quando si tengono gli esami, non esitare a chiedere informazioni ulteriori!",[],11.202,llama3.2:3b,0.2,0
+Q060,rag,Chi è il docente titolare di Programmazione I nel 2026/27?,Non sono riuscito a trovare informazioni sulla persona che è il docente titolare di Programmazione I nel 2026/27.,"[""S004-C001"", ""S001-C001"", ""S006-C001"", ""S005-C001"", ""S003-C001""]",21.611,llama3.2:3b,0.2,5
+Q060,no_rag,Chi è il docente titolare di Programmazione I nel 2026/27?,"Mi dispiace, ma non ho informazioni sufficienti per fornire una risposta precisa al tuo quesito. La mia conoscenza è limitata fino al dicembre 2023 e non ho accesso a informazioni in tempo reale o future.
+
+Se desideri sapere chi è il docente titolare di Programmazione I nel 2026/27, ti consiglio di contattare direttamente l'ateneo o il dipartimento di Informatica in cui si trova il corso, oppure di verificare il sito web ufficiale dell'ateneo per vedere se sono disponibili informazioni aggiornate.",[],8.369,llama3.2:3b,0.2,0
+Q061,rag,Qual è l’importo esatto della prima rata universitaria per Informatica?,Non sono riuscito a trovare informazioni sul prezzo della prima rata universitaria per il corso di laurea in Informatica.,"[""S003-C001"", ""S002-C009"", ""S006-C001"", ""S001-C001"", ""S001-C003""]",27.903,llama3.2:3b,0.2,5
+Q061,no_rag,Qual è l’importo esatto della prima rata universitaria per Informatica?,"Non ho informazioni sufficienti per fornire un'indicazione precisa sull'importo della prima rata universitaria per Informatica. L'importo della tassa universitaria può variare a seconda del paese, della regione e dell'istituzione universitaria. Inoltre, gli importi possono essere soggetti a modifiche nel tempo.
+
+Per avere informazioni più precise e aggiornate, ti consiglio di contattare direttamente l'istituzione universitaria che hai in mente o di visitare il loro sito web ufficiale per conoscere le informazioni più aggiornate sulla tassa universitaria.",[],7.95,llama3.2:3b,0.2,0
+Q062,rag,Quali sono le aziende convenzionate per lo stage di Informatica?,Non sono riuscito a trovare informazioni sulle aziende convenzionate per lo stage di Informatica.,"[""S003-C001"", ""S001-C001"", ""S006-C001"", ""S002-C007"", ""S001-C006""]",24.514,llama3.2:3b,0.2,5
+Q062,no_rag,Quali sono le aziende convenzionate per lo stage di Informatica?,"Ciao! Sono felice di aiutarti.
+
+Per quanto riguarda le aziende convenzionate per lo stage di Informatica, devo informarti che le informazioni possono variare a seconda del corso di studio, della facoltà e dell'anno universitario.
+
+Tuttavia, posso dirti che molte università italiane hanno accordi con aziende convenzionate che offrono stage di formazione per studenti di Informatica. Alcune di queste aziende includono:
+
+* IBM
+* Microsoft
+* Oracle
+* SAP
+* Accenture
+* Deloitte
+* Ernst & Young
+
+Tuttavia, devo sottolineare che non ho informazioni specifiche su tutte le aziende convenzionate per lo stage di Informatica, poiché possono variare a seconda del luogo e del corso di studio.
+
+Per ottenere informazioni più precise, ti consiglio di contattare la tua università o il tuo dipartimento di Informatica per chiedere informazioni sulle aziende convenzionate per lo stage di tuo interesse.",[],14.091,llama3.2:3b,0.2,0
+Q063,rag,Qual è l’aula della lezione di Algoritmi del 12 ottobre 2026?,Non sono riuscito a trovare informazioni sulla lezione di Algoritmi del 12 ottobre 2026.,"[""S006-C001"", ""S001-C001"", ""S004-C001"", ""S003-C002"", ""S002-C008""]",26.073,llama3.2:3b,0.2,5
+Q063,no_rag,Qual è l’aula della lezione di Algoritmi del 12 ottobre 2026?,"Non ho informazioni sufficienti per fornire una risposta precisa. La data del 12 ottobre 2026 non è ancora presente nel mio database, poiché la mia conoscenza è limitata alla data di fine 2023.",[],2.578,llama3.2:3b,0.2,0

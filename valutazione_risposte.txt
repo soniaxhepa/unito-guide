@@ -1,0 +1,522 @@
+================================================================================
+ID: Q001 | MODALITÀ: rag
+DOMANDA: Quale TOLC devo sostenere per iscrivermi a Informatica?
+RISPOSTA ATTESA: TOLC-S
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S003-C001|S002-C002
+RISPOSTA GENERATA: Per iscriverti alla laurea triennale in Informatica, devi sostenere il TOLC-S.
+
+================================================================================
+ID: Q001 | MODALITÀ: no_rag
+DOMANDA: Quale TOLC devo sostenere per iscrivermi a Informatica?
+RISPOSTA ATTESA: TOLC-S
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S003-C001|S002-C002
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa al tuo quesito. I requisiti per l'iscrizione a un corso di Informatica possono variare a seconda dell'università e del corso specifico.
+
+Tuttavia, posso suggerirti di contattare direttamente l'ufficio amministrazione dell'università o il dipartimento di Informatica per chiedere informazioni sulle esigenze di ammissione e sui requisiti necessari per sostenere il TOLC (Testo di Accesso a Laurea Triennale di Ciclo Unico) per l'iscrizione al corso di Informatica.
+
+Potresti anche verificare il sito web dell'università o contattare il servizio studenti per avere informazioni aggiornate e precise sui requisiti di ammissione.
+
+================================================================================
+ID: Q002 | MODALITÀ: rag
+DOMANDA: Qual è il punteggio minimo del TOLC-S per evitare gli OFA?
+RISPOSTA ATTESA: 5 punti su 20 nella sezione Matematica di base
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S003-C002
+RISPOSTA GENERATA: Non sono presenti informazioni specifiche sul punteggio minimo del TOLC-S per evitare gli OFA. Tuttavia, si può leggere che un punteggio non inferiore a 5 punti su 20 nella sezione Matematica di base è richiesto per superare il TOLC-S.
+
+================================================================================
+ID: Q002 | MODALITÀ: no_rag
+DOMANDA: Qual è il punteggio minimo del TOLC-S per evitare gli OFA?
+RISPOSTA ATTESA: 5 punti su 20 nella sezione Matematica di base
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S003-C002
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa al punteggio minimo del TOLC-S per evitare gli OFA. Il punteggio minimo richiesto per evitare gli OFA può variare da anno a anno e dipende da diversi fattori, come la scuola e il tipo di esame.
+
+Tuttavia, posso suggerire di contattare direttamente la scuola o il dipartimento di psicologia per chiedere informazioni più precise e aggiornate sul punteggio minimo richiesto per evitare gli OFA.
+
+================================================================================
+ID: Q003 | MODALITÀ: rag
+DOMANDA: Entro quando devo effettuare la preiscrizione?
+RISPOSTA ATTESA: 19 ottobre 2026, ore 15
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C001
+RISPOSTA GENERATA: Secondo le informazioni fornite dalle fonti, la pre-iscrizione al raggruppamento deve essere effettuata entro il 19 ottobre 2026, ore 15.
+
+[FONTE 1] e [FONTE 3]
+
+================================================================================
+ID: Q003 | MODALITÀ: no_rag
+DOMANDA: Entro quando devo effettuare la preiscrizione?
+RISPOSTA ATTESA: 19 ottobre 2026, ore 15
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C001
+RISPOSTA GENERATA: Ciao! Sono felice di aiutarti.
+
+Per effettuare la preiscrizione, è importante seguire le linee guida specifiche per l'istituzione universitaria che desideri frequentare. Tuttavia, posso fornirti alcune informazioni generali.
+
+In Italia, la preiscrizione per gli studi universitari è generalmente aperta dal 15 luglio all'11 settembre dell'anno precedente a quello di inizio studi. Tuttavia, è importante verificare le date specifiche per l'istituzione universitaria che desideri frequentare, poiché possono variare.
+
+Inoltre, è fondamentale verificare se è necessario effettuare la preiscrizione online o in persona, e se sono necessarie le relative documentazioni.
+
+Se non sei sicuro delle date o delle procedure per la preiscrizione, ti consiglio di contattare direttamente l'istituzione universitaria che desideri frequentare o di consultare il loro sito web ufficiale per ulteriori informazioni.
+
+================================================================================
+ID: Q004 | MODALITÀ: rag
+DOMANDA: Qual è la scadenza per completare l'iscrizione?
+RISPOSTA ATTESA: 21 ottobre 2026, ore 15
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C001
+RISPOSTA GENERATA: La scadenza per completare l'iscrizione è il 21 ottobre 2026, ore 15.
+
+================================================================================
+ID: Q004 | MODALITÀ: no_rag
+DOMANDA: Qual è la scadenza per completare l'iscrizione?
+RISPOSTA ATTESA: 21 ottobre 2026, ore 15
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C001
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa sulla scadenza per completare l'iscrizione. La scadenza può variare a seconda dell'istituzione universitaria e del tipo di iscrizione (ad esempio, iscrizione a un corso specifico, iscrizione a un programma di studio, ecc.).
+
+Per avere informazioni più precise, ti consiglio di contattare direttamente l'istituzione universitaria o il servizio di iscrizione per chiedere la scadenza più aggiornata.
+
+================================================================================
+ID: Q005 | MODALITÀ: rag
+DOMANDA: Quali insegnamenti sono previsti al primo anno?
+RISPOSTA ATTESA: Analisi Matematica; Architettura degli Elaboratori; Fondamenti dell'Informatica; Lingua Inglese I; Matematica Discreta, Algebra e Geometria; Programmazione I; Programmazione II; Ricerca Operativa
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S006-C001
+RISPOSTA GENERATA: Secondo la fonte [FONTE 3], gli insegnamenti previsti al primo anno sono:
+
+* Analisi Matematica (MFN0570)
+* Architettura degli Elaboratori (ENGLISH-FRIENDLY COURSE) (INF0326)
+* Fondamenti dell'Informatica (ENGLISH-FRIENDLY COURSE) (INF0348)
+* Lingua Inglese I (MFN0590)
+* Matematica Discreta, Algebra e Geometria (INF0328)
+* Programmazione I (MFN0582)
+* Programmazione II (INF0330)
+* Ricerca Operativa (INF0327)
+
+Tuttavia, è importante notare che la lista degli insegnamenti può variare a seconda del raggruppamento e del corso di studio.
+
+================================================================================
+ID: Q005 | MODALITÀ: no_rag
+DOMANDA: Quali insegnamenti sono previsti al primo anno?
+RISPOSTA ATTESA: Analisi Matematica; Architettura degli Elaboratori; Fondamenti dell'Informatica; Lingua Inglese I; Matematica Discreta, Algebra e Geometria; Programmazione I; Programmazione II; Ricerca Operativa
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S006-C001
+RISPOSTA GENERATA: Ciao! Sono felice di aiutarti con le tue domande sull'università.
+
+Al primo anno, i programmi universitari solitamente includono una serie di insegnamenti fondamentali che forniscono una base solida per gli studi futuri. Ecco alcuni esempi di insegnamenti che potrebbero essere previsti al primo anno:
+
+* Matematica (algebra, analisi, geometria)
+* Fisica
+* Chimica
+* Biologia
+* Storia
+* Filosofia
+* Lingue straniere (ad esempio, inglese, francese, spagnolo)
+* Ingegneria (per i programmi di ingegneria)
+
+Tuttavia, è importante notare che i programmi di studio possono variare notevolmente a seconda del corso di studi e dell'università. Alcuni programmi potrebbero includere anche corsi di introduzione alla scienza, alla tecnologia, all'ingegneria e alla matematica (STEM), o corsi di formazione linguistica.
+
+Se hai specifiche domande sul tuo programma di studio, sarò felice di aiutarti ulteriormente!
+
+================================================================================
+ID: Q006 | MODALITÀ: rag
+DOMANDA: Quanti crediti vale Programmazione I?
+RISPOSTA ATTESA: 9 CFU
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S001-C001
+RISPOSTA GENERATA: Secondo le informazioni disponibili, Programmazione I vale 9 crediti.
+
+================================================================================
+ID: Q006 | MODALITÀ: no_rag
+DOMANDA: Quanti crediti vale Programmazione I?
+RISPOSTA ATTESA: 9 CFU
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S001-C001
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa su quanti crediti valga Programmazione I. La quantità di crediti attribuiti a un corso può variare a seconda dell'istituzione universitaria e del corso in questione. Se desideri sapere la quantità di crediti attribuiti a Programmazione I presso una specifica università, ti consiglio di contattare direttamente l'istituzione o consultare il sito web ufficiale per avere informazioni aggiornate.
+
+================================================================================
+ID: Q007 | MODALITÀ: rag
+DOMANDA: Quando inizia il primo periodo didattico?
+RISPOSTA ATTESA: 28 settembre 2026
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S005-C001
+RISPOSTA GENERATA: Secondo il calendario didattico, il primo periodo didattico inizia il lunedì 28 settembre 2026 e termina il venerdì 15 gennaio 2027.
+
+================================================================================
+ID: Q007 | MODALITÀ: no_rag
+DOMANDA: Quando inizia il primo periodo didattico?
+RISPOSTA ATTESA: 28 settembre 2026
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S005-C001
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa al tuo quesito. Il primo periodo didattico può variare a seconda dell'istituzione scolastica, del tipo di corso e della data di inizio dell'anno accademico. Se desideri sapere la data esatta del primo periodo didattico, ti consiglio di contattare direttamente l'istituzione scolastica o il dipartimento universitario che hai scelto.
+
+================================================================================
+ID: Q008 | MODALITÀ: rag
+DOMANDA: Quando termina il secondo periodo didattico?
+RISPOSTA ATTESA: 4 giugno 2027
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S005-C001
+RISPOSTA GENERATA: Secondo il calendario didattico, il secondo periodo didattico termina il venerdì 4 giugno 2027.
+
+================================================================================
+ID: Q008 | MODALITÀ: no_rag
+DOMANDA: Quando termina il secondo periodo didattico?
+RISPOSTA ATTESA: 4 giugno 2027
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S005-C001
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa al tuo quesito. La data di fine del secondo periodo didattico può variare a seconda dell'istituzione scolastica, dell'università o dell'istituto di formazione. Se desideri sapere la data esatta, ti consiglio di contattare direttamente l'istituzione scolastica o l'università per chiedere informazioni aggiornate.
+
+================================================================================
+ID: Q009 | MODALITÀ: rag
+DOMANDA: Serve avere già competenze informatiche per iscriversi?
+RISPOSTA ATTESA: No, non occorrono competenze informatiche precedenti
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S003-C001
+RISPOSTA GENERATA: Secondo la fonte [FONTE 1], per frequentare il corso di laurea triennale in Informatica non sono necessarie competenze informatiche precedenti, ma è indispensabile avere propensione al ragionamento logico e una buona preparazione nelle materie di base della scuola media superiore (in primo luogo matematica).
+
+Inoltre, la fonte [FONTE 2] specifica che per iscriverti al corso è necessario sostenere il TOLC (Test Online del Consorzio CISIA), che è un test di accertamento dei requisiti minimi. Non è specificato se le competenze informatiche siano richieste per sostenere il test.
+
+Tuttavia, la fonte [FONTE 3] specifica che per procedere all'iscrizione al corso, devi registrarti al portale UniTo e effettuare la pre-iscrizione al raggruppamento di tua scelta. La fonte [FONTE 4] non fornisce informazioni specifiche sulla necessità di competenze informatiche per iscriversi.
+
+In sintesi, non è chiaro se le competenze informatiche siano richieste per iscriversi al corso di laurea triennale in Informatica. È necessario sostenere il TOLC per iscrivarsi, ma non è specificato se le competenze informatiche siano richieste per sostenere il test.
+
+================================================================================
+ID: Q009 | MODALITÀ: no_rag
+DOMANDA: Serve avere già competenze informatiche per iscriversi?
+RISPOSTA ATTESA: No, non occorrono competenze informatiche precedenti
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S003-C001
+RISPOSTA GENERATA: Non ho informazioni sufficienti per rispondere a questa domanda in modo preciso. L'esigenza di competenze informatiche per iscriversi a un corso universitario può variare a seconda dell'istituzione e del corso specifico. In generale, alcuni corsi potrebbero richiedere competenze informatiche, mentre altri potrebbero non esserne necessarie. È meglio contattare direttamente l'istituzione universitaria per avere informazioni più precise.
+
+================================================================================
+ID: Q010 | MODALITÀ: rag
+DOMANDA: Come vengono suddivisi i canali e i turni di laboratorio?
+RISPOSTA ATTESA: Primo anno: canale A cognomi A-D, laboratori A1 dispari e A2 pari; canale B cognomi E-O, laboratori B1 dispari e B2 pari; canale C cognomi P-Z, laboratori C1 dispari e C2 pari. Secondo/terzo anno: canale A cognomi A-K, laboratori 1 dispari e 2 pari; canale B cognomi L-Z, laboratori 3 dispari e 4 pari.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S004-C001
+RISPOSTA GENERATA: Secondo la sezione "Insegnamenti" del sito web dell'Università di Torino, i canali e i turni di laboratorio vengono suddivisi in base al cognomo degli studenti e al turno di laboratorio come segue:
+
+* Primo anno:
+ + Canale A: cognomi A-D, turni di Laboratorio A1 (matricola dispari) e A2 (matricola pari)
+ + Canale B: cognomi E-O, turni di Laboratorio B1 (matricola dispari) e B2 (matricola pari)
+ + Canale C: cognomi P-Z, turni di Laboratorio C1 (matricola dispari) e C2 (matricola pari)
+* Secondo/terzo anno:
+ + Canale A: cognomi A-K, turni di Laboratorio 1 (matricola dispari) e 2 (matricola pari)
+ + Canale B: cognomi L-Z, turni di Laboratorio 3 (matricola dispari) e 4 (matricola pari)
+
+(FONTE 1)
+
+================================================================================
+ID: Q010 | MODALITÀ: no_rag
+DOMANDA: Come vengono suddivisi i canali e i turni di laboratorio?
+RISPOSTA ATTESA: Primo anno: canale A cognomi A-D, laboratori A1 dispari e A2 pari; canale B cognomi E-O, laboratori B1 dispari e B2 pari; canale C cognomi P-Z, laboratori C1 dispari e C2 pari. Secondo/terzo anno: canale A cognomi A-K, laboratori 1 dispari e 2 pari; canale B cognomi L-Z, laboratori 3 dispari e 4 pari.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S004-C001
+RISPOSTA GENERATA: Ciao! Sono felice di aiutarti con la tua domanda.
+
+I canali e i turni di laboratorio vengono suddivisi in base alle esigenze dell'istituto e alle preferenze degli studenti. Ecco alcune delle modalità comuni:
+
+1. **Canali**: i laboratori vengono suddivisi in canali, ciascuno con un proprio professoore o supervisore. Il canale è una sezione specifica del laboratorio che si concentra su un determinato argomento o materia.
+2. **Turni**: i laboratori vengono suddivisi in turni, ciascuno con un proprio orario di apertura. I turni possono essere diurni (matinero o pomeridiano) o serali.
+3. **Gruppi di lavoro**: alcuni laboratori sono suddivisi in gruppi di lavoro, ciascuno con un proprio leader o responsabile. Questo aiuta a promuovere la collaborazione e la responsabilità tra gli studenti.
+4. **Specchi**: alcuni laboratori hanno anche uno "specchio" o un altro canale che si svolge contemporaneamente al canale principale. Ciò consente agli studenti di scambiare esperienze e conoscenze con altri studenti.
+
+Tuttavia, devo notare che la struttura esatta dei canali e dei turni di laboratorio può variare a seconda dell'istituto e del corso di studio. Se hai bisogno di informazioni più specifiche, ti consiglio di contattare il tuo professore o l'amministrazione dell'istituto.
+
+================================================================================
+ID: Q011 | MODALITÀ: rag
+DOMANDA: Se non raggiungo 5 punti in matematica al TOLC-S, posso comunque iscrivermi?
+RISPOSTA ATTESA: Sì, ma vengono assegnati OFA in Matematica da assolvere entro il primo anno.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S003-C002
+RISPOSTA GENERATA: Secondo le informazioni disponibili, se non raggiungi 5 punti in matematica al TOLC-S, non puoi iscriverti al corso di laurea triennale ad accesso libero. In questo caso, sarà necessario assolvere agli Obblighi Formativi Aggiuntivi (OFA) in Matematica entro il primo anno di corso.
+
+================================================================================
+ID: Q011 | MODALITÀ: no_rag
+DOMANDA: Se non raggiungo 5 punti in matematica al TOLC-S, posso comunque iscrivermi?
+RISPOSTA ATTESA: Sì, ma vengono assegnati OFA in Matematica da assolvere entro il primo anno.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S003-C002
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa alla tua domanda. Il TOLC-S (Testo di Orientamento Linguistico e Matematico per gli Studenti di Scuola Secondaria di Istruzione Superiore) è un esame che varia da anno a anno e da scuola a scuola, quindi le condizioni di iscrizione possono variare notevolmente. Per avere informazioni più precise, ti consiglio di contattare direttamente l'istituzione scolastica o l'ufficio di orientamento universitario che ti interessa.
+
+================================================================================
+ID: Q012 | MODALITÀ: rag
+DOMANDA: Posso sostenere il TOLC-S da casa?
+RISPOSTA ATTESA: Sì, è prevista la modalità TOLC@CASA.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C002
+RISPOSTA GENERATA: Sì, puoi sostenere il TOLC-S da casa, ma è necessario effettuare la pre-iscrizione al raggruppamento corrispondente al TOLC sostenuto.
+
+================================================================================
+ID: Q012 | MODALITÀ: no_rag
+DOMANDA: Posso sostenere il TOLC-S da casa?
+RISPOSTA ATTESA: Sì, è prevista la modalità TOLC@CASA.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C002
+RISPOSTA GENERATA: Non ho informazioni sufficienti per rispondere alla tua domanda. Il TOLC-S (Testo di Orientamento Linguistico e Cognitivo per la Scuola Secondaria) è un esame universitario, ma non ho informazioni specifiche sulla possibilità di sostenere il testo da casa. Se desideri sapere più su questo argomento, ti consiglio di contattare direttamente l'Università o il Centro di Orientamento.
+
+================================================================================
+ID: Q013 | MODALITÀ: rag
+DOMANDA: Se sostengo più volte il TOLC-S, quale punteggio viene considerato?
+RISPOSTA ATTESA: Viene considerato il punteggio dell'ultimo TOLC sostenuto, non quello migliore.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C003
+RISPOSTA GENERATA: Secondo le informazioni disponibili nelle fonti, se sostengi più volte il TOLC-S, il punteggio dell'ultimo TOLC sostenuto viene considerato per l'iscrizione al corso.
+
+================================================================================
+ID: Q013 | MODALITÀ: no_rag
+DOMANDA: Se sostengo più volte il TOLC-S, quale punteggio viene considerato?
+RISPOSTA ATTESA: Viene considerato il punteggio dell'ultimo TOLC sostenuto, non quello migliore.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C003
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa al tuo quesito. Il punteggio considerato per il TOLC-S (Test di Orientamento Linguistico e Culturale per gli Studenti stranieri) può variare a seconda dell'istituzione o dell'organizzazione che lo utilizza. Se desideri informazioni più dettagliate, ti consiglio di consultare direttamente l'istituzione o l'organizzazione che utilizza il test.
+
+================================================================================
+ID: Q014 | MODALITÀ: rag
+DOMANDA: Quanto costa sostenere il TOLC e quando devo preiscrivermi?
+RISPOSTA ATTESA: Il TOLC costa 35 euro. La preiscrizione è aperta dal 1 luglio 2026 alle 9:30 al 19 ottobre 2026 alle 15:00.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C001
+RISPOSTA GENERATA: Secondo la fonte [FONTE 2], il TOLC (Test OnLine CISIA) è un test per verificare il livello di conoscenze e di preparazione delle future matricole. Per l'iscrizione al corso di studio ad accesso libero, devi sostenere il TOLC - Test online del Consorzio CISIA (a meno di non possedere i requisiti e rientrare nella casistica di coloro che sono esonerati).
+
+Il costo del TOLC è di 35 Euro al CISIA, come indicato nella fonte [FONTE 2].
+
+Per quanto riguarda la data di pre-iscrizione, la fonte [FONTE 1] indica che devi effettuare la pre-iscrizione al raggruppamento di tua scelta a partire dal 1 luglio 2026, ore 9.30 e fino al 19 ottobre 2026, ore 15.
+
+================================================================================
+ID: Q014 | MODALITÀ: no_rag
+DOMANDA: Quanto costa sostenere il TOLC e quando devo preiscrivermi?
+RISPOSTA ATTESA: Il TOLC costa 35 euro. La preiscrizione è aperta dal 1 luglio 2026 alle 9:30 al 19 ottobre 2026 alle 15:00.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C001
+RISPOSTA GENERATA: Ciao! Sono felice di aiutarti con la tua domanda.
+
+Il TOLC (Tirocinio Operativo di Laurea Complessa) è un programma di tirocinio obbligatorio per gli studenti universitari italiani che studiano una laurea complessa. La durata del TOLC varia a seconda del corso di studio, ma in generale dura 6-12 mesi.
+
+Quanto al costo, il TOLC è gratuito per gli studenti universitari italiani. Non ci sono spese di iscrizione o di tirocinio che debbano essere pagate.
+
+Quando devo preiscrivermi al TOLC? La scelta del TOLC deve essere effettuata entro la fine del primo semestre universitario. Gli studenti devono scegliere un'azienda o un'organizzazione che offra un'opportunità di tirocinio e presentare la propria domanda di partecipazione entro la data di scadenza stabilita dall'Università.
+
+Spero di aver risposto alla tua domanda! Se hai altre domande, non esitare a chiedere.
+
+================================================================================
+ID: Q015 | MODALITÀ: rag
+DOMANDA: Ho appena finito le superiori e non so programmare: posso iscrivermi a Informatica?
+RISPOSTA ATTESA: Non sono richieste competenze informatiche precedenti. Occorre rispettare i requisiti e la procedura di ammissione.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S003-C001
+RISPOSTA GENERATA: Sì, puoi iscriverti al corso di laurea triennale in Informatica. Secondo la fonte [FONTE 1], per accedere al corso di laurea occorre essere in possesso di un diploma di scuola secondaria superiore di durata quinquennale o titolo ad esso equivalente, riconosciuto idoneo ai sensi delle leggi vigenti. Non è necessario avere competenze informatiche precedenti, ma è indispensabile avere propensione al ragionamento logico e una buona preparazione nelle materie di base della scuola media superiore (in primo luogo matematica).
+
+Inoltre, secondo la fonte [FONTE 3], il corso di laurea in Informatica comprende i seguenti insegnamenti per il primo anno:
+
+* Analisi Matematica
+* Architectura degli Elaboratori
+* Fondamenti dell'Informatica
+* Lingua Inglese I
+* Matematica Discreta, Algebra e Geometria
+* Programmazione I
+* Programmazione II
+* Ricerca Operativa
+
+Tuttavia, non è possibile iscriversi al corso senza aver sostenuto il TARM (Test di Accertamento dei Requisiti Minimi) e aver effettuato la pre-iscrizione al raggruppamento corrispondente al TOLC sostenuto.
+
+================================================================================
+ID: Q015 | MODALITÀ: no_rag
+DOMANDA: Ho appena finito le superiori e non so programmare: posso iscrivermi a Informatica?
+RISPOSTA ATTESA: Non sono richieste competenze informatiche precedenti. Occorre rispettare i requisiti e la procedura di ammissione.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S003-C001
+RISPOSTA GENERATA: Certo, puoi iscriverti a Informatica!
+
+Informatica è una disciplina molto ampia e versatile che copre una vasta gamma di argomenti, come programmazione, algoritmi, reti, database, sicurezza informatica e molto altro.
+
+Se non hai esperienza di programmazione, non c'è problema! Molti corsi di laurea in Informatica includono corsi di programmazione come Python, Java, C++ o JavaScript, che ti aiuteranno a imparare le basi.
+
+Inoltre, molti studenti che iniziano a studiare Informatica non hanno esperienza di programmazione, ma imparano rapidamente e si trasformano in esperti.
+
+Tuttavia, è importante considerare che alcuni corsi di laurea in Informatica possono richiedere una certa base di conoscenze matematiche e logiche, quindi potresti dover ripassare alcuni concetti prima di iniziare.
+
+Se sei interessato a studiare Informatica, ti consiglio di:
+
+* Controllare i requisiti di ammissione per il corso di laurea che ti interessa
+* Chiedere consiglio a un insegnante o a un consulente universitario
+* Esplorare i corsi di programmazione e le risorse online che ti aiuteranno a imparare le basi
+
+In generale, se sei disposto a lavorare sodo e a imparare, puoi avere successo anche senza esperienza di programmazione.
+
+================================================================================
+ID: Q016 | MODALITÀ: rag
+DOMANDA: Se il mio cognome inizia per R e ho una matricola pari, in quale canale e turno di laboratorio sarò al primo anno?
+RISPOSTA ATTESA: Canale C, turno C2.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S004-C001
+RISPOSTA GENERATA: Non sono riuscito a trovare informazioni specifiche su quale canale e turno di laboratorio sarai al primo anno, dato che il tuo cognome inizia per R e hai una matricola pari.
+
+================================================================================
+ID: Q016 | MODALITÀ: no_rag
+DOMANDA: Se il mio cognome inizia per R e ho una matricola pari, in quale canale e turno di laboratorio sarò al primo anno?
+RISPOSTA ATTESA: Canale C, turno C2.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S004-C001
+RISPOSTA GENERATA: Mi dispiace, ma non ho informazioni sufficienti per fornire una risposta precisa. La matricola e il cognome sono informazioni personali che possono variare a seconda dell'istituzione universitaria e del corso di studio. Non posso fornire informazioni specifiche su un canale e un turno di laboratorio senza conoscere le specifiche dell'università e del corso di studio.
+
+================================================================================
+ID: Q017 | MODALITÀ: rag
+DOMANDA: Quando iniziano le lezioni?
+RISPOSTA ATTESA: Il primo periodo didattico inizia il 28 settembre 2026.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S005-C001
+RISPOSTA GENERATA: Secondo il calendario didattico, le lezioni iniziano il primo periodo didattico, che va da lunedì 28 settembre 2026 a venerdì 15 gennaio 2027.
+
+================================================================================
+ID: Q017 | MODALITÀ: no_rag
+DOMANDA: Quando iniziano le lezioni?
+RISPOSTA ATTESA: Il primo periodo didattico inizia il 28 settembre 2026.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S005-C001
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa, poiché le date di inizio delle lezioni possono variare a seconda dell'istituzione universitaria, del corso di studi e dell'anno accademico. Tuttavia, in generale, le lezioni universitarie solitamente iniziano a settembre, ma è meglio controllare con l'istituzione universitaria per avere informazioni più precise.
+
+================================================================================
+ID: Q018 | MODALITÀ: rag
+DOMANDA: Quanto guadagna mediamente un laureato in Informatica a UniTo?
+RISPOSTA ATTESA: Informazione non disponibile nelle fonti del corpus.
+COMPORTAMENTO ATTESO: abstain
+FONTI ATTESE: 
+RISPOSTA GENERATA: Non sono riuscito a trovare informazioni sulla retribuzione media di un laureato in Informatica presso l'Università di Torino (UniTo).
+
+================================================================================
+ID: Q018 | MODALITÀ: no_rag
+DOMANDA: Quanto guadagna mediamente un laureato in Informatica a UniTo?
+RISPOSTA ATTESA: Informazione non disponibile nelle fonti del corpus.
+COMPORTAMENTO ATTESO: abstain
+FONTI ATTESE: 
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa al tuo quesito. Il guadagno medio di un laureato in Informatica presso l'Università degli Studi di Torino (UniTo) può variare notevolmente in base a diversi fattori, come la specializzazione scelta, l'esperienza lavorativa, la località di lavoro e la domanda del mercato del lavoro.
+
+Tuttavia, posso fornirti alcune informazioni generali sul mercato del lavoro per gli ingegneri informatici in Italia. Secondo dati del Ministero del Lavoro e della Salute pubblica, il salario medio annuo per un ingegnere informatico in Italia è di circa 55.000-60.000 euro.
+
+Tuttavia, è importante notare che questi dati possono variare notevolmente in base alle esigenze specifiche dell'azienda e alla località di lavoro. Inoltre, è anche importante considerare che il guadagno medio può variare anche in base alla specializzazione scelta, ad esempio, un ingegnere informatico con esperienza in settori come la cybersecurity o la big data può avere un guadagno più alto rispetto a uno che lavora in altri settori.
+
+Se desideri avere informazioni più precise, ti consiglio di contattare direttamente l'Università degli Studi di Torino o di cercare informazioni su siti web di reclutamento o di organizzazioni di settore.
+
+================================================================================
+ID: Q019 | MODALITÀ: rag
+DOMANDA: Se non pago la prima rata entro la scadenza, posso comunque completare l'iscrizione?
+RISPOSTA ATTESA: No. Il pagamento tardivo della prima rata impedisce l'iscrizione per l'anno accademico corrente.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C009
+RISPOSTA GENERATA: Non è possibile completare l'iscrizione se non si è pagato la prima rata entro la scadenza.
+
+================================================================================
+ID: Q019 | MODALITÀ: no_rag
+DOMANDA: Se non pago la prima rata entro la scadenza, posso comunque completare l'iscrizione?
+RISPOSTA ATTESA: No. Il pagamento tardivo della prima rata impedisce l'iscrizione per l'anno accademico corrente.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S002-C009
+RISPOSTA GENERATA: Non ho informazioni sufficienti per rispondere alla tua domanda. La politica di iscrizione e le condizioni di pagamento possono variare notevolmente da un istituto di istruzione all'altro. Ti consiglio di contattare direttamente l'istituto di istruzione per avere informazioni più precise e aggiornate sulla loro politica di iscrizione e sulle conseguenze di non pagare la prima rata.
+
+================================================================================
+ID: Q020 | MODALITÀ: rag
+DOMANDA: Quanti CFU valgono complessivamente Programmazione I e Programmazione II?
+RISPOSTA ATTESA: 15 CFU complessivi: 9 CFU per Programmazione I e 6 CFU per Programmazione II.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S001-C001
+RISPOSTA GENERATA: Secondo le informazioni fornite dalle fonti, i CFU totali di Programmazione I e Programmazione II sono di 9 + 6 = 15 CFU.
+
+Inoltre, secondo la Fonte 4, i CFU totali di Programmazione I e Programmazione II sono di 9 + 6 = 15 CFU.
+
+La risposta è quindi 15 CFU.
+
+================================================================================
+ID: Q020 | MODALITÀ: no_rag
+DOMANDA: Quanti CFU valgono complessivamente Programmazione I e Programmazione II?
+RISPOSTA ATTESA: 15 CFU complessivi: 9 CFU per Programmazione I e 6 CFU per Programmazione II.
+COMPORTAMENTO ATTESO: answer
+FONTI ATTESE: S001-C001
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa su quanti CFU valgono complessivamente Programmazione I e Programmazione II.
+
+================================================================================
+ID: Q021 | MODALITÀ: rag
+DOMANDA: Come si calcola il voto finale di laurea in Informatica all'Università di Torino?
+RISPOSTA ATTESA: Le fonti disponibili non specificano le regole di calcolo del voto finale.
+COMPORTAMENTO ATTESO: abstain
+FONTI ATTESE: 
+RISPOSTA GENERATA: Non sono riuscito a trovare informazioni sulla formula utilizzata per calcolare il voto finale di laurea in Informatica all'Università di Torino.
+
+================================================================================
+ID: Q021 | MODALITÀ: no_rag
+DOMANDA: Come si calcola il voto finale di laurea in Informatica all'Università di Torino?
+RISPOSTA ATTESA: Le fonti disponibili non specificano le regole di calcolo del voto finale.
+COMPORTAMENTO ATTESO: abstain
+FONTI ATTESE: 
+RISPOSTA GENERATA: Non ho informazioni sufficienti per fornire una risposta precisa su come si calcola il voto finale di laurea in Informatica all'Università di Torino. La procedura di calcolo dei voti può variare a seconda dell'istituzione e del corso di studi specifico.
+
+Tuttavia, posso suggerire di contattare direttamente l'Università di Torino o il dipartimento di Informatica per chiedere informazioni più dettagliate sulla procedura di calcolo dei voti finale. Saranno in grado di fornirti le informazioni più aggiornate e precise.
+
+================================================================================
+ID: Q022 | MODALITÀ: rag
+DOMANDA: Come funziona il tirocinio per gli studenti di Informatica? È obbligatorio?
+RISPOSTA ATTESA: Le fonti disponibili non permettono di stabilire procedure e obbligatorietà del tirocinio.
+COMPORTAMENTO ATTESO: abstain
+FONTI ATTESE: 
+RISPOSTA GENERATA: Non sono presenti informazioni specifiche sul tirocinio per gli studenti di Informatica nelle fonti fornite.
+
+================================================================================
+ID: Q022 | MODALITÀ: no_rag
+DOMANDA: Come funziona il tirocinio per gli studenti di Informatica? È obbligatorio?
+RISPOSTA ATTESA: Le fonti disponibili non permettono di stabilire procedure e obbligatorietà del tirocinio.
+COMPORTAMENTO ATTESO: abstain
+FONTI ATTESE: 
+RISPOSTA GENERATA: Ciao! Sono felice di aiutarti con la tua domanda.
+
+Il tirocinio per gli studenti di Informatica è un'esperienza pratica che si svolge durante l'ultimo anno di studi o, in alcuni casi, durante il secondo o terzo anno. L'obiettivo principale del tirocinio è fornire agli studenti una esperienza reale e applicata nel campo dell'Informatica, permettendo loro di acquisire competenze pratiche e di sviluppare la loro autonomia professionale.
+
+Il tirocinio può variare a seconda dell'università e del corso di studi, ma in generale prevede che gli studenti lavorino in un'azienda o in un ente pubblico, sotto la supervisione di un professionista del settore. Durante il tirocinio, gli studenti svolgono compiti e progetti reali, che possono includere lo sviluppo di software, la gestione di database, la creazione di sistemi di informatica, ecc.
+
+Se non è obbligatorio, il tirocinio è spesso richiesto come condizione per la laurea in Informatica. In Italia, ad esempio, la legge richiede che gli studenti di Informatica svolgano un tirocinio di almeno 6 mesi presso un'azienda o un ente pubblico.
+
+In sintesi, il tirocinio per gli studenti di Informatica è un'esperienza pratica che aiuta gli studenti a acquisire competenze pratiche e a sviluppare la loro autonomia professionale. Se non è obbligatorio, è spesso richiesto come condizione per la laurea in Informatica.
+
+================================================================================
+ID: Q023 | MODALITÀ: rag
+DOMANDA: Quali sono le principali differenze tra studiare Informatica a UniTo e Ingegneria Informatica al PoliTo?
+RISPOSTA ATTESA: Il corpus non contiene informazioni sufficienti per un confronto documentato tra i due corsi.
+COMPORTAMENTO ATTESO: abstain
+FONTI ATTESE: 
+RISPOSTA GENERATA: Non sono riuscito a trovare informazioni specifiche su Ingegneria Informatica al PoliTo. Tuttavia, posso fornirti informazioni sulla differenza tra studiare Informatica a UniTo e altre discipline correlate.
+
+Informatica a UniTo è un corso di laurea triennale ad accesso libero che offre una formazione completa in informatica, coprendo argomenti come programmazione, algoritmi, reti, database, sicurezza e ottimizzazione. Il corso è progettato per fornire una base solida in informatica e preparare gli studenti per una carriera in questo campo.
+
+Se stai cercando informazioni su Ingegneria Informatica, potresti voler considerare la seguente differenza:
+
+Ingegneria Informatica è una disciplina che si concentra sull'applicazione delle tecnologie informatiche per risolvere problemi tecnici e ingegnerili. A differenza di Informatica, che si concentra più sulla teoria e sulla programmazione, Ingegneria Informatica si concentra più sull'applicazione pratica delle tecnologie informatiche per risolvere problemi specifici in un contesto industriale o tecnologico.
+
+Se stai cercando informazioni su Ingegneria Informatica al PoliTo, potresti voler controllare il sito web del PoliTo per avere informazioni aggiornate sul corso e sulle sue differenze rispetto ad altre discipline correlate.
+
+================================================================================
+ID: Q023 | MODALITÀ: no_rag
+DOMANDA: Quali sono le principali differenze tra studiare Informatica a UniTo e Ingegneria Informatica al PoliTo?
+RISPOSTA ATTESA: Il corpus non contiene informazioni sufficienti per un confronto documentato tra i due corsi.
+COMPORTAMENTO ATTESO: abstain
+FONTI ATTESE: 
+RISPOSTA GENERATA: Sono felice di aiutarti con la tua domanda!
+
+La differenza principale tra studiare Informatica all'Università degli Studi di Torino (UniTo) e Ingegneria Informatica al Politecnico di Torino (PoliTo) risiede nella natura della propria formazione.
+
+**Informatica all'UniTo:**
+
+* La facoltà di Informatica dell'UniTo si concentra sulla formazione teorica e applicativa dell'informatica, con un focus sulla programmazione, sulla teoria dei calcolatori, sulla logica e sulla matematica.
+* I studenti possono scegliere tra diverse aree di specializzazione, come la programmazione, la rete, la sicurezza informatica, ecc.
+* La formazione è più orientata alla ricerca e al lavoro accademico.
+
+**Ingegneria Informatica al PoliTo:**
+
+* La facoltà di Ingegneria Informatica del PoliTo si concentra sulla formazione pratica e applicativa dell'ingegneria informatica, con un focus sulla progettazione, sulla sviluppo di software, sulla gestione di progetti e sulla gestione di team.
+* I studenti imparano a progettare e sviluppare soluzioni informatiche per problemi reali, con un focus sulla soluzione di problemi pratici.
+* La formazione è più orientata al lavoro nel settore industriale e alla formazione professionale.
+
+In sintesi, se sei interessato a una formazione teorica e applicativa dell'informatica, l'UniTo potrebbe essere la scelta giusta. Se preferisci una formazione pratica e applicativa dell'ingegneria informatica, il PoliTo potrebbe essere la scelta giusta.
+
