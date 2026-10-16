@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html class="istanza-classe istanza-ey15 db-home pg-View" lang="it">
+<head>
+<title>Insegnamenti - Corso di laurea in Informatica - Università degli Studi di Torino</title>
+<meta charset="UTF-8">
+<!-- Google / Search Engine Tags
+<meta itemprop="name" content="Per Anno di Immatricolazione">
+<meta itemprop="description" content="">
+<meta itemprop="image" content="https://cdn.unito.it/unito-loghi/logo_sigillo.svg"> -->
+<!-- Facebook Meta Tags -->
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content='Corso di laurea in Informatica'>
+<meta property="og:url" content="https://laurea.informatica.unito.it/do/home.pl/View?doc=Insegnamenti.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Per Anno di Immatricolazione">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://cdn.unito.it/unito-loghi/logo_sigillo.svg">
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Per Anno di Immatricolazione">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://cdn.unito.it/unito-loghi/logo_sigillo.svg">
+<meta name="keywords" content="università, didattica, laurea, docenti, corsi di insegnamento, orario lezioni, avvisi studenti, appelli, aule, iscrizione esami, newsletter, verbali, tesi disponibili, wap, Università degli Studi di Torino">
+<meta name="author" content="Università degli Studi di Torino">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- inizio ///oscar # mod rb -->
+<!-- <link rel="shortcut icon" href="/logos/favicon.png"> -->
+<link type="image/png" href="https://cdn.unito.it/unito-loghi/favicon/favicon.png" rel="shortcut icon">
+<!-- fine ///oscar -->
+
+
+<!-- ///oscar elimiinazione css -->
+<!-- <link href="/css/themes/VERDE/stylesheet.css" rel="stylesheet" type="text/css">
+ <link href="/css/mycss/stylesheet.css" rel="stylesheet" type="text/css"> -->
+
+<link rel="stylesheet" type="text/css" href="/tools_sv/highslide/highslide.css">
+<link rel="stylesheet" type="text/css" href="/tools_sv/prototype/mydows/themes/bootstrap/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="/tools_sv/tiny_slider/tiny-slider.css">
+ 
+
+<!-- inizio ///oscar -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<!-- fine ///oscar -->
+
+<!-- @ Inserimento css Campusnet -->
+<link href="/css/campusnet2018/campusnet.css?upd=12052026" rel="stylesheet" />
+<!--  @ TEMA -->
+<link href="/css/themes/VERDE/tema.css" rel="stylesheet" />
+<!-- FINE TEMA -->
+<!-- REGOLE DI ISTANZA -->
+<link href="/css/mycss/stylesheet.css?upd=06062023" rel="stylesheet" type="text/css">
+
+
+<script>var Language="it";</script>
+<script src="/tools_sv/prototype/prototype.js"></script>
+<script src="/js/javascripts_sv.js?upd=04052023"></script>
+<script src="/tools_sv/prototype/mydows/mydows.js"></script>
+<script src="/tools_sv/prototype/scriptaculous/scriptaculous.js?load=effects,dragdrop,controls,slider,builder"></script>
+<script src="/tools_sv/prototype/custom.js"></script> <!-- add rb 24 -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
+ 	var $j = jQuery.noConflict();
+</script>
+<!-- rb 5 full-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
+
+<script src="/tools_sv/tablesort/tablesort.min.js"></script>
+<script src="/tools_sv/tiny_slider/tiny-slider.js"></script>
+<script src="/tools_sv/highslide/highslide.js"></script>
+<script src="/tools_sv/tooltip/tooltip.js"></script>
+<script src="/tools_sv/dropzone/dropzone.js"></script>
+<script src="/tools_sv/store/store.js"></script>
+<script src="/tools_sv/jquery-md5/jquery.md5.js"></script>		 
+
+
+<script>
+	var HelpBaseURL="/do/aiuto.pl";
+	//window.addEventListener('load', function() {FastClick.attach(document.body)}, false);
+	hs.graphicsDir = '/tools_sv/highslide/graphics/';
+	hs.showCredits = false;
+	hs.allowWidthReduction = true;
+	hs.allowHeightReduction = true;
+	hs.lang = hsLangPack();
+	Dropzone.autoDiscover = false;
+	var DBL_TAP_THRESHOLD = 300;
+</script>
+
+<!-- rb Modal -->
+<div class="modal fade" id="cookieModal" tabindex="-1" role="dialog" aria-labelledby="cookieModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cookieModalLabel">SELEZIONARE UNA CATEGORIA</h5> 
+        <button type="button" class="close"  data-bs-dismiss="modal" aria-label="Close">
+          <!--<span aria-hidden="true">&times;</span>Chiudi-->
+        </button>
+      </div>
+      <div class="modal-body">
+        Per effettuare la ricerca è necessario selezionare una <strong>categoria</strong> dalla tendina di ricerca.<br><br>
+		Per ricercare in tutto il sito è necessario modificare le impostazioni <a href="#" data-cc="c-settings"><strong>Cookie</strong></a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="paramsOkay" autofocus>Chiudi</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/tools_sv/tocca/Tocca.min.js"></script>
+<script>window.___gcfg = {lang: 'it', parsetags: 'explicit'}</script>
+<!-- <script src="https://apis.google.com/js/platform.js"></script> -->
+
+<!-- commentato 17062026 <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_7cd9673e6139f221b2e7f8c7d6f50c3b7'
+    });
+</script>-->
+
+
+
+</head>
+
+<body >
+<!-- Inizio top menu -->
+<!--[if lte IE 8]>
+    <h3 style="text-align:center; border:4px solid #cc0000;background-color:#ffff00;padding:20px>">Questo sito non supporta versioni di Internet Explorer inferiori alla 9.0.<br>Aggiorna il browser o utilizza Chrome, Firefox, Opera o Safari.<br></h3>
+<![endif]-->
+<div id="top_header" class="container p-0">
+<ul class="sky-top-menu sky-top-menu-relative sky-top-menu-response-to-icons nav nav-pills">
+	<!-- Unito -->
+
+	<!-- CERCA Unito -->
+
+
+	<!-- User menu -->
+		
+
+	<!-- User Menu -->
+</ul>
+</div>
+
+
+<!-- Fine top menu -->
+<script>
+
+Element.observe(window, 'load', function() {
+/*
+	$$("ul.sky-mega-menu li div", "ul.sky-mega-menu li ul","ul.sky-mega-menu li li", "ul.sky-mega-menu li li a").each(function(h) {
+		Element.writeAttribute(h, "tabindex","-1");
+	});
+
+
+	$$("ul.sky-mega-menu ul ").each(function(h) {
+		Element.writeAttribute(h, "aria-hidden","true");
+		Element.writeAttribute(h, "role","menu");
+	});
+	$$("ul.sky-mega-menu ul li ").each(function(h) {
+		Element.writeAttribute(h, "role","menuitem");
+	});
+*/
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+$j(document).ready(function() {
+	$j('ul.sky-mega-menu').setup_navigation();
+});
+
+var keyCodeMap = {
+        48:"0", 49:"1", 50:"2", 51:"3", 52:"4", 53:"5", 54:"6", 55:"7", 56:"8", 57:"9", 59:";",
+        65:"a", 66:"b", 67:"c", 68:"d", 69:"e", 70:"f", 71:"g", 72:"h", 73:"i", 74:"j", 75:"k", 76:"l",
+        77:"m", 78:"n", 79:"o", 80:"p", 81:"q", 82:"r", 83:"s", 84:"t", 85:"u", 86:"v", 87:"w", 88:"x", 89:"y", 90:"z",
+        96:"0", 97:"1", 98:"2", 99:"3", 100:"4", 101:"5", 102:"6", 103:"7", 104:"8", 105:"9"
+}
+
+
+$j.fn.setup_navigation = function(settings) {
+var menuBar = $j('ul.sky-mega-menu');
+
+	settings = jQuery.extend({
+		menuHoverClass: 'menu-open',
+	}, settings);
+
+	// Add ARIA role to menubar and menu items
+
+	menuBar.attr('role', 'menubar').find('li').attr('role', 'menuitem');
+
+	var top_level_links = menuBar.find('li > a');
+
+
+	// Set tabIndex to -1 so that top_level_links can't receive focus until menu is open
+	$j(top_level_links).next('div').find('ul')
+		.attr('data-test','true')
+		.attr({ 'aria-hidden': 'true', 'role': 'menu' })
+		.find('a')
+			.attr('tabIndex',-1);
+
+	// Adding aria-haspopup for appropriate items
+	$j(top_level_links).each(function(){
+		if($j(this).next('div').find('ul').length > 0)
+			$j(this).parent('li').attr('aria-haspopup', 'true');
+	});
+
+
+	// $j(top_level_links).on("click focus mouseover", function(){
+	 $j(top_level_links).on("click focus", function(){
+	 	$j(this).next("div")
+	 		.removeClass(settings.menuHoverClass)
+	 			.closest('ul')
+	 			.attr('aria-hidden', 'false')
+	 				.find('.'+settings.menuHoverClass)
+	 					.attr('aria-hidden', 'true')
+	 					.removeClass(settings.menuHoverClass)
+	 						.find('a')
+	 							.attr('tabIndex',-1);
+
+	 	$j(this).next("div")
+	 		.addClass(settings.menuHoverClass)
+	 			.next('ul')
+	 				.attr('aria-hidden', 'false')
+	 				.addClass(settings.menuHoverClass)
+	 				.find('a').attr('tabIndex',0);
+	 });
+
+
+
+	// Bind arrow keys for navigation
+	$j(top_level_links).keydown(function(e){
+
+	console.log(e.keyCode, this);
+
+		if(e.keyCode == 37) { // left
+		console.log("left");
+			e.preventDefault();
+			// This is the first item
+			if($j(this).parent('li').prev('li').length == 0) {
+				$j(this).parents('ul').find('> li').last().find('a').first().focus();
+			} else {
+				$j(this).parent('li').prev('li').find('a').first().focus();
+			}
+		} else if(e.keyCode == 38) { // up
+			console.log("up");
+			e.preventDefault();
+			if($j(this).parent('li').find('ul').length > 0) {
+				$j(this).parent('li').find('ul')
+					.attr('aria-hidden', 'false')
+					.addClass(settings.menuHoverClass)
+					.find('a').attr('tabIndex',0)
+						.last().focus();
+			}
+		} else if(e.keyCode == 39) { // right
+			console.log("right");
+			e.preventDefault();
+			// This is the last item
+			if($j(this).parent('li').next('li').length == 0) {
+				console.log(1);
+				$j(this).parents('ul').find('> li').first().find('a').first().focus();
+			} else {
+				// verifico che questo link abbia dei livelli sottostasti
+				if ($j(this).parent('li').find('div ul').length == 0) // non ci sono figli
+					{
+						$j(this).parent('li').next('li').find('a').first().focus();
+						console.log(2);
+					}
+					else { // ci sono figli...
+						// rendere visibile il sottomenu
+						$j(this).parent('li').find(".grid-container3, ul").addClass("menu-open");
+						$j(this).parent('li').find("div ul li:first-of-type a").focus();
+
+						// dare il focus al primo elemento	
+					}
+
+
+				// 
+			}
+		} else if(e.keyCode == 40) { // down
+			console.log("down");
+			e.preventDefault();
+			if($j(this).parent('li').find('div').find('ul').length > 0) {
+				$j(this).parent('li').find('div').find('ul')
+					.attr('aria-hidden', 'false')
+					.addClass(settings.menuHoverClass)
+					.find('a').attr('tabIndex',0)
+						.first().focus();
+			}
+		} else if(e.keyCode == 13 || e.keyCode == 32) { // enter or space
+			// If submenu is hidden, open it
+			/* QUESTA CASISTICA E' DISABILITATA: ALLA PRESSIONE DI ENTER, VOGLIAMO CHE IL LINK SI ATTIVI
+			e.preventDefault();
+			$j(this).parent('li').find('div').find('ul[aria-hidden=true]')
+					.attr('aria-hidden', 'false')
+					.addClass(settings.menuHoverClass)
+					.find('a').attr('tabIndex',0)
+						.first().focus(); */
+		} else if(e.keyCode == 27) { // escape
+			e.preventDefault();
+			// $j('.'+settings.menuHoverClass)
+			$j('.'+settings)
+				.attr('aria-hidden', 'true')
+				.removeClass(settings.menuHoverClass)
+				.find('a')
+					.attr('tabIndex',-1);
+		} else {
+			$j(this).parent('li').find('div').find('ul[aria-hidden=false] a').each(function(){
+				if($j(this).text().substring(0,1).toLowerCase() == keyCodeMap[e.keyCode]) {
+					$j(this).focus();
+					return false;
+				}
+			});
+		}
+	});
+
+
+	var links = $j(top_level_links).parent('li').find('ul').find('a');
+	$j(links).keydown(function(e){
+		if(e.keyCode == 38) {
+			e.preventDefault();
+			// This is the first item
+			if($j(this).parent('li').prev('li').length == 0) {
+				$j(this).parents('ul').parents('li').find('a').first().focus();
+			} else {
+				$j(this).parent('li').prev('li').find('a').first().focus();
+			}
+		} else if(e.keyCode == 40) {
+			e.preventDefault();
+			if($j(this).parent('li').next('li').length == 0) {
+				$j(this).parents('ul').parents('li').find('a').first().focus();
+			} else {
+				$j(this).parent('li').next('li').find('a').first().focus();
+			}
+		} else if(e.keyCode == 27 || e.keyCode == 37) {
+			e.preventDefault();
+			$j(this)
+				.parents('ul').first()
+					.prev('a').focus()
+					.parents('ul').first().find('.'+settings.menuHoverClass)
+						.attr('aria-hidden', 'true')
+						.removeClass(settings.menuHoverClass)
+						.find('a')
+							.attr('tabIndex',-1);
+		} else if(e.keyCode == 32) {
+			e.preventDefault();
+			window.location = $j(this).attr('href');
+		} else {
+			var found = false;
+			$j(this).parent('li').nextAll('li').find('a').each(function(){
+				if($j(this).text().substring(0,1).toLowerCase() == keyCodeMap[e.keyCode]) {
+					$j(this).focus();
+					found = true;
+					return false;
+				}
+			});
+
+			if(!found) {
+				$j(this).parent('li').prevAll('li').find('a').each(function(){
+					if($j(this).text().substring(0,1).toLowerCase() == keyCodeMap[e.keyCode]) {
+						$j(this).focus();
+						return false;
+					}
+				});
+			}
+		}
+	});
+
+
+	// Hide menu if click or focus occurs outside of navigation
+	$j(this).find('a').last().keydown(function(e){
+		if(e.keyCode == 9) {
+			// If the user tabs out of the navigation hide all menus
+			$j('.'+settings.menuHoverClass)
+			$j('.'+settings)
+				.attr('aria-hidden', 'true')
+				.removeClass(settings.menuHoverClass)
+				.find('a')
+					.attr('tabIndex',-1);
+		}
+	});
+	$j(document).click(function(){  $j('.'+settings.menuHoverClass).attr('aria-hidden', 'true').removeClass(settings.menuHoverClass).find('a').attr('tabIndex',-1); });
+
+	$j(this).click(function(e){
+		e.stopPropagation();
+	});
+}
+
+
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+
+
+
+	$$("ul.sky-top-menu > li > a").each(function(h) {
+		$(h).observe("click", function(e) {
+			myMegaMenuOpen(this,e);
+		});
+		$(h).observe("mouseover", function(e) {
+			if (this.up("ul").openMenu) {
+				myMegaMenuOpen(this,e);
+			}
+		});
+	});
+});
+
+Event.observe(document, "click", function(e) {myMegaMenuClose(e);myMegaMenuReset();});
+Event.observe(document, "blur", function(e) {myMegaMenuClose(false);myMegaMenuReset();});
+Event.observe(window, "beforeunload", function(e) {myMegaMenuClose(false);myMegaMenuReset();});
+
+function myMegaMenuOpen(h, e) {
+	var navbar = h.up("ul");
+	if (isObj(navbar.openMenu)  && navbar.openMenu == h) {
+		return;
+	}
+	myMegaMenuReset();
+	navbar.openMenu = h;
+	if (isObj(h.next("div"))) {
+		if (! h.next("div").hasClassName("menu-open") && ! h.next("div").hasClassName("menu-right-open")) {
+			myMegaMenuClose(false);
+		}
+	} else {
+		myMegaMenuClose(false);
+	}
+	if (h.up().readAttribute("aria-haspopup")) {
+		if (h.up().hasClassName("right")) {
+			h.next("div").toggleClassName("menu-right-open");
+		} else {
+			h.next("div").toggleClassName("menu-open");
+		}
+		Event.stop(e);
+	}
+}
+
+function myMegaMenuClose(e) {
+	$$(".menu-open", ".menu-right-open").each(function(k) {
+		if (!e || ! e.target.descendantOf(k)) {
+			k.removeClassName("menu-open");
+			k.removeClassName("menu-right-open");
+		}
+	});
+}
+
+function myMegaMenuReset() {
+
+	$$("ul.sky-top-menu", "ul.sky-mega-menu").each(function(h) {
+		h.openMenu = null;
+	});
+
+}
+
+
+function cercaUnito() {
+	var search_engine = getFormValue("cercaUnitoForm", "engine");
+	var testo = getFormValue("cercaUnitoForm", "testo");
+	testo = encodeURIComponent(testo.strip());
+	if (testo.length) {
+		if (search_engine == "rubrica") {
+			document.location.href="https://www.serviziweb.unito.it/rubrica/rubricaRisultati.php?tipoRic=cog&txtCognome=" + testo;
+		} else if(search_engine == "iris") {
+			document.location.href="https://iris.unito.it/simple-search?query=" + testo;
+		} else {
+			document.location.href="https://www.unito.it/search/google/" + testo;
+		}
+	}
+	return false;
+}
+
+</script>
+
+<div id="pageWrapper">
+
+
+
+<!-- @ Nuovo header -->
+
+<header class="container headertop" >
+	<div class="row header-head ">
+	    <div class="col-4">
+	      <a id="logoSigillo" href="https://www.unito.it" target="_blank" title="Il link si aprirà in una nuova finestra.">
+	      	<img src="https://cdn.unito.it/unito-loghi/unitoit.svg" alt="Logo Universit&agrave;" class="d-sm-block" />
+	      	<!-- <img src="/css/themes/campusnet2018/asset/img/logo-piccolo-unito.png" alt="Logo Universit&agrave;" class="d-inline-block d-sm-none" /> -->
+	      </a>
+	    </div>
+
+		<div class="col-8 row rigthside">
+			<ul class="listaprimalinea">
+			       <li id="italian_version" class="hidden">
+	      	            <a href=""  title="Passa alla versione in italiano">Italiano</a>
+	      	        </li>
+			       <li id="english_version" class="hidden">
+	      	            <a href=""  title="Passa alla Versione in inglese">English</a>
+	      	        </li>					
+			
+					<li id="logounita">
+	      	            <a id="" href="https://www.univ-unita.eu/"  title="Unita. Il link si aprirà in una nuova finestra." target="_blank">
+	      	                     <img src="/css/themes/campusnet2018/asset/img/logo-final-unita-universitas-montium_path.svg" alt="Logo Unita;" class="d-sm-block" />
+						</a>
+	      	        </li>
+	      	        <li id="myunito">
+	      	            <a id="logoMyUnito" href="https://my.unito.it/"  title="Accedi alla pagina MyUnito. Il link si aprirà in una nuova finestra." target="_blank">
+	      	                     <img src="https://cdn.unito.it/unito-loghi/myunito.svg" alt="Logo Universit&agrave;" class="d-sm-block" width="100"/>
+						</a>
+	      	        </li>
+					<li id="login">
+						<a href="https://signin.campusnet.unito.it/do/home.pl/Login?referer=https%3a%2f%2flaurea%2einformatica%2eunito%2eit%2fdo%2fhome%2epl%2fView%3fdoc%3dInsegnamenti%2ehtml"  title="Accedi alla pagina Login">Login</a>
+					</li>
+	      	</ul>
+    	</div>
+	</div>
+
+	<div class="row header-body">
+       	<div class="col-8 col-sm-9 col-md-8 row">
+		 	<div id="logoIstanzaNew" class="col-2 secondalineapadding logo-istanza d-none d-sm-block">
+				 <a href="/" title="HOME"><img src="/images/logo.gif"
+				 class="logofacolta"
+				 alt='Logo di Corso di laurea in Informatica'/></a>
+			 </div>
+	         <div class="col-12 pr-1 col-sm-10 secondalineapadding nome-istanza">
+			    <div class="titolofacolta">
+			    	<p><a href="http://informatica.unito.it" title="Vai al sito della struttura" target="struttura">Dipartimento di Informatica</a></p>
+	                <h1><a href="/" title="Home page">Corso di laurea in Informatica</a></h1>
+	                
+	     		</div>
+    		</div>
+		</div>
+
+		<div class="col-3 col-sm-2 d-md-none row justify-content-center align-items-center">
+			<div class="search-mobile-toggle d-flex">
+				<a href="#" title="Mostra il motore di ricerca del sito" class="">
+					<i class="material-icons x3" aria-hidden="true">search</i>
+				</a>
+			</div>
+			
+			<div class="menu-mobile-toggle d-flex">
+				<a href="#" title="Mostra il menu del sito" class="">
+					<i class="material-icons x3" aria-hidden="true">menu</i>
+				</a>
+			</div>
+		</div>
+
+		<div class="col-2 col-sm-2 col-md-3 socialSearchBox">
+	  		<div class="socialsecondariga">
+	    		
+	    		<p>Seguici su</p><ul class="no-bullets social-media"><li><a href="https://www.facebook.com/diunito" title="Vai alla pagina Facebook ufficiale. Il link si aprirà in una nuova finestra." target="_blank" class="facebooklink" ><i class="icon icon-fw icon icon-facebook3"></i><span>Facebook</span></a></li><li><a href="https://www.instagram.com/diunito/" title="vai all'account instagram ufficiale. il link si aprirà in una nuova finestra." target="_blank" class="instagramlink" ><i class="icon icon-fw icon icon-instagram2"></i><span>Instagram</span></a></li><li><a href="https://www.youtube.com/user/diunito" title="Vai al canale Youtube ufficiale. Il link si aprirà in una nuova finestra." target="_blank" class="youtubelink" ><i class="icon icon-fw icon icon-youtube3"></i><span>Youtube</span></a></li></ul>
+
+
+
+			</div>
+
+			<div class="searchbox">
+				<div class="mt-2 mb-2">
+					<div id="GSearchBox" class="gsearch-box">
+						<!--<form id="GSearchForm" name="GSearchForm" method=get accept-charset="utf-8" action="/do/home.pl/GSearch" onSubmit="GSearchOnSubmit()">-->
+						<form id="GSearchForm" name="GSearchForm" method=get accept-charset="utf-8" action="/do/home.pl/GSearch">
+						<label class="sr-only" for="GSearch">Cerca:</label>
+						
+						<input id="GSearch" aria-describedby="passwordrules" class="form-control" name=search type=text value='' autocomplete=off onFocus="focusGSearchInput()" onBlur="blurGSearchInput()"  onkeypress="handle(event)">
+						
+						<!-- add rb test 11/2023 -->
+						<!--<div role="tooltip" id="passwordrules" >
+							<p>Selezionare il database nella tendina</p>
+						</div> -->
+						
+						<a href="#" id="GSearchMenuHandle" class="gsearch-arrow" onClick="openGSearchMenu(); return false;" onfocus="openGSearchMenu(); return false;"  role="button" aria-label="Mostra le opzioni di ricerca"><i class="icon icon-arrow-down2"></i></a>
+
+						<img src="/css/themes/campusnet2018/asset/img/search_icon.png" alt="Avvia la ricerca." id="GsearchSubmit" onClick="GSearchSubmit();" role="button"/>
+						<div id="GSearchMenu" class="gsearch-menu" style="display:none; ">
+							<div class="gsearch-menu-header">
+								<span>Cerca nella categoria:</span>
+								<span id="GsearchAdvanced" class="gsearch-advanced" data-root="/do/" onClick="openAdvancedSearch()">Ricerca avanzata</span>
+							</div>
+							<div class="gsearch-menu-items">
+							<a href="javascript:void(0)" id="tuttoilsito" onClick="setSearchInTable('')">Tutto il sito</a>
+							<a href="javascript:void(0)" onClick="setSearchInTable('corsi')">Insegnamenti</a>
+<a href="javascript:void(0)" onClick="setSearchInTable('docenti')">Docenti</a>
+<a href="javascript:void(0)" onClick="setSearchInTable('avvisi')">Avvisi</a>
+<a href="javascript:void(0)" onClick="setSearchInTable('documenti')">Documenti</a>
+<a href="javascript:void(0)" onClick="setSearchInTable('storicocorsi')">Storico dei corsi</a>
+<a href="javascript:void(0)" onClick="setSearchInTable('verbali')">Verbali</a>
+
+							</div>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+<script>
+SetCookie('gs', 0, null, '/');
+</script>
+
+
+	 	</div>
+
+
+       	<div class="col-1 col-sm-1 col-md-1 socialSearchBox logoUnitoContainer" >  
+
+			<div id="logoUnitoNew"  class="secondalineapadding logo-istanza d-none d-sm-block">  
+				<a href="https://www.unito.it" target="_blank" title="Il link si aprirà in una nuova finestra."><img src="https://cdn.unito.it/unito-loghi/logo_sigillo.svg"
+				 class="logofacolta"
+				 alt='Logo di Corso di laurea in Informatica'/></a>
+			</div>
+
+	</div>
+
+	
+	<div class="container-menu-mobile d-none"></div>
+	<div id="socialMobile" class="d-none"><ul class="no-bullets social-media"><li><a href="https://www.facebook.com/diunito" title="Vai alla pagina Facebook ufficiale. Il link si aprirà in una nuova finestra." target="_blank" class="facebooklink" ><i class="icon icon-fw icon icon-facebook3"></i><span>Facebook</span></a></li><li><a href="https://www.instagram.com/diunito/" title="vai all'account instagram ufficiale. il link si aprirà in una nuova finestra." target="_blank" class="instagramlink" ><i class="icon icon-fw icon icon-instagram2"></i><span>Instagram</span></a></li><li><a href="https://www.youtube.com/user/diunito" title="Vai al canale Youtube ufficiale. Il link si aprirà in una nuova finestra." target="_blank" class="youtubelink" ><i class="icon icon-fw icon icon-youtube3"></i><span>Youtube</span></a></li></ul>
+
+
+</div>
+	<div class="container-search-mobile d-none"></div>
+
+	
+
+</header>
+
+<script>
+//aggiunto OSCAR per eliminare la scritta seguici su quando non ci sono i social
+
+	//if ( !$j(".socialsecondariga ul").hasClass("social-media") ) { 
+	// 	$j(".socialsecondariga").addClass("d-none");
+	//}
+
+</script>
+
+<!-- FINE Nuovo header -->
+<!-- Inizio intestazione pagina nuova ///OSCAR/// 2018-03-21 -->
+<!-- @ questo DIV serve per contenere il menu, che probabilmente è scritto da js -->
+
+	<div class="row"></div>
+
+<!-- Fine intestazione pagina nuova ///OSCAR/// -->
+<div class="container main"><!-- @ Si chiude in page_foot -->
+
+
+<nav class="navbar navbar-expand-md navbar-light bg-light row d-none d-sm-none d-md-block"><ul class="sky-mega-menu sky-mega-menu-anim-fade sky-mega-menu-response-to-switcher navbar-nav">
+	<!--
+	<li class="switcher nav-item dropdown">
+		<a class="nav-link" href="javascript:void(0);" aria-haspopup="true" aria-expanded="false">
+		<i class="icon icon-menu42"></i><span class="sr-only">Menu</span></a>
+	</li>
+	-->
+<li></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl"   >Home</a></li>
+<li aria-haspopup="true" class="nav-item aaa"  ><a  class="nav-link" href="#submenu"   >Il corso</a><div class="grid-container3">
+<ul class="p-0">
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=scheda_corso.html"   >Scheda del corso</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=perche_studiare_con_noi.html"   >Perché studiare con noi</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=profili_professionali.html"   >Profili professionali</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/docenti.pl/Search?format=8&rs=1;title=Ricevimento%20studenti&max=5000"   >Docenti</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=contatti.html"   >Contatti</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=dove_siamo.html"   >Dove siamo</a></li>
+<li aria-haspopup="true" class="nav-item aaa"  ><a  class="nav-link" href="#submenu"   >Organizzazione</a><div class="grid-container3">
+<ul class="p-0">
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Presidente.html"   >Presidente</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/organi.pl/Show?_id=qcdh"   >Consiglio</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=management_didattico.html"   >Management didattico</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Coordinatori_e_Tutor.html"   >Coordinatori/Tutor</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="https://laurea.informatica.unito.it/do/organi.pl/Search"   >Commissioni</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/organi.pl/Show?_id=1urw#submenu"   >Rappresentanza studentesca</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=segreteria_studenti.html"   >Segreteria studenti</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=regolamenti.html"   >Regolamenti</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=modulistica.html"   >Modulistica</a></li>
+</ul></div></li>
+<li aria-haspopup="true" class="nav-item aaa"  ><a  class="nav-link" href="#submenu"   >Assicurazione della qualità</a><div class="grid-container3">
+<ul class="p-0">
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=sistema_assicurazione_qualita.html"   >Sistema di assicurazione della qualità del corso di studi</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=opinioni_degli_studenti.html"   >Opinione studenti</a></li>
+</ul></div></li>
+</ul></div></li>
+<li aria-haspopup="true" class="nav-item aaa"  ><a  class="nav-link" href="#submenu"   >Iscriversi</a><div class="grid-container3">
+<ul class="p-0">
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Orientamento.html"   >Orientamento</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Guida_al_corso_di_laurea.html"   >Guida al corso di laurea</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Requisiti_di_ammissione.html"   >Requisiti di ammissione, TARM e TOLC</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=immatricolazioni_e_iscrizioni.html"   >Iscrizioni</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=riconoscimento_crediti.html"   >Riconoscimento crediti</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="https://en.unito.it/studying-unito/international-degree-seeking-students/recognition-foreign-degrees-and-credits-0"   >Titoli di studio conseguiti all'estero</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="https://www.cs.unito.it/do/home.pl/View?doc=students_mobility.html"   >International students</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="https://www.unito.it/didattica/tasse"   >Tasse</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="https://www.unito.it/servizi/lo-studio/residenze-e-mense"   >Residenze e mense</a></li>
+</ul></div></li>
+<li aria-haspopup="true" class="nav-item aaa"  ><a  class="nav-link" href="#submenu"   >Studiare</a><div class="grid-container3">
+<ul class="p-0">
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Calendario_didattico.html"   >Calendario didattico</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Orario_lezioni.html"   >Orario lezioni</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Insegnamenti.html"   >Insegnamenti</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Piano_carriera.html"   >Piano carriera</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Appelli_esame.html"   >Appelli d'esame</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="https://informatica.i-learn.unito.it/"   >E-learning</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Aule_e_laboratori.html"   >Aule e laboratori</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=tutorato.html"   >Tutorato</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Accoglienza_studenti_con_disabilita_e_DSA.html"   >Inclusione ed esigenze specifiche</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Borse_premi_collaborazioni.html"   >Borse, premi e collaborazioni</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=tirocinio_e_stage.html"   >Stage</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Mobilita_internazionale.html"   >Mobilità internazionale</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=sofware_studio.html"   >Software per lo studio</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=lettorati.html"   >Lettorati</a></li>
+</ul></div></li>
+<li aria-haspopup="true" class="nav-item aaa"  ><a  class="nav-link" href="#submenu"   >Laurearsi</a><div class="grid-container3">
+<ul class="p-0">
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Tesi_e_Laurea.html"   >Tesi/stage e laurea (prova finale)</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=proseguire_gli_studi.html"   >Proseguire gli studi</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Orientamento_al_lavoro.html"   >Orientamento al lavoro</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="https://www.scienzedellanatura.unito.it/it/job-placement"   >Job placement</a></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="/do/home.pl/View?doc=Esami_di_stato.html"   >Esami di Stato</a></li>
+</ul></div></li>
+<li  class="nav-item aaa"  ><a  class="nav-link" href="https://intranet.educ.di.unito.it/"   target="_blank">Intranet</a></li>
+</ul>
+</nav><nav class="d-none" id="nav-menu-mobile"><div class="menu-mobile links-format-8 "><ul></ul><ul>
+<li class="nav-item-mobile"><a href="/do/home.pl">Home</a></li>
+<li class="nav-item-mobile"><a href="#submenu">Il corso</a><i class="material-icons" aria-hidden="true">arrow_drop_down</i><ul class="d-none">
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=scheda_corso.html">Scheda del corso</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=perche_studiare_con_noi.html">Perché studiare con noi</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=profili_professionali.html">Profili professionali</a></li>
+<li class="nav-item-mobile"><a href="/do/docenti.pl/Search?format=8&rs=1;title=Ricevimento%20studenti&max=5000">Docenti</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=contatti.html">Contatti</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=dove_siamo.html">Dove siamo</a></li>
+<li class="nav-item-mobile"><a href="#submenu">Organizzazione</a><i class="material-icons" aria-hidden="true">arrow_drop_down</i><ul class="d-none">
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Presidente.html">Presidente</a></li>
+<li class="nav-item-mobile"><a href="/do/organi.pl/Show?_id=qcdh">Consiglio</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=management_didattico.html">Management didattico</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Coordinatori_e_Tutor.html">Coordinatori/Tutor</a></li>
+<li class="nav-item-mobile"><a href="https://laurea.informatica.unito.it/do/organi.pl/Search">Commissioni</a></li>
+<li class="nav-item-mobile"><a href="/do/organi.pl/Show?_id=1urw#submenu">Rappresentanza studentesca</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=segreteria_studenti.html">Segreteria studenti</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=regolamenti.html">Regolamenti</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=modulistica.html">Modulistica</a></li>
+</ul></li>
+<li class="nav-item-mobile"><a href="#submenu">Assicurazione della qualità</a><i class="material-icons" aria-hidden="true">arrow_drop_down</i><ul class="d-none">
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=sistema_assicurazione_qualita.html">Sistema di assicurazione della qualità del corso di studi</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=opinioni_degli_studenti.html">Opinione studenti</a></li>
+</ul></li>
+</ul></li>
+<li class="nav-item-mobile"><a href="#submenu">Iscriversi</a><i class="material-icons" aria-hidden="true">arrow_drop_down</i><ul class="d-none">
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Orientamento.html">Orientamento</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Guida_al_corso_di_laurea.html">Guida al corso di laurea</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Requisiti_di_ammissione.html">Requisiti di ammissione, TARM e TOLC</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=immatricolazioni_e_iscrizioni.html">Iscrizioni</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=riconoscimento_crediti.html">Riconoscimento crediti</a></li>
+<li class="nav-item-mobile"><a href="https://en.unito.it/studying-unito/international-degree-seeking-students/recognition-foreign-degrees-and-credits-0">Titoli di studio conseguiti all'estero</a></li>
+<li class="nav-item-mobile"><a href="https://www.cs.unito.it/do/home.pl/View?doc=students_mobility.html">International students</a></li>
+<li class="nav-item-mobile"><a href="https://www.unito.it/didattica/tasse">Tasse</a></li>
+<li class="nav-item-mobile"><a href="https://www.unito.it/servizi/lo-studio/residenze-e-mense">Residenze e mense</a></li>
+</ul></li>
+<li class="nav-item-mobile"><a href="#submenu">Studiare</a><i class="material-icons" aria-hidden="true">arrow_drop_down</i><ul class="d-none">
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Calendario_didattico.html">Calendario didattico</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Orario_lezioni.html">Orario lezioni</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Insegnamenti.html">Insegnamenti</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Piano_carriera.html">Piano carriera</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Appelli_esame.html">Appelli d'esame</a></li>
+<li class="nav-item-mobile"><a href="https://informatica.i-learn.unito.it/">E-learning</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Aule_e_laboratori.html">Aule e laboratori</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=tutorato.html">Tutorato</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Accoglienza_studenti_con_disabilita_e_DSA.html">Inclusione ed esigenze specifiche</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Borse_premi_collaborazioni.html">Borse, premi e collaborazioni</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=tirocinio_e_stage.html">Stage</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Mobilita_internazionale.html">Mobilità internazionale</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=sofware_studio.html">Software per lo studio</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=lettorati.html">Lettorati</a></li>
+</ul></li>
+<li class="nav-item-mobile"><a href="#submenu">Laurearsi</a><i class="material-icons" aria-hidden="true">arrow_drop_down</i><ul class="d-none">
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Tesi_e_Laurea.html">Tesi/stage e laurea (prova finale)</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=proseguire_gli_studi.html">Proseguire gli studi</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Orientamento_al_lavoro.html">Orientamento al lavoro</a></li>
+<li class="nav-item-mobile"><a href="https://www.scienzedellanatura.unito.it/it/job-placement">Job placement</a></li>
+<li class="nav-item-mobile"><a href="/do/home.pl/View?doc=Esami_di_stato.html">Esami di Stato</a></li>
+</ul></li>
+<li class="nav-item-mobile"><a href="https://intranet.educ.di.unito.it/">Intranet</a></li>
+</ul></div></nav>
+
+ 
+
+<div class="row"><div id="contentPath" class="col-12"><ul class="breadcrumb"><li class="breadcrumb-item"><a href="/do/home.pl">Home</a></li><li class="breadcrumb-item"><span>Insegnamenti</span></li></ul></div></div>
+<div id="pageBody" class="pageBody-home row">
+
+<div id="contentColumn" class="col-12 p-0">
+<div id="contentWrapper">
+<div id="contentDiv"><main id="mainContent">
+
+
+<!-- WBB{head;View} would be here -->
+<!--PAGEBODY1-->
+
+
+
+<div class="row"><article class="col-12" ><div class="row d-block">
+<h1>Insegnamenti</h1>
+<h2>Per anno accademico</h2>
+<p>In questa sezione &egrave; possibile consultare gli insegnamenti per Anno Accademico&nbsp;</p>
+<p><strong>Primo anno</strong>&nbsp;<br /><strong>Canale A:</strong> cognomi A-D, turni di Laboratorio A1 (matricola dispari) e A2 (matricola pari)<br /><strong>Canale B:</strong> cognomi E-O, turni di Laboratorio B1 (matricola dispari) e B2 (matricola pari)<br /><strong>Canale C:</strong> cognomi P-Z, turni di Laboratorio C1 (matricola dispari) e C2 (matricola pari)<br /><br /><strong>Secondo/terzo anno</strong><br /><strong>Canale A:</strong> cognomi A-K, turni di Laboratorio 1 (matricola dispari) e 2 (matricola pari)<br /><strong>Canale B:</strong> cognomi L-Z, turni di Laboratorio 3 (matricola dispari) e 4 (matricola pari)</p>
+<p><strong>Insegnamenti per l'Anno Accademico 2026-2027</strong></p>
+<ul>
+<li><a href="/do/corsi.pl/Search?search=%7baa%7d%20%3d%3d%20%26%2339%3b2026%2f2027%26%2339%3b%20and%20%7banno%7d%20%3d%3d%201;sort=DEFAULT;format=DEFAULT">primo anno</a> (<em>1 anno della coorte 2026</em>)</li>
+<li><a href="/do/corsi.pl/Search?search=%7baa%7d%20%3d%3d%20%26%2339%3b2026%2f2027%26%2339%3b%20and%20%7banno%7d%20%3d%3d%202;sort=DEFAULT;format=DEFAULT">secondo anno</a> (<em>2 anno della coorte 2025</em>)</li>
+<li><a href="/do/corsi.pl/Search?search=%7baa%7d%20%3d%3d%20%26%2339%3b2026%2f2027%26%2339%3b%20and%20%7banno%7d%20%3d%3d%203;sort=DEFAULT;format=DEFAULT">terzo anno</a> (<em>3 anno della coorte 2024</em>)</li>
+<li><a href="https://laurea.informatica.unito.it/do/corsi.pl/Search?format=DEFAULT&amp;max=20&amp;f:1=aa&amp;fields=corso%0acorso_en%0aaa%0acodice%0adocente_options%0adocente%0accl%0aanno%0aperiodo%0atipologia%0avalenza%0apf24%0assd%0aerogazione%0alingua%0afrequenza%0avalutazione%0acategoria%0acorso_id%0aprerequisiti%0apropedeuticita%0amutuazione_options%0amutuazione%0aobiettivi%0arisultati%0aprogramma%0ainsegnamento%0averifica%0asupporto%0acategoria_testo1%0atitolo1%0atitolo_rivista1%0aanno_pubblicazione1%0adescrizione1%0aeditore1%0aautore1%0aisbn1%0apermalink1%0avolume1%0afascicolo1%0acapitoli1%0anote_testo1%0apagine1%0adoi1%0apmid1%0aissn1%0aurl1%0aobbligatorio1%0acategoria_testo2%0atitolo2%0atitolo_rivista2%0aanno_pubblicazione2%0adescrizione2%0aeditore2%0aautore2%0aisbn2%0apermalink2%0avolume2%0afascicolo2%0acapitoli2%0anote_testo2%0apagine2%0adoi2%0apmid2%0aissn2%0aurl2%0aobbligatorio2%0acategoria_testo3%0atitolo3%0atitolo_rivista3%0aanno_pubblicazione3%0adescrizione3%0aeditore3%0aautore3%0aisbn3%0apermalink3%0avolume3%0afascicolo3%0acapitoli3%0anote_testo3%0apagine3%0adoi3%0apmid3%0aissn3%0aurl3%0aobbligatorio3%0acategoria_testo4%0atitolo4%0atitolo_rivista4%0aanno_pubblicazione4%0adescrizione4%0aeditore4%0aautore4%0aisbn4%0apermalink4%0avolume4%0afascicolo4%0acapitoli4%0anote_testo4%0apagine4%0adoi4%0apmid4%0aissn4%0aurl4%0aobbligatorio4%0acategoria_testo5%0atitolo5%0atitolo_rivista5%0aanno_pubblicazione5%0adescrizione5%0aeditore5%0aautore5%0aisbn5%0apermalink5%0avolume5%0afascicolo5%0acapitoli5%0anote_testo5%0apagine5%0adoi5%0apmid5%0aissn5%0aurl5%0aobbligatorio5%0acategoria_testo6%0atitolo6%0atitolo_rivista6%0aanno_pubblicazione6%0adescrizione6%0aeditore6%0aautore6%0aisbn6%0apermalink6%0avolume6%0afascicolo6%0acapitoli6%0anote_testo6%0apagine6%0adoi6%0apmid6%0aissn6%0aurl6%0aobbligatorio6%0acategoria_testo7%0atitolo7%0atitolo_rivista7%0aanno_pubblicazione7%0adescrizione7%0aeditore7%0aautore7%0aisbn7%0apermalink7%0avolume7%0afascicolo7%0acapitoli7%0anote_testo7%0apagine7%0adoi7%0apmid7%0aissn7%0aurl7%0aobbligatorio7%0acategoria_testo8%0atitolo8%0atitolo_rivista8%0aanno_pubblicazione8%0adescrizione8%0aeditore8%0aautore8%0aisbn8%0apermalink8%0avolume8%0afascicolo8%0acapitoli8%0anote_testo8%0apagine8%0adoi8%0apmid8%0aissn8%0aurl8%0aobbligatorio8%0acategoria_testo9%0atitolo9%0atitolo_rivista9%0aanno_pubblicazione9%0adescrizione9%0aeditore9%0aautore9%0aisbn9%0apermalink9%0avolume9%0afascicolo9%0acapitoli9%0anote_testo9%0apagine9%0adoi9%0apmid9%0aissn9%0aurl9%0aobbligatorio9%0acategoria_testo10%0atitolo10%0atitolo_rivista10%0aanno_pubblicazione10%0adescrizione10%0aeditore10%0aautore10%0aisbn10%0apermalink10%0avolume10%0afascicolo10%0acapitoli10%0anote_testo10%0apagine10%0adoi10%0apmid10%0aissn10%0aurl10%0aobbligatorio10%0acategoria_testo11%0atitolo11%0atitolo_rivista11%0aanno_pubblicazione11%0adescrizione11%0aeditore11%0aautore11%0aisbn11%0apermalink11%0avolume11%0afascicolo11%0acapitoli11%0anote_testo11%0apagine11%0adoi11%0apmid11%0aissn11%0aurl11%0aobbligatorio11%0acategoria_testo12%0atitolo12%0atitolo_rivista12%0aanno_pubblicazione12%0adescrizione12%0aeditore12%0aautore12%0aisbn12%0apermalink12%0avolume12%0afascicolo12%0acapitoli12%0anote_testo12%0apagine12%0adoi12%0apmid12%0aissn12%0aurl12%0aobbligatorio12%0acategoria_testo13%0atitolo13%0atitolo_rivista13%0aanno_pubblicazione13%0adescrizione13%0aeditore13%0aautore13%0aisbn13%0apermalink13%0avolume13%0afascicolo13%0acapitoli13%0anote_testo13%0apagine13%0adoi13%0apmid13%0aissn13%0aurl13%0aobbligatorio13%0acategoria_testo14%0atitolo14%0atitolo_rivista14%0aanno_pubblicazione14%0adescrizione14%0aeditore14%0aautore14%0aisbn14%0apermalink14%0avolume14%0afascicolo14%0acapitoli14%0anote_testo14%0apagine14%0adoi14%0apmid14%0aissn14%0aurl14%0aobbligatorio14%0acategoria_testo15%0atitolo15%0atitolo_rivista15%0aanno_pubblicazione15%0adescrizione15%0aeditore15%0aautore15%0aisbn15%0apermalink15%0avolume15%0afascicolo15%0acapitoli15%0anote_testo15%0apagine15%0adoi15%0apmid15%0aissn15%0aurl15%0aobbligatorio15%0aaddrem%0atesti%0anota%0aappelliurl%0aorariourl%0amoodleurl%0aurl%0aiscrizione%0aapertura%0achiusura%0amax%0asba%0aowner&amp;si=1&amp;v:1=%26%2339%3b2026%2f2027%26%2339%3b&amp;grouping=and&amp;sort=DEFAULT&amp;e:1=%3d%3d%20x" target="_blank" rel="noopener">elenco completo</a></li>
+<li><a href="https://laurea.informatica.unito.it/do/corsi.pl/BrowseYears" target="_blank" rel="noopener">insegnamenti per anno</a></li>
+</ul>
+<p><strong>Insegnamenti per gli Anni Accademici passati:</strong></p>
+<ul class="pointlist">
+<li><a href="https://laurea.informatica.unito.it/do/storicocorsi.pl/Search?search=aa%3A2526;title=Anno+accademico+2025/2026" target="_blank" rel="noopener">2025/2026</a></li>
+<li><a href="https://laurea.informatica.unito.it/do/storicocorsi.pl/Search?search=aa%3A2425;title=Anno+accademico+2024/2025" target="_blank" rel="noopener">2024/2025</a></li>
+<li><a href="https://laurea.informatica.unito.it/do/storicocorsi.pl/Search?search=aa%3A2324;title=Anno+accademico+2023/2024" target="_blank" rel="noopener">2023/2024</a></li>
+<li><a href="https://laurea.informatica.unito.it/do/storicocorsi.pl/Search?search=aa%3A2223;title=Anno+accademico+2022/2023;fields=_delete" target="_blank" rel="noopener">2022/2023</a></li>
+</ul>
+<p><strong>Avviso:&nbsp;</strong><strong>Supporto 2023/24 a Programmazione I, Programmazione II e Architettura degli Elaboratori. </strong>I docenti Beccuti, Ciravegna, Esposito, Gaeta, Gunetti, Schifanella C organizzeranno appositi momenti di confronto in merito agli insegnamenti di <strong>Programmazione I, Programmazione II e Architettura degli Elaboratori che si sono tenuti per l&rsquo;ultima volta nell&rsquo;a.a. 2022/23</strong>. Verificare sulla pagina degli <a href="https://laurea.informatica.unito.it/do/home.pl/View?doc=Orario_lezioni.html" target="_blank" rel="noopener">orari</a></p>
+<h2>Per Anno di Immatricolazione</h2>
+<p>In questa sezione &egrave; possibile consultare gli&nbsp;<strong>Insegnamenti per Anno Accademico di Immatricolazione</strong><strong>:</strong></p>
+<ul class="pointlist">
+<li><a href="https://laurea.informatica.unito.it/do/home.pl/View?doc=/piani_di_studio/insegnamenti_coorte_2023_2024.html" target="_blank" rel="noopener">2025-2026</a></li>
+<li><a href="https://laurea.informatica.unito.it/do/home.pl/View?doc=/piani_di_studio/insegnamenti_coorte_2024_2025.html" target="_blank" rel="noopener">2024-2025</a>&nbsp;</li>
+<li><a href="https://laurea.informatica.unito.it/do/home.pl/View?doc=/piani_di_studio/insegnamenti_coorte_2023_2024.html" target="_blank" rel="noopener">2023-2024</a>&nbsp;</li>
+<li><a href="/do/home.pl/View?doc=/piani_di_studio/insegnamenti_coorte_2022_2023.html" target="_blank" rel="noopener">2022-2023</a></li>
+</ul>
+<p><div class="context-menu-wrapper context-menu-wrapper-left" id="3324334">
+<h3>Ti potrebbero interessare</h3>
+<ul class="sky-side-menu sky-side-menu-pos-left sky-side-menu-response-to-switcher" style="z-index:2">
+<li class="switcher">
+	<a href="javascript:void(0);"><i class="icon icon-menu42"></i>Ti potrebbero interessare</a>
+</li>
+<li><a href="/do/docenti.pl/Search?format=8&amp;rs=1;title=Ricevimento%20studenti&amp;max=5000" target="_blank" rel="noopener">Docenti</a></li>
+<li><a href="https://laurea.informatica.unito.it/do/home.pl/View?doc=Accoglienza_studenti_con_disabilita_e_DSA.html" target="_blank" rel="noopener">Disabilit&agrave; e disturbi specifici dell'apprendimento</a></li>
+<li><a href="https://laurea.informatica.unito.it/do/home.pl/View?doc=perche_studiare_con_noi.html" target="_blank" rel="noopener">Perch&egrave; studiare con noi</a></li>
+</ul>
+</div>
+</p></div></article></div>
+
+
+
+<!--PAGEBODY2-->
+<!-- WBB{foot;View} would be here --></main></div><!-- content -->
+<div id="pageToolbar">
+<div class="row">
+	<div class="col-12">
+		<ul><li><a href="/do/home.pl"  title="Home"><i class="icon icon-home4"></i><span class="sr-only">Home</span></a></li><li><a href="#" onClick="PrintPage(this,'/do/home.pl'); return false;" TITLE="Stampa"><i class="icon icon-print2"></i><span class="sr-only">Stampa</span></a></li><li><!--<a  HREF="#" onClick="SharePage(this,'/do/home.pl'); return false;" TITLE="Condividi"><i class="icon icon-share2"></i><span class="sr-only">Condividi</span></a>--></li><li><!--<a id=HelpBtn HREF="#" onClick="openHelpBrowser(); return false;" TITLE="Help"><i class="icon icon-support"></i><span class="sr-only">Aiuto</span></a>--></li></ul>
+		<div class="record-last-update">Ultimo aggiornamento: 03/08/2026 14:37</div>
+	</div>
+</div>
+</div>
+</div> <!-- contentWrapper -->
+</div> <!-- contentColumn -->
+<aside id="leftColumn" class="col-12 order-2 "><div id="leftColumnWrapper">
+
+<div id="boxm0l1" class="side-menu">
+<h2 ><span></span><span>Il corso in breve</span><span></span></h2>
+<div id="menum0l1" class="side-menu-wrapper">
+<div id="textm0l1" class="side-menu-text"><strong>Denominazione: </strong>Corso di laurea in Informatica<br>
+<strong>Tipo di laurea</strong>: triennale<br>
+<strong>Tipo di accesso</strong>: Accesso libero con test di accertamento dei requisiti minimi<br>
+<strong>Sede didattica</strong>: Torino<br>
+<strong>Open day</strong>: Consulta le iniziative di <a href="https://laurea.informatica.unito.it/do/home.pl/View?doc=Orientamento.html"> Orientamento</a><br><br></div>
+<ul class="sky-side-menu sky-side-menu-pos-left sky-side-menu-anim-fade"><li  ><a  href="/do/home.pl/View?doc=scheda_corso.html"   >Vai alla scheda del corso</a></li>
+</ul>
+
+</div>
+</div>
+
+<script >
+
+</script>
+
+
+<div id="boxy8ov" class="side-menu">
+<h2 ><span></span><span>Organizzazione</span><span></span></h2>
+<div id="menuy8ov" class="side-menu-wrapper">
+
+<ul class="sky-side-menu sky-side-menu-pos-left sky-side-menu-anim-fade"><li  ><a  href="/do/home.pl/View?doc=Presidente.html"   >Presidente</a></li>
+<li  ><a  href="/do/organi.pl/Show?_id=1urw#submenu"   >Rappresentanza Studentesca</a></li>
+<li  ><a  href="/do/home.pl/View?doc=management_didattico.html"   >Management didattico</a></li>
+<li  ><a  href="/do/home.pl/View?doc=segreteria_studenti.html"   >Segreteria studentesse e studenti</a></li>
+<li  ><a  href="/do/home.pl/View?doc=contatti.html"   >Contatti</a></li>
+</ul>
+
+</div>
+</div>
+
+<script >
+
+</script>
+
+
+<div id="boxd6d0" class="side-menu">
+<h2 ><span></span><span>Dipartimento di riferimento</span><span></span></h2>
+<div id="menud6d0" class="side-menu-wrapper">
+
+<ul class="sky-side-menu sky-side-menu-pos-left sky-side-menu-anim-fade"><li  class="divider"><a  href="https://informatica.unito.it/do/home.pl"   >Dipartimento di Informatica</a></li>
+</ul>
+
+</div>
+</div>
+
+<script >
+
+</script>
+
+
+<div id="boxa9cf" class="side-menu">
+<h2 ><span></span><span>Scuola di riferimento</span><span></span></h2>
+<div id="menua9cf" class="side-menu-wrapper">
+
+<ul class="sky-side-menu sky-side-menu-pos-left sky-side-menu-anim-fade"><li  ><a  href="https://www.scienzedellanatura.unito.it/it"   >Scuola di Scienze della Natura</a></li>
+</ul>
+
+</div>
+</div>
+
+<script >
+
+</script>
+
+
+<div id="boxn2xx" class="side-menu">
+<h2 ><span></span><span>Strumenti e servizi utili</span><span></span></h2>
+<div id="menun2xx" class="side-menu-wrapper">
+
+<ul class="sky-side-menu sky-side-menu-pos-left sky-side-menu-anim-fade"><li  ><a  href="/do/home.pl/View?doc=info_e_servizi.html"   >Info e servizi</a></li>
+<li  ><a  href="/do/home.pl/View?doc=Faq.html"   >FAQ</a></li>
+<li  ><a  href="/do/home.pl/View?doc=apertura_login.html"   >Apertura account @educ.di.unito.it</a></li>
+<li  ><a  href="/do/avvisi.pl/Home"   >Avvisi e news</a></li>
+</ul>
+
+</div>
+</div>
+
+<script >
+
+</script>
+
+
+<div id="boxcn0d" class="side-menu">
+<h2 ><span></span><span>Altre strutture di riferimento</span><span></span></h2>
+<div id="menucn0d" class="side-menu-wrapper">
+
+<ul class="sky-side-menu sky-side-menu-pos-left sky-side-menu-anim-fade"><li  ><a  href="/do/home.pl/View?doc=biblioteca.html"   >Biblioteca di Informatica</a></li>
+<li  ><a  href="https://magistrale.informatica.unito.it/"   >Corso di laurea magistrale in Informatica</a></li>
+</ul>
+
+</div>
+</div>
+
+<script >
+
+</script>
+
+
+<div id="boxu23w" class="side-menu">
+<h2 ><span></span><span>Community e Multimedia</span><span></span></h2>
+<div id="menuu23w" class="side-menu-wrapper">
+
+<ul class="sky-side-menu sky-side-menu-pos-left sky-side-menu-anim-fade"><li  ><a  href="https://www.facebook.com/diunito"   >Il Dipartimento su Facebook</a></li>
+<li  ><a  href="https://www.youtube.com/user/diunito"   >Il Dipartimento su Youtube</a></li>
+<li  ><a  href="https://www.facebook.com/unito.it?ref=hl"   >Unito su Facebook</a></li>
+<li  ><a  href="https://media.unito.it/"   >Web TV Unito media</a></li>
+</ul>
+
+</div>
+</div>
+
+<script >
+
+</script>
+
+
+</div></aside>
+</div>
+</div> <!-- pageWrapper -->
+
+
+<script>
+if (isObj($("leftColumnSwitcher"))) {
+	$("leftColumnSwitcher").observe("click", function(e) {
+		this.toggleClassName("active");
+		$("leftColumn").toggleClassName("active");
+		Event.stop(e);
+	});
+	swipedetect($("leftColumn"), function(swipedir){
+		if (swipedir == "left") {
+			$("leftColumnSwitcher").click();
+		}
+	});
+}
+
+if (isObj($("rightColumnSwitcher"))) {
+	$("rightColumnSwitcher").observe("click", function(e) {
+		this.toggleClassName("active");
+		$("rightColumn").toggleClassName("active");
+		Event.stop(e);
+	});
+	swipedetect($("rightColumn"), function(swipedir){
+		if (swipedir == "right") {
+			$("rightColumnSwitcher").click();
+		}
+	});
+}
+
+function moveToolbarUp() {
+	var div= document.getElementById("contentDiv");
+	if (div.scrollWidth > div.clientWidth) {
+		$("pageToolbar").style.bottom = "14px";
+	} else {
+		$("pageToolbar").style.bottom = "0px";
+	}
+}
+
+Element.observe(window, "load", moveToolbarUp);
+Event.observe(window, "resize", moveToolbarUp);
+</script>
+<div id="pageFooterWrapper">
+</div><!-- @ Chiude container aperto nella funzione makeDefaultPageHeader -->
+
+<footer class="container">
+<h2 class="sr-only">Riferimenti e contatti</h2>
+	 <div class="footer container" >
+<div class="row">
+	<div class="col-12 col-sm-6 col-md-3 first">
+		 <div class="thebox a">
+		 <h3>Università degli studi di Torino</h3>
+		 <p>Via Verdi 8 - 10124 Torino</p>
+		 <p>P.I. 02099550010</p>
+		 <p>C.F. 80088230018</p>
+		  </div>
+	</div>
+
+	
+
+	<div class="col-12  col-sm-6 col-md-3" >
+		 <div class="thebox row a">
+		 <h3>Link Utili</h3>
+		 <ul>
+		 <li><a href="/do/links.pl/SiteMap" title="Vai alla mappa del sito."> Mappa del sito</a></li>
+		 <li><a href="https://www.survey.unito.it/index.php/251497?newtest=Y&lang=it-informal" target="_blank" title="Vai a 2 minuti per 2 sondaggi">2 minuti per 2 sondaggi</a></li>
+		 <li><a href="https://www.unito.it/accessibilita" target="_blank" title="Vai alla dichiarazione di accessibilità. Il link si aprirà in una nuova finestra.">Accessibilit&agrave;</a></li>
+		 <li><a href="https://www.unito.it/note-legali"  target="_blank" title="Vai alle note legali. Il link si aprirà in una nuova finestra.">Note legali</a></li>
+		 <li><a lang="en" href="https://www.unito.it/privacy"  id="privacyPolicy" target="_blank" title="Vai alla privacy &amp; cookie policy Il link si aprirà in una nuova finestra.">Privacy e Cookie policy</a></li>
+		
+		 <!-- rb add cookie - link iniettati da js -->	
+		 
+		 <li><a href="https://www.unito.it/ateneo/amministrazione-trasparente"  target="_blank" title="Vai alla sezione Amministrazione Trasparente del portale Unito.it Il link si aprirà in una nuova finestra.">Amministrazione trasparente</a></li>
+		 </ul>
+		 </div>
+	</div>
+
+	<div class="col-12  col-sm-6 col-md-3 " id="footer_contacts">
+		 <div class="thebox row a">
+		 <h3>Contatti</h3>
+
+		 <ul>
+		 
+		 
+		 <li><a class="special"  href="/do/home.pl/Webmanager">Webmaster</a></li>
+		 </ul>
+		 </div>
+	</div>
+	<div class="col-12 col-sm-6 col-md-3">
+		 <div class="thebox row">
+		 <h3>Segui Unito in rete</h3>
+		 <ul class="unito-social">
+		 <li><a href="https://www.facebook.com/unito.it" class="facebooklinkss"  target="_blank" title="Pagina Facebook ufficiale dell'Università degli Studi di Torino. Il link si aprirà in una nuova finestra.">Facebook</a><li>
+		 <li><a href="https://twitter.com/unito" class="twitterlinkss"  target="_blank" title="Account Twitter ufficiale dell'Università degli Studi di Torino. Il link si aprirà in una nuova finestra. ">Twitter</a><li>
+		 <li><a href="https://t.me/uni_torino" class="telegramlinkss"  target="_blank" title="Account Telegram ufficiale dell'Università degli Studi di Torino. Il link si aprirà in una nuova finestra. ">Telegram</a><li>
+		 <li><a href="https://www.instagram.com/unitorino/" class="instagramlinkss"  target="_blank" title="Account Instagram ufficiale dell'Università degli Studi di Torino. Il link si aprirà in una nuova finestra.">Instagram</a><li>
+		 <li><a href="https://www.linkedin.com/school/317963/" class="linkedinlinkss"  target="_blank" title="Pagina LinkedIn ufficiale dell'Università degli Studi di Torino. Il link si aprirà in una nuova finestra.">LinkedIn</a><li>
+		 <li><a href="https://www.youtube.com/unitoyou" class="youtubelinkss"  target="_blank" title="Canale Youtube ufficiale dell'Università degli Studi di Torino. Il link si aprirà in una nuova finestra.">Youtube</a><li>
+		 </ul>
+		 </div>
+	</div>
+
+</div>
+	 </div>
+
+	 <div class="col-md-12">
+<div id="poweredBy" class="poweredBy">
+		<a href="https://www.campusnet.unito.it">Campusnet Unito</a>
+	</div>
+</div>
+</footer>
+
+<script>
+	var c = 0;
+	$j(".context-menu-wrapper").each(function() {
+	c++;
+		$j(this).attr("id","id_" + c);
+	});
+
+
+	// Apertura degli archivi zip
+	$j(".zip-opener").on("click", function(e) {
+		console.log("apriti zip!");
+		if ($j(this).hasClass("aperto")) {
+		$j(this).css({
+			"transform": "rotate(0deg)",
+		}).removeClass("aperto");
+		$j("li[data-file $= '.zip'] ~ li, li[data-file $= '.zip'] ~ div").hide();
+
+		}
+		else {
+		$j(this).css({
+			"transform": "rotate(270deg)",
+		}).addClass("aperto");
+		$j("li[data-file $= '.zip'] ~ li, li[data-file $= '.zip'] ~ div").show();
+
+		}
+
+	});
+
+	$j("#contentColumn a[target='_blank']").append('<i class="material-icons x1">open_in_new</i>');
+
+
+	function fixContextMenu(parentSelector, id, item) {
+		if (window.matchMedia("(min-width: 768px)").matches) {
+
+					$j(parentSelector+":has('#" + id + "')")
+							.css({"position":"relative", "overflow":"hidden","padding-bottom":"1rem"})
+							.parent().addClass("pb-3");
+					$j(parentSelector+":has('#" + id + "') > :not('.context-menu-wrapper')").css({"float":"left",  "width":"70%"});
+					item.css({"position":"absolute", "right":"1rem", "top":"1rem"})
+
+		}
+		else
+		{
+					$j(parentSelector+":has('#" + id + "')")
+							.css({"position":"relative", "overflow":"hidden","padding-bottom":"1rem"})
+							.parent().addClass("pb-3 oscar");
+					$j(parentSelector+":has('#" + id + "') > :not('.context-menu-wrapper')").css({"float":"none",  "width":"100%"});
+					item.css({"position":"relative", "right":"1rem", "top":"1rem"})
+		}
+	}
+
+
+	var selectorContextMenu = '.context-menu-wrapper';
+	if ($j(selectorContextMenu).length > 0) {
+		var contextMenu = $j(selectorContextMenu).addClass("col-md-3");
+
+		$j(selectorContextMenu).each(function() {
+			var item = $j(this);
+			var id = $j(this).attr("id");
+			// ACCORDION CASE
+			if ($j(".card-body #" + id).length == 1) {
+				//if (window.matchMedia("(min-width: 767px)").matches) {
+					fixContextMenu(".card-body", id, item);
+				//}
+			}
+			// TABS CASE
+			else if ($j(".hpanel #" + id).length == 1) {
+				//if (window.matchMedia("(min-width: 767px)").matches) {
+					fixContextMenu(".hpanel", id, item);
+				//}
+			}
+			else {
+				var articleTag = $j(this).parents("article");
+				articleTag.addClass("col-md-9").after($j(this));
+			}
+		});
+
+		contextMenu.find("a").each(function() {
+			$j(this).removeAttr("style");
+		});
+
+
+
+	}
+
+// creo le due colonne, tranne in home
+
+		if (($j(".db-home").length == 0) && ( $j("#leftColumn").length > 0)) {
+
+		$j("[class^='pageBody-']").addClass("twoColumns");
+
+		var leftColumn = $j("#leftColumn");
+			leftColumn.removeClass("order-2").addClass("order-last col-md-3 col-lg-2");
+
+		var contentColumn = $j("#contentColumn");
+			contentColumn.addClass("col-md-9 col-lg-10").removeClass("p-0");
+
+	}
+
+
+// Istruzioni soggette a media query
+if (window.matchMedia("(max-width: 767px)").matches) {
+
+	// Sticky header
+	var stickyOffset = $j('header .header-body').offset().top;
+
+	$j(window).scroll(function(){
+	  var sticky = $j('header .header-body'),
+		  stickyHidden = $j('.container-search-mobile, .container-menu-mobile'),
+		  scroll = $j(window).scrollTop();
+
+	  if (scroll >= stickyOffset) {
+	  	sticky.addClass('fixed');
+	  	stickyHidden.addClass('fixedMobile');
+	  }
+	  else {
+	  	sticky.removeClass('fixed');
+	  	stickyHidden.removeClass('fixedMobile');
+	  }
+	});
+
+
+$j(".searchbox").detach().appendTo('.container-search-mobile').addClass("d-none");
+
+
+}
+
+
+// FUNZIONI per controllare il search mobile
+
+
+
+		function changeIconMobile() {
+				if (!$j(".container-search-mobile .searchbox").hasClass("d-none")) {
+	        			$j(".search-mobile-toggle i").text("close");
+	    				}
+	    			else {
+	     			   $j(".search-mobile-toggle i").text("search");
+	    			}
+				if (!$j("#nav-menu-mobile").hasClass("d-none")) {
+	        			$j(".menu-mobile-toggle i").text("close");
+	    				}
+	    			else {
+	        			$j(".menu-mobile-toggle i").text("menu");
+	    			}
+
+		}
+
+		$j(".search-mobile-toggle").on("click", function(e) {
+		e.preventDefault();
+		$j("#nav-menu-mobile").addClass("d-none");
+
+	    if (! $j(".container-search-mobile .searchbox").is(":visible") ) {
+console.log("nascosto");
+
+	    	if ( $j(".container-search-mobile .searchbox").length == 0 ) {
+	    		$j(".searchbox").detach().appendTo('.container-search-mobile');
+	    	}
+	    	$j(".container-search-mobile .searchbox").removeClass("d-none");
+
+	    }
+	    else {
+
+
+
+	    	$j(".container-search-mobile .searchbox").addClass("d-none");
+	    }
+
+	    //riga aggiunta oscar per avere il container in width 100%
+	    $j(".container-search-mobile").toggleClass("col-12 d-block zindexSup");
+		changeIconMobile();
+		});
+
+
+// funzioni per controllare il menu mobile 2018
+	$j("#nav-menu-mobile").detach().appendTo('.container-menu-mobile');
+
+	$j(".menu-mobile-toggle").on("click", function(e) {
+		e.preventDefault();
+		$j(".searchbox").addClass("d-none");
+	    $j("#nav-menu-mobile").toggleClass("d-none");
+	    //riga aggiunta oscar per avere il container in width 100%
+	    $j(".container-menu-mobile").toggleClass("col-12 d-block");
+	    $j("#socialMobile").toggleClass("d-none");
+		changeIconMobile();
+
+	});
+
+	$j(".menu-mobile ul > li a").on("click", function(e) {
+	   $j(this).parent().children("ul").toggleClass("d-none");
+       $j(".menu-mobile").find(".d-none ul").addClass("d-none");
+	});
+
+
+	// Tabindex="-1" sugli elementi dei box che hanno href="#submenu"
+	$j(".side-menu a[href='#submenu']").attr("tabindex","-1");
+
+	// Nascondo le opzioni di ricerca del motore onBlur
+	$j("#GSearchMenu a:last-of-type").on("blur",function() {
+		$j("#GSearchMenu").hide();
+	});
+
+
+	// Animazione freccia laterale accordion in home page
+	function expandIconAccordion(obj, expanded) {
+		// prima gira eventuali frecce presenti in accordion aperti
+		$j(".expanded-true").each(function() {
+			$j(this).removeClass("expanded-true").addClass("expanded-false");
+		})
+
+		obj.parent().prev()
+					.removeClass("expanded-true").removeClass("expanded-false")
+					.addClass("expanded-" + expanded);
+	}
+
+	$j(".pg-View .card-header button").on("click",function(e) {
+
+		var obj = $j(this);
+		var expanded = "";
+		var ariaExpanded = obj.attr("aria-expanded");
+
+		    if (ariaExpanded == "true") {expanded="false";} else {expanded="true";}
+
+        expandIconAccordion(obj, expanded);
+	});
+
+	$j(".pg-View .card-header i").on("click", function() {
+		var obj = $j(this).next().find("button")
+		    obj.trigger("click");
+		var expanded = obj.attr("aria-expanded");
+        expandIconAccordion(obj, expanded);
+	});
+
+
+	// per tutti le tabelle di contenuto, aggiungo classe table-responsive
+	$j("#mainContent table").parent().css({"overflow-x":"auto"});
+
+</script>
+
+<!-- rb add --> 
+<noscript>Questo sito necessita javascript!</noscript> 
+<!-- rb end -->
+
+			<!-- WAI SERVICE-->
+		<!-- <script type="text/javascript" data-cookiecategory="targeting"> -->
+		<script type="text/plain" data-cookiecategory="targeting">		
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://ingestion.webanalytics.italia.it/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', 'EN0V2bL0rl']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	g.setAttribute('data-cookiecategory', 'targeting');   // add rb
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	// console.log(g); // add rb 
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+	<!-- rb cookie -->
+<script type="text/javascript" defer src="/tools_sv/cookieconsent/dist/cookieconsent-init.js"></script>
+<script src="/tools_sv/cookieconsent/dist/cookieconsent.js"></script>
+<link rel="stylesheet" href="/tools_sv/cookieconsent/dist/cookieconsent.css">
+<link rel="stylesheet" href="/tools_sv/cookieconsent/demo/assets/demo.css?rnd=16062026">
+<!-- rb cookie end  -->
+
+
+
+<script type="text/javascript">
+    $('footer_contacts').down('ul').insert({top: '<li><p>Corso Svizzera 185 - 10149 Torino</p></li><li><i class="icon icon-phone3 icon-fw"></i>  Centralino: +39 011 6706711</li><li><i class="icon icon-envelope icon-fw"></i>  <a href=mailto:informatica@educ.di.unito.it>informatica@educ.di.unito.it</a></li><li><i class="icon icon-student icon-fw"></i>  <a target="_blank" href=https://wwwold.educ.di.unito.it/helpdesk/ >Helpdesk studenti</a></li><hr /><li><i class="icon icon-cogs icon-fw"></i><a href=https://askit.unito.it/servicedesk/customer/portal/17>Helpdesk per sito web</a></li>'});</script>
+</div>
+
+
+<div id=scrollToTop style="display:none"><a href="#" title="Top" onclick="backtoptop(); return false;"><i class="icon icon-chevron2-up"></i><span class="sr-only">Inizio pagina</span></a></div>
+<script>
+Event.observe(window, "scroll", toggle_backtoptop);
+</script>
+<div style="display:none"><a href="/do/home.pl/Trap">Non cliccare qui!</a></div>
+</body>
+</html>

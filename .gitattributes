@@ -1,3 +1,7 @@
 
 # Conserva i byte originali dei dati sperimentali
 /data/evaluation/** -text
+
+# Conserva i byte dei documenti e dell'indice
+/data/raw/** -text
+/data/processed/** -text

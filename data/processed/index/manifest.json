@@ -1,0 +1,11 @@
+{
+  "model_name": "intfloat/multilingual-e5-small",
+  "document_prefix": "passage: ",
+  "query_prefix": "query: ",
+  "normalized_embeddings": true,
+  "chunk_count": 22,
+  "excluded_chunk_ids": [
+    "S001-C007"
+  ],
+  "embedding_dimension": 384
+}

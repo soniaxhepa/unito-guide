@@ -1,0 +1,15 @@
+SOURCE_ID: S006
+TITLE: Risultati della ricerca - Corso di laurea in Informatica - Università degli Studi di Torino
+FILE_TYPE: html
+
+---
+
+Insegnamenti in ordine alfabetico
+Analisi Matematica (MFN0570) Anno accademico: 2026/2027 Corso di studio in: [0801L31] Laurea in Informatica
+Architettura degli Elaboratori (ENGLISH-FRIENDLY COURSE) (INF0326) Anno accademico: 2026/2027 Corso di studio in: [0801L31] Laurea in Informatica
+Fondamenti dell'Informatica (ENGLISH-FRIENDLY COURSE) (INF0348) Anno accademico: 2026/2027 Corso di studio in: [0801L31] Laurea in Informatica
+Lingua Inglese I (MFN0590) Anno accademico: 2026/2027 Corso di studio in: [0801L31] Laurea in Informatica
+Matematica Discreta, Algebra e Geometria (INF0328) Anno accademico: 2026/2027 Corso di studio in: [0801L31] Laurea in Informatica
+Programmazione I (MFN0582) Anno accademico: 2026/2027 Corso di studio in: [0801L31] Laurea in Informatica
+Programmazione II (INF0330) Anno accademico: 2026/2027 Corso di studio in: [0801L31] Laurea in Informatica
+Ricerca Operativa (INF0327) Anno accademico: 2026/2027 Corso di studio in: [0801L31] Laurea in Informatica

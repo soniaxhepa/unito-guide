@@ -16,21 +16,35 @@ Dalla cartella del progetto, nell'ambiente Python:
     python3 -m pip install -r frontend/requirements.txt
     ollama pull llama3.2:3b
 
-Aprire Ollama. Con l'indice locale già presente:
-    python3 -m streamlit run frontend/app.py --server.address 127.0.0.1 --server.fileWatcherType none
+Aprire Ollama. Dalla cartella del progetto, con l'ambiente attivo:
+    make run
 
 Aprire l'indirizzo mostrato e lasciare il terminale attivo.
 Le modifiche al codice richiedono il riavvio.
 Ulteriori istruzioni: frontend/DEMO.md.
 
 ## Dati e riproducibilità
-Documenti acquisiti e indice in data/processed sono esclusi da Git.
-Una nuova copia del repository non è subito pronta per l'app.
-La preparazione dei dati usa i moduli in src/ingestion e
-src/retrieval/build_index.py. Questi possono sovrascrivere dati:
-usarli in una copia separata dopo averne controllato il codice.
-Scaricare le pagine attuali non riproduce necessariamente il corpus storico.
-Le dipendenze non sono interamente congelate.
+Il repository include una copia dei sei documenti HTML acquisiti,
+dei testi estratti, dei chunk e dell'indice locale.
+Sono inclusi 16 file specifici; altri dati generati restano esclusi.
+
+Gli hash SHA-256 sono in data/sources/corpus_snapshot_sha256.txt.
+Descrivono la copia locale conservata durante questo aggiornamento,
+non certificano l'identità con il corpus dell'esperimento storico.
+
+Non è necessario riscaricare le pagine o ricostruire l'indice
+per utilizzare questa copia. La rigenerazione può sovrascriverla:
+eseguire eventuali prove in una cartella separata.
+
+I modelli e l'ambiente Python non sono inclusi.
+Servono Python compatibile, dipendenze, Ollama e llama3.2:3b.
+Il modello di embedding può richiedere un download al primo utilizzo.
+Le dipendenze non sono interamente congelate: la riproduzione
+esatta delle risposte storiche non è garantita.
+
+Il comando make run richiede anche il programma make.
+Se make non è disponibile, dalla cartella del progetto usare:
+    python3 -m streamlit run frontend/app.py --server.address 127.0.0.1 --server.fileWatcherType none
 
 ## Valutazione finale salvata
 40 domande, 80 risposte: 40 RAG e 40 senza RAG.

@@ -38,3 +38,22 @@ chroma_data/
 # Copie locali di sicurezza dell'interfaccia
 /frontend/app_before_*.py
 /frontend/DEMO_before_*.md
+
+# Copia esplicita del corpus e dell'indice
+!/data/processed/index/
+!/data/raw/html/S001.html
+!/data/raw/html/S002.html
+!/data/raw/html/S003.html
+!/data/raw/html/S004.html
+!/data/raw/html/S005.html
+!/data/raw/html/S006.html
+!/data/processed/S001.txt
+!/data/processed/S002.txt
+!/data/processed/S003.txt
+!/data/processed/S004.txt
+!/data/processed/S005.txt
+!/data/processed/S006.txt
+!/data/processed/chunks.jsonl
+!/data/processed/index/embeddings.npy
+!/data/processed/index/metadata.jsonl
+!/data/processed/index/manifest.json
