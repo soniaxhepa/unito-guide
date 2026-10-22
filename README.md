@@ -91,3 +91,13 @@ I prompt storici non sono salvati: l'identità esatta della configurazione
 dell'esperimento finale non è stata certificata.
 compare_generation.py riguarda lo sviluppo, non rigenera il test finale.
 I risultati descrivono le risposte conservate e valutate.
+
+## Licenza
+
+Il codice originale del progetto è distribuito con licenza MIT.
+Il testo completo è disponibile nel file [LICENSE](LICENSE).
+
+La licenza del progetto non si applica ai contenuti delle pagine UniTo,
+ai testi e ai dati da esse derivati, al logo dell'Università di Torino,
+ai modelli o agli altri materiali di terzi, che restano soggetti
+ai diritti e alle condizioni dei rispettivi titolari.
