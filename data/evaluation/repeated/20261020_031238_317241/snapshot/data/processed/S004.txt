@@ -1,0 +1,25 @@
+SOURCE_ID: S004
+TITLE: Insegnamenti - Corso di laurea in Informatica - Università degli Studi di Torino
+FILE_TYPE: html
+
+---
+
+Insegnamenti
+Per anno accademico
+In questa sezione è possibile consultare gli insegnamenti per Anno Accademico
+Primo anno Canale A: cognomi A-D, turni di Laboratorio A1 (matricola dispari) e A2 (matricola pari) Canale B: cognomi E-O, turni di Laboratorio B1 (matricola dispari) e B2 (matricola pari) Canale C: cognomi P-Z, turni di Laboratorio C1 (matricola dispari) e C2 (matricola pari) Secondo/terzo anno Canale A: cognomi A-K, turni di Laboratorio 1 (matricola dispari) e 2 (matricola pari) Canale B: cognomi L-Z, turni di Laboratorio 3 (matricola dispari) e 4 (matricola pari)
+Insegnamenti per l'Anno Accademico 2026-2027
+primo anno ( 1 anno della coorte 2026 )
+secondo anno ( 2 anno della coorte 2025 )
+terzo anno ( 3 anno della coorte 2024 )
+elenco completo
+insegnamenti per anno
+Insegnamenti per gli Anni Accademici passati:
+Avviso: Supporto 2023/24 a Programmazione I, Programmazione II e Architettura degli Elaboratori. I docenti Beccuti, Ciravegna, Esposito, Gaeta, Gunetti, Schifanella C organizzeranno appositi momenti di confronto in merito agli insegnamenti di Programmazione I, Programmazione II e Architettura degli Elaboratori che si sono tenuti per l’ultima volta nell’a.a. 2022/23 . Verificare sulla pagina degli orari
+Per Anno di Immatricolazione
+In questa sezione è possibile consultare gli Insegnamenti per Anno Accademico di Immatricolazione :
+2025-2026
+2024-2025
+2023-2024
+2022-2023
+Ti potrebbero interessare Ti potrebbero interessare Docenti Disabilità e disturbi specifici dell'apprendimento Perchè studiare con noi

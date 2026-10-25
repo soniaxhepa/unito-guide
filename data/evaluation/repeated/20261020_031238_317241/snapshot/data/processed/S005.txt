@@ -1,0 +1,19 @@
+SOURCE_ID: S005
+TITLE: Calendario didattico - Corso di laurea in Informatica - Università degli Studi di Torino
+FILE_TYPE: html
+
+---
+
+Calendario didattico
+Periodi didattici
+L'Anno Accademico è suddiviso in due periodi didattici di 19 settimane ciascuno di cui 12 settimane di lezione ed almeno 5 settimane per permettere agli studenti di sostenere gli esami , per i quali e prevista l'iscrizione on-line. In queste settimane di sospensione sono previste 2 sessioni d'esame per ciascuno degli insegnamenti la cui durata si è esaurita nel periodo didattico. L'obiettivo è che gli studenti inizino il periodo didattico successivo avendo superato tutti gli esami del periodo didattico precedente.
+È importante che la/lo studente affronti i periodi didattici con impegno ed assiduità, onde poter sostenere e superare subito gli esami. La frequenza è fortemente raccomandata soprattutto per gli insegnamenti con laboratorio. Per ogni unità didattica oggetto d'esame, si garantiscono almeno 5 appelli d'esame all'anno .
+Date
+a.a. 2026-2027 Primo periodo didattico : da lunedì 28 settembre 2026 a venerdì 15 gennaio 2027 Interruzione natalizia per tutti: da mercoledì 23 dicembre 2026 a mercoledì 6 gennaio 2027 , estremi compresi Secondo periodo didattico: da lunedì 22 febbraio 2027 a venerdì 4 giugno 2027 Interruzione pasquale per tutti: da giovedì 25 marzo 2027 a martedì 30 marzo 2027 , estremi compresi (31 marzo + 1-2 aprile 2027: eventuali recuperi ed esperimento 3 appello 1 semestre)
+Appelli d'esame
+Per verificare in quale periodo è possibile sostenere gli appelli consulta la pagina Appelli d'esame
+Calendario Accademico
+Per conoscere nel dettaglio le date di feste nazionali, giorni festivi, solennità civili e festività religiose, consulta il Calendario Accademico di UNITO .
+Sessioni di laurea
+Durante i giorni delle discussioni di laurea potrebbero verificarsi cambiamenti d'aula o sospensione delle lezioni. Consulta il calendario delle sessioni di laurea
+Ti potrebbero interessare Ti potrebbero interessare Orario lezioni Tesi e laurea

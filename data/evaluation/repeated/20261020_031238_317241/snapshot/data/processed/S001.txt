@@ -1,0 +1,99 @@
+SOURCE_ID: S001
+TITLE: [0801L31] INFORMATICA | Università di Torino
+FILE_TYPE: html
+
+---
+
+INFORMATICA
+Il corso in sintesi
+Requisiti di accesso
+Insegnamenti
+ANALISI MATEMATICA Anno di corso: 1 - A.A di erogazione 2026/2027 - Obbligatori - 9 crediti
+ARCHITETTURA DEGLI ELABORATORI Anno di corso: 1 - A.A di erogazione 2026/2027 - Obbligatori - 6 crediti
+FONDAMENTI DELL'INFORMATICA Anno di corso: 1 - A.A di erogazione 2026/2027 - Obbligatori - 9 crediti
+LINGUA INGLESE I Anno di corso: 1 - A.A di erogazione 2026/2027 - Obbligatori - 3 crediti
+MATEMATICA DISCRETA, ALGEBRA E GEOMETRIA Anno di corso: 1 - A.A di erogazione 2026/2027 - Obbligatori - 12 crediti
+OFA - MATEMATICA Anno di corso: 1 - A.A di erogazione 2026/2027 - Obbligatori - 0 crediti
+PROGRAMMAZIONE I Anno di corso: 1 - A.A di erogazione 2026/2027 - Obbligatori - 9 crediti
+PROGRAMMAZIONE II Anno di corso: 1 - A.A di erogazione 2026/2027 - Obbligatori - 6 crediti
+RICERCA OPERATIVA Anno di corso: 1 - A.A di erogazione 2026/2027 - Obbligatori - 6 crediti
+ALGORITMI E STRUTTURE DATI Anno di corso: 2 - A.A di erogazione 2027/2028 - Obbligatori - 9 crediti
+BASI DI DATI Anno di corso: 2 - A.A di erogazione 2027/2028 - Obbligatori - 9 crediti
+ELEMENTI DI PROBABILITA' E STATISTICA Anno di corso: 2 - A.A di erogazione 2027/2028 - Obbligatori - 9 crediti
+PRINCIPI DI PROGRAMMAZIONE ORIENTATA AGLI OGGETTI Anno di corso: 2 - A.A di erogazione 2027/2028 - Obbligatori - 9 crediti
+SISTEMI OPERATIVI Anno di corso: 2 - A.A di erogazione 2027/2028 - Obbligatori - 9 crediti
+DIRITTO E PRIVACY PER L'INFORMATICA Anno di corso: 2 - A.A di erogazione 2027/2028 - UN CORSO A SCELTA TRA (6 CFU) - 6 crediti
+ECONOMIA E GESTIONE DELL'IMPRESA Anno di corso: 2 - A.A di erogazione 2027/2028 - UN CORSO A SCELTA TRA (6 CFU) - 6 crediti
+ELEMENTI DI LOGICA MATEMATICA (ON-LINE) Anno di corso: 2 - A.A di erogazione 2027/2028 - UN CORSO A SCELTA TRA (6 CFU) - 6 crediti
+FISICA Anno di corso: 2 - A.A di erogazione 2027/2028 - UN CORSO A SCELTA TRA (6 CFU) - 6 crediti
+LOGICA MATEMATICA Anno di corso: 2 - A.A di erogazione 2027/2028 - UN CORSO A SCELTA TRA (6 CFU) - 6 crediti
+PROVA FINALE Anno di corso: 3 - A.A di erogazione 2028/2029 - Obbligatori - 3 crediti
+RETI E SICUREZZA DELLE RETI Anno di corso: 3 - A.A di erogazione 2028/2029 - Obbligatori - 9 crediti
+STAGE Anno di corso: 3 - A.A di erogazione 2028/2029 - Obbligatori - 9 crediti
+SVILUPPO DELLE APPLICAZIONI SOFTWARE Anno di corso: 3 - A.A di erogazione 2028/2029 - Obbligatori - 9 crediti
+CALCOLABILITA' E COMPLESSITA' Anno di corso: 3 - A.A di erogazione 2028/2029 - UN CORSO A SCELTA TRA (9 CFU) - 9 crediti
+LINGUAGGI E PARADIGMI DI PROGRAMMAZIONE Anno di corso: 3 - A.A di erogazione 2028/2029 - UN CORSO A SCELTA TRA (9 CFU) - 9 crediti
+METODI FORMALI DELL'INFORMATICA Anno di corso: 3 - A.A di erogazione 2028/2029 - UN CORSO A SCELTA TRA (9 CFU) - 9 crediti
+SISTEMI INTELLIGENTI Anno di corso: 3 - A.A di erogazione 2028/2029 - UN CORSO A SCELTA TRA (9 CFU) - 9 crediti
+ARCHITETTURA AVANZATA DEGLI ELABORATORI Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+BLOCKCHAIN, SISTEMI DISTRIBUITI E DECENTRALIZZATI Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+CALCOLABILITA' E COMPLESSITA' Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+COMPLEMENTI DI RETI Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+CYBERSECURITY Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+HUMAN-COMPUTER INTERACTION Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+LINGUAGGI E FORMALI E TRADUTTORI Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+LINGUAGGI E PARADIGMI DI PROGRAMMAZIONE Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+LOGICA PER L'INFORMATICA Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+METODI FORMALI DELL'INFORMATICA - PARTE A Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+PROGRAMMAZIONE III Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+SISTEMI INFORMATIVI Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+SISTEMI INTELLIGENTI Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+TECNOLOGIE WEB Anno di corso: 3 - A.A di erogazione 2028/2029 - DUE CORSI A SCELTA TRA (12 CFU) - 6 crediti
+ALTRE ATTIVITA' Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+ALTRE ATTIVITA' Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 12 crediti
+ALTRE ATTIVITA' Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 3 crediti
+ALTRE ATTIVITA' Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+ARCHITETTURA AVANZATA DEGLI ELABORATORI Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+BLOCKCHAIN, SISTEMI DISTRIBUITI E DECENTRALIZZATI Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+CALCOLABILITA' E COMPLESSITA' Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+CALCOLABILITA' E COMPLESSITA' Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 9 crediti
+COMPLEMENTI DI RETI Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+CYBERSECURITY Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+DIRITTO E PRIVACY PER L'INFORMATICA Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+ECONOMIA E GESTIONE DELL'IMPRESA Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+FISICA Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+HUMAN-COMPUTER INTERACTION Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+LINGUAGGI E FORMALI E TRADUTTORI Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+LINGUAGGI E PARADIGMI DI PROGRAMMAZIONE Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+LINGUAGGI E PARADIGMI DI PROGRAMMAZIONE Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 9 crediti
+LOGICA MATEMATICA Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+LOGICA PER L'INFORMATICA Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+METODI FORMALI DELL'INFORMATICA Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 9 crediti
+METODI FORMALI DELL'INFORMATICA - PARTE A Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+PROGRAMMAZIONE III Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+SISTEMI INFORMATIVI Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+SISTEMI INTELLIGENTI Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 9 crediti
+SISTEMI INTELLIGENTI Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+TECNOLOGIE WEB Anno di corso: 3 - A.A di erogazione 2028/2029 - A SCELTA STESSO CORSO (fra 1 e 18 CFU) - 6 crediti
+ALTRE ATTIVITA' Anno di corso: 3 - A.A di erogazione 2028/2029 - ESAMI A SCELTA (fra 1 e 18 CFU) - 12 crediti
+ALTRE ATTIVITA' Anno di corso: 3 - A.A di erogazione 2028/2029 - ESAMI A SCELTA (fra 1 e 18 CFU) - 6 crediti
+ALTRE ATTIVITA' Anno di corso: 3 - A.A di erogazione 2028/2029 - ESAMI A SCELTA (fra 1 e 18 CFU) - 3 crediti
+ECONOMIA E GESTIONE DELLE TECNOLOGIE EMERGENTI Anno di corso: 3 - A.A di erogazione 2028/2029 - ESAMI A SCELTA (fra 1 e 18 CFU) - 6 crediti
+METODI NUMERICI Anno di corso: 3 - A.A di erogazione 2028/2029 - ESAMI A SCELTA (fra 1 e 18 CFU) - 6 crediti
+METODOLOGIE E TECNOLOGIE DIDATTICHE PER L'INFORMATICA (PREFIT) Anno di corso: 3 - A.A di erogazione 2028/2029 - ESAMI A SCELTA (fra 1 e 18 CFU) - 6 crediti
+PROBLEM SOLVING AVANZATO Anno di corso: 3 - A.A di erogazione 2028/2029 - ESAMI A SCELTA (fra 1 e 18 CFU) - 3 crediti
+PROLUNGAMENTO STAGE Anno di corso: 3 - A.A di erogazione 2028/2029 - ESAMI A SCELTA (fra 1 e 18 CFU) - 6 crediti
+STORIA DELL'INFORMATICA Anno di corso: 3 - A.A di erogazione 2028/2029 - ESAMI A SCELTA (fra 1 e 18 CFU) - 6 crediti
+Informazioni sul TOLC
+Figure professionali
+Tecnico esperto in applicazioni informatiche, Tecnica esperta in applicazioni informatiche
+Web designer
+IT Process Expert
+Analista programmatore, Analista programmatrice
+Web content manager
+Istruzioni per iscriverti al corso
+Vedi anche
+Il corso a Porte aperte
+Gli appuntamenti per conoscere da vicino i corsi di studio e i servizi offerti.
+Porte aperte lauree magistrali Quando: 1 e 6 aprile 2027; 3, 6, 10, 12, 13, 14, 18 e 25 maggio 2027
+Porte aperte future matricole Quando: dal 15 al 18 febbraio 2027; 12 e 16 marzo 2027
