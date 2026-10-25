@@ -314,7 +314,7 @@ principale e non costituiscono test indipendenti.
 ## Riproducibilità
 
 Il repository conserva i materiali dell’esperimento iniziale.
-Per le tre esecuzioni successive, i materiali locali comprendono:
+Per le tre esecuzioni successive, i materiali sono disponibili nel repository nella cartella:
 
     data/evaluation/repeated/20261020_031238_317241/
 
