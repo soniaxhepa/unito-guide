@@ -33,10 +33,23 @@ Aprire la fonte: specifica non più di una volta al mese.
 Le risposte possono variare tra esecuzioni.
 Verificare le citazioni nella richiesta corrente.
 
-## Valutazione manuale salvata: 40 domande per modalità
-RAG: 18 corrette (45%), 7 parziali (17,5%), 15 errate (37,5%).
-Senza RAG: 4 corrette (10%), 6 parziali (15%), 30 errate (75%).
-Questi numeri non sono una valutazione verificata della v2 web.
+## Valutazione sperimentale
+
+L’esperimento iniziale comprende 40 domande per modalità,
+per un totale di 80 risposte. Le risposte pienamente corrette
+sono il 45% con RAG e il 10% senza RAG.
+
+Tre esecuzioni successive delle stesse domande hanno prodotto
+ulteriori 240 risposte. La percentuale media di risposte
+pienamente corrette è del 34,17% con RAG e del 12,50% senza RAG.
+La deviazione standard tra le tre percentuali è rispettivamente
+di 3,82 e 2,50 punti percentuali.
+
+Questi risultati riguardano la configurazione principale
+con il generatore originale, non la variante esplorativa v2.
+
+Il protocollo, i risultati completi e i limiti della valutazione
+sono descritti nel [README del progetto](../README.md).
 
 ## Ricerca ibrida: confronto esplorativo su 32 domande
 Almeno un riferimento atteso nei primi cinque:
@@ -53,11 +66,11 @@ Aumentare il contesto a 8192 token non ha risolto Q045 con Qwen.
 Output separati in data/evaluation/experimental/.
 Originali, indice e risultati precedenti non sono stati modificati.
 
-## Messaggio per la relatrice
-Il prototipo web è operativo. Il RAG migliora rispetto al modello
+## Prime osservazioni
+Il prototipo web è operativo: il RAG migliora rispetto al modello
 senza recupero nella valutazione salvata, ma resta inaffidabile
 su alcuni casi. La ricerca ibrida migliora il recupero delle fonti;
-la fedeltà della generazione richiede ulteriore lavoro.
+la fedeltà della generazione richiede però ulteriore lavoro.
 
 ## Allineamento dell'interfaccia al generatore originale
 L'interfaccia importa ora src.rag.generate e usa cinque passaggi fissi.
